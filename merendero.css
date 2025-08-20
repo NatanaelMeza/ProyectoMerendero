@@ -76,4 +76,47 @@ font-family: 'Barrio', cursive;
     text-align: left;
     font-size: 25px;
 }
+ /*Parte dos*/
 
+.fondoB{
+    background-color:#fdf3dd;
+    
+}
+
+.caja1{
+    background-color:#caaacd;
+    height: 200px;
+    width: 650px;
+    border-radius: 50px;
+}
+
+.caja2{
+    background-color:#d6e8f7;
+    height: 200px;
+    width: 650px;
+    border-radius: 50px;
+}
+
+.caja3{
+    background-color:#bfdc80;
+    height: 200px;
+    width: 650px;
+    border-radius: 50px;
+}
+
+.caja4{
+    background-color:#f1bfb6;
+    height: 200px;
+    width: 650px;
+    border-radius: 50px;
+}
+
+.filaA{
+    display: flex;
+
+}
+
+.filaB{
+    display: flex;
+    
+}
