@@ -1,9 +1,10 @@
+/*Barra de navegacion*/
 .barranav{
     background-color: rgb(211, 235, 161);
     display: flex;
     justify-content: space-between;
     padding: 10px 50px 10px 50px;
-    border-radius: 25px;
+    border-radius: 50px;
     margin: 10px;
 }
 
@@ -23,4 +24,39 @@
     color: white;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
+}
+
+/*Titulo*/
+.Titulo{
+    background-color: #ffd2d5;
+    padding: 20px 5px 20px 20px;
+    width: 700px;
+    height: 400px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+#Titulo{
+    font-size:100px;
+    text-align: center;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Imagen de inicio*/
+
+.fila{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.ImagenI{
+    height: 435px;
+    width: 350px;
+    align-items: center;
+    gap: 15px;
+    padding: 5px 10px;
+    border-radius: 500px 500px 0px 0px;
+    margin: 10px;
 }
