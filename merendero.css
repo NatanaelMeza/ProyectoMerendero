@@ -120,13 +120,15 @@ font-family: 'Barrio', cursive;
     padding: 15px;
 }
 .texto h2 {
-    font-size: 38px;
+    font-size: 45px;
+    padding-left: 15px;
     margin: 0;
 }
 
 .texto h3{
     font-size: 28px;
-    margin: 10px 0 20px;
+    padding-left: 15px;
+    margin: 15px 0px 25px;
     
 }
 
@@ -145,10 +147,6 @@ font-family: 'Barrio', cursive;
     color: white;
     
     
-}
-
-.button:hover{
-    transform: scale(1,2);
 }
 
 .imagen1{
