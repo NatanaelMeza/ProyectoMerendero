@@ -135,16 +135,41 @@ font-family: 'Barrio', cursive;
 
 }
 
-.caja1 button{
+.button{
     background-color: rgba(0, 0, 0, 0.3);
     border: none;
     border-radius: 10px;
+    margin-top: 78px;
+    margin-left: 25px;
     padding: 8px 15px;
     color: white;
     
+    
+}
+
+.button:hover{
+    transform: scale(1,2);
 }
 
 .imagen1{
+    width: 180px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.imagen2{
+    width: 180px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.imagen3{
+    width: 180px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.imagen4{
     width: 180px;
     height: auto;
     border-radius: 15px;
