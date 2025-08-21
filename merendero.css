@@ -80,43 +80,72 @@ font-family: 'Barrio', cursive;
 
 .fondoB{
     background-color:#fdf3dd;
+    padding: 20px;
     
 }
 
 .caja1{
     background-color:#caaacd;
-    height: 200px;
-    width: 650px;
-    border-radius: 50px;
+    height: 250px;
+    width: 680px;
+    border-radius: 13px;
+    margin: 7px;
+    padding: 15px;
 }
 
 .caja2{
     background-color:#d6e8f7;
-    height: 200px;
-    width: 650px;
-    border-radius: 50px;
+    height: 250px;
+    width: 680px;
+    border-radius: 13px;
+    margin: 7px;
+    padding: 15px;
 }
 
 .caja3{
     background-color:#bfdc80;
-    height: 200px;
-    width: 650px;
-    border-radius: 50px;
+    height: 250px;
+    width: 680px;
+    border-radius: 13px;
+    margin: 7px;
+    padding: 15px;
 }
 
 .caja4{
     background-color:#f1bfb6;
-    height: 200px;
-    width: 650px;
-    border-radius: 50px;
+    height: 250px;
+    width: 680px;
+    border-radius: 13px;
+    margin: 7px;
+    padding: 15px;
+}
+.texto h2 {
+    font-size: 38px;
+    margin: 0;
 }
 
-.filaA{
-    display: flex;
-
-}
-
-.filaB{
-    display: flex;
+.texto h3{
+    font-size: 28px;
+    margin: 10px 0 20px;
     
+}
+
+.filaA,.filaB{
+    display: flex;
+
+}
+
+.caja1 button{
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 10px;
+    padding: 8px 15px;
+    color: white;
+    
+}
+
+.imagen1{
+    width: 180px;
+    height: auto;
+    border-radius: 15px;
 }
