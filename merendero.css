@@ -97,7 +97,6 @@ font-family: 'Barrio', cursive;
 }
 
 .caja1, .caja2,.caja3, .caja4{
-   /* justify-content:center;*/
     display: flex;
     height: 250px;
     width: 500px;
@@ -154,10 +153,4 @@ font-family: 'Barrio', cursive;
     width: 600px;
     height: 220px;
     border-radius: 90px;
-    /*padding-left:0px;
-    padding-top:0px;
-    justify-content: left;
-    padding: 80px;
-    margin: 80px;
-    padding-bottom: 120px;*/
 }
