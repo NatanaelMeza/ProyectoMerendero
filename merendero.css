@@ -101,7 +101,6 @@ font-family: 'Barrio', cursive;
     height: 300px;
     width: 550px;
     border-radius: 30px;
-    /*padding-right:80px;*/
     padding: 20px 20px 20px 0px;
     margin: 20px 20px 20px 0px;
     color: white;
@@ -137,7 +136,7 @@ font-family: 'Barrio', cursive;
     
 }
 
-.button{
+a{
     background-color: rgba(0, 0, 0, 0.3);
     border: none;
     border-radius: 15px;
@@ -145,8 +144,6 @@ font-family: 'Barrio', cursive;
     margin-left: 30px;
     padding: 10px 20px;
     color: white;
-    
-    
 }
 
 .imagen1,.imagen2,.imagen3,.imagen4{
