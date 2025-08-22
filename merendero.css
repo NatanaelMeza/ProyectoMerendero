@@ -81,7 +81,7 @@ font-family: 'Barrio', cursive;
 
 .fondoB{
     background-color:#fdf3dd;
-    padding: 10px;  
+    padding: 10px;
 }
 
 .Lugares{
@@ -94,17 +94,16 @@ font-family: 'Barrio', cursive;
 
 .filaA,.filaB{
     display: flex;
-
 }
 
-.caja1, .caja2, .caja3, .caja4{
-    justify-content: left;
+.caja1, .caja2,.caja3, .caja4{
+   /* justify-content:center;*/
     display: flex;
     height: 250px;
     width: 500px;
-    border-radius: 13px;
-    text-align: left;
-    padding: 20px;
+    border-radius: 40px;
+    padding: 20px 20px 20px 0px;
+    margin: 20px 20px 20px 0px;
     color: white;
 }
 
@@ -126,11 +125,13 @@ font-family: 'Barrio', cursive;
 
 .texto h2 {
     font-size: 45px;
-    text-align:left;
+    text-align:center;
+    margin: 5px 0px 0px;
+
 }
 
 .texto h3{
-    text-align: left;
+    text-align: center;
     font-size: 28px;
     margin: 5px 0px 0px;
     
@@ -149,12 +150,14 @@ font-family: 'Barrio', cursive;
 }
 
 .imagen1,.imagen2,.imagen3,.imagen4{
-    display: flex;
+    display:flex;
     width: 600px;
     height: 220px;
-    padding-left: 200px;
-    padding-top: 13px;
-    border-radius: 50px;
+    border-radius: 90px;
+    /*padding-left:0px;
+    padding-top:0px;
     justify-content: left;
-
+    padding: 80px;
+    margin: 80px;
+    padding-bottom: 120px;*/
 }
