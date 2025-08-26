@@ -162,3 +162,18 @@ a{
     background-color: #fbd6ff;
 }
 
+.tituloC{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+.parrafoC{
+    text-align: center;
+    color: #3b3b3b;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
