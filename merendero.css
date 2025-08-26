@@ -160,6 +160,7 @@ a{
 /*Página 3*/
 .fondoC{
     background-color: #fbd6ff;
+    padding: 10px;
 }
 
 .tituloC{
@@ -167,7 +168,7 @@ a{
     color: white;
     font-size: 50px;
     font-family:Arial, Helvetica, sans-serif;
-    padding-top: 30px;
+
 }
 
 .parrafoC{
@@ -198,5 +199,6 @@ a{
     font-family: Arial, Helvetica, sans-serif;
     padding-right: 30px;
     padding-left: 10px;
+    margin-bottom: 40px;
 }
 
