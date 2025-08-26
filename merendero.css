@@ -137,12 +137,12 @@ font-family: 'Barrio', cursive;
 }
 
 a{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgb(211, 235, 161);
     border: none;
     border-radius: 15px;
-    margin-top: 80px;
+    margin-top: 1px;
     margin-left: 30px;
-    padding: 10px 20px;
+    padding: 10px 2px;
     color: white;
 }
 
