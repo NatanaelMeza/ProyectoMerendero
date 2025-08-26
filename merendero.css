@@ -1,4 +1,4 @@
-
+/*Página 1*/
 
 .fondoA{
     background-color:#FFFFB0;
@@ -67,7 +67,7 @@ font-family: 'Barrio', cursive;
 }
 
 .ImagenI{
-    height: 570px;
+    height: 580px;
     width: 380px;
     border-radius: 500px 500px 0px 0px;
 }
@@ -76,12 +76,12 @@ font-family: 'Barrio', cursive;
 
 #ParrafoI{
     text-align: left;
-    font-size: 21px;
+    font-size: 20px;
     font-family:Arial, Helvetica, sans-serif;
-    color: #313131;
+    color: #3f3f3f;
 }
 
-/*Parte dos*/
+/*Página 2*/
 
 .fondoB{
     background-color:#fdf3dd;
@@ -155,4 +155,9 @@ a{
     width: 600px;
     height: 220px;
     border-radius: 90px;
+}
+
+/*Página 3*/
+.fondoC{
+    background-color: #fbd6ff;
 }
