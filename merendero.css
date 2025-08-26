@@ -41,7 +41,7 @@
     margin-bottom: 50px;
 }
 .Titulo{
-    background-color:#ffd2d5;
+    background-color: #ffd2d5;
     width:700px;
     height: 400px;
     border-radius: 50px;
@@ -135,8 +135,8 @@
     
 }
 
-a{
-    background-color: rgb(211, 235, 161);
+.BtnMas{
+    background-color: rgba(62, 65, 57, 0.148);
     border: none;
     border-radius: 15px;
     margin-top: 1px;
