@@ -1,5 +1,5 @@
 /*Página 1*/
-#fondoA{
+.fondoA{
     background-color:#FFFFB0;
 }
 
@@ -77,7 +77,7 @@
 
 /*Página 2*/
 
-#fondoB{
+.fondoB{
     background-color:#fdf3dd;
     padding: 10px;
 }
@@ -151,8 +151,7 @@
 }
 
 /*Página 3*/
-
-#fondoC{
+.fondoC{
     background-color: #fbd6ff;
     padding: 10px;
 }
