@@ -206,13 +206,20 @@
 }
 
 .parrafoD {
-    color: #3b3b3b;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 30px;
-    padding-left: 700px;
-    padding-right: 150px;
-}
-.oscuro {
+     
+    color: white;
     background-color: #bfd68f;
+    width:600px;
+    height: 500px;
+    border-radius: 50px;
+    margin-left: 750px;
+    padding: 35px  40px 35px 40px;
+    
+}
+
+.parrafo{
+    font-size: 25px;
+    text-align:center;
+    margin: 20px 0px 0px;
+
 }
