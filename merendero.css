@@ -199,3 +199,20 @@
     margin-bottom: 40px;
 }
 
+.fondoD {
+    background-color: #e7ffb1;
+    padding: 10px;
+
+}
+
+.parrafoD {
+    color: #3b3b3b;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    padding-left: 700px;
+    padding-right: 150px;
+}
+.oscuro {
+    background-color: #bfd68f;
+}
