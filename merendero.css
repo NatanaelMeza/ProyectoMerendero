@@ -61,15 +61,18 @@
 }
 
 #ParrafoI{
-    font-size: 25px;
+    font-size: 20px;
     width: 700px;
     margin-left: 10px ;
     padding-top: 50px;
+    text-align: center;
+    color: #3b3b3b;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 #InicioImg{
-    width: 505px;
-    height: 650px;
+    width: 500px;
+    height: 625px;
     border-radius: 500px 500px 0px 0px;
 }
 
