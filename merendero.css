@@ -226,9 +226,10 @@
 
 }
 .parrafoNosotros{
-    text-shadow:2px,2px,8px  grey;
-
     color:white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 80px;
+}
+.decorativa1{
+     padding-left: 40px;
 }
