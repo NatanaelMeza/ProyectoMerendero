@@ -231,5 +231,7 @@
     font-size: 80px;
 }
 .decorativa1{
-     padding-left: 40px;
+    position: relative;
+    top:110px;
+    left: 250px;
 }
