@@ -1,0 +1,73 @@
+body{
+    background-color: yellowgreen;
+}
+
+h1{
+    color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    font-size: 45px;
+}
+
+.Direccion{
+    color: bisque;
+    font-style: italic;
+    text-align: center;
+}
+
+.ImgMerendero3{
+    width: 830px;
+    height: 480px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.A,.B,.C,.D{
+    border-radius: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.A{
+    width: 350px;
+    height: 550px;
+    right: 800px;
+    top: 950px;
+}
+.B{
+    width: 350px;
+    height: 350px;
+    right: 900px;
+    top: 650px;
+}
+.C{
+    width: 550px;
+    height: 550px;
+    right: 150px;
+    top: 650px;
+}
+.D{
+    width: 350px;
+    height: 350px;
+    right: 100px;
+    top: 1000;
+}
+
+.A{
+    background-color: brown;
+}
+.B{
+    background-color:burlywood;
+}
+.C{
+    background-color:cadetblue;
+}
+.D{
+    background-color:chartreuse;
+}
