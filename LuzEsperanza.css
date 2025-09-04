@@ -32,20 +32,21 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .A{
     width: 550px;
     height: 550px;
-    right: 600px;
+    right: 700px;
     top: 850px;
 }
 
 .B{
     width: 350px;
     height: 350px;
-    right: 850px;
-    top: 650px;
+    right: 950px;
+    top: 700px;
 }
 
 .C{
@@ -59,7 +60,7 @@ h1{
     width: 350px;
     height: 350px;
     left: 650px;
-    top: 950px;
+    top: 1050px;
 }
 
 .circ1{ background-color: #b165b8;}
