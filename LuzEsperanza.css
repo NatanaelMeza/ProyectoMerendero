@@ -20,7 +20,7 @@ body{
 }
 
 .CImg,.DImg{
-    border: 10px solid #caaacd;
+    border: 5px solid #caaacd;
     margin-top: 100px;
     border-radius: 0px;
 }
