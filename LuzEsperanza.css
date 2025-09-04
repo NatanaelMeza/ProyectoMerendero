@@ -5,7 +5,8 @@ body{
 .AImg,.BImg{
     width: 400px;
     height: 500px;
-    padding: 50px 50px 50px 150px;
+    border-radius: 100px;
+    margin-left: 185px;
 }
 
 
