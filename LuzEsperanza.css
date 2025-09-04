@@ -2,16 +2,12 @@ body{
     background-color: #f3d3f6;
 }
 
-.AImg{
+.AImg,.BImg{
     width: 400px;
     height: 500px;
     padding: 50px 50px 50px 150px;
 }
-.BImg{
-    width: 400px;
-    height: 500px;
-    padding: 50px 50px 50px 150px;
-}
+
 
 .Fila{
     display: flex;
