@@ -52,7 +52,7 @@ h1{
     width: 550px;
     height: 550px;
     left: 750px;
-    top: 570px;
+    top: 600px;
 }
 
 .D{
@@ -61,3 +61,8 @@ h1{
     left: 650px;
     top: 950px;
 }
+
+.circ1{ background-color: #b165b8;}
+.circ2{ background-color: #df73e8;}
+.circ3{ background-color: #b165b8;}
+.circ4{ background-color: #df73e8;}
