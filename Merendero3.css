@@ -11,3 +11,9 @@ h1{
     margin-bottom: 5px;
     font-size: 45px;
 }
+
+.Direccion{
+    color: bisque;
+    font-style: italic;
+    text-align: center;
+}
