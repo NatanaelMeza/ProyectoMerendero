@@ -33,3 +33,28 @@ h1{
     justify-content: center;
     align-items: center;
 }
+
+.A{
+    width: 350px;
+    height: 550px;
+    right: 600px;
+    top: 850px;
+}
+.B{
+    width: 350px;
+    height: 350px;
+    right: 850px;
+    top: 650px;
+}
+.C{
+    width: 550px;
+    height: 550px;
+    right: 600px;
+    top: 700px;
+}
+.D{
+    width: 350px;
+    height: 350px;
+    right: 650px;
+    top: 950;
+}
