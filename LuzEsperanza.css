@@ -2,10 +2,9 @@ body{
     background-color: #f3d3f6;
 }
 
-.AImg,.BImg{
+.AImg,.BImg,.CImg,.DImg{
     width: 400px;
     height: 500px;
-    border-radius: 100px;
     margin-left: 185px;
 }
 
@@ -21,7 +20,9 @@ body{
 }
 
 .CImg,.DImg{
-    
+    border: 10px solid #caaacd;
+    margin-top: 100px;
+    border-radius: 0px;
 }
 
 
