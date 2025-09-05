@@ -44,10 +44,6 @@ h1{
     padding-top: 30px;
 }
 
-.infoCirc{
-    
-}
-
 .A{
     width: 550px;
     height: 550px;
@@ -76,7 +72,11 @@ h1{
     top: 1050px;
 }
 
-.circ1{ background-color: #b165b8;}
-.circ2{ background-color: #df73e8;}
-.circ3{ background-color: #b165b8;}
-.circ4{ background-color: #df73e8;}
+.circ1{ background-color: #df73e8;}
+.circ2{ background-color: #b165b8;}
+.circ3{ background-color: #df73e8;}
+.circ4{ background-color: #b165b8;}
+
+.iconoResponsables{
+
+}
