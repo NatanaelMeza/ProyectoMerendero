@@ -93,17 +93,24 @@
 
 .filaA{
     display: flex;
+    margin: 50px;
+    margin-left: 130px;
+    gap: 50px;
 }
 
 .filaB{
     display: flex;
+    margin: 50px;
+    margin-left: 130px;
+    gap: 50px;
 }
 
 .caja1,.caja2,.caja3,.caja4{
-    padding-left: 60px;
-    margin-left: 120px;
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .caja1{
