@@ -78,5 +78,9 @@ h1{
 .circ4{ background-color: #b165b8;}
 
 .iconoResponsables{
-
+    position: absolute;
+    padding-left: 168px;
+    width: 100px;
+    height: 90px;
+    padding-top: 60px;
 }
