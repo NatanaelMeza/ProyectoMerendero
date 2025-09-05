@@ -4,8 +4,7 @@ body{
 
 h1{
     color: #b165b8;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
     text-align: center;
     padding: 10px 0px 0px 0px;
     margin-bottom: 5px;
@@ -41,8 +40,7 @@ h1{
 }
 
 .tituloCirc{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    font-family:'Bebas Neue', sans-serif;
 }
 
 .A{
