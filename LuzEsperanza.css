@@ -97,4 +97,10 @@ h1{
     z-index: 2;
 }
 
-
+.iconoNecesitan{
+    position: absolute;
+    padding-left: 520px;
+    width: 130px;
+    height: 80px;
+    padding-top: 100px;
+}
