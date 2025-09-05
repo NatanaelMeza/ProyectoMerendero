@@ -99,14 +99,14 @@ h1{
 
 .iconoNecesitan{
     position: absolute;
-    padding-left: 520px;
+    padding-left: 530px;
     width: 130px;
     height: 80px;
-    padding-top: 100px;
+    padding-top: 90px;
 }
 
 .iconoContacto{
-    position: relative;
+    position: absolute;
     padding-left: 328px;
     width: 120px;
     height: 100px;
