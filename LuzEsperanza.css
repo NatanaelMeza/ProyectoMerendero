@@ -49,6 +49,7 @@ h1{
     height: 550px;
     right: 700px;
     top: 850px;
+    z-index: 1;
 }
 
 .B{
@@ -56,6 +57,7 @@ h1{
     height: 350px;
     right: 950px;
     top: 650px;
+    z-index: 3;
 }
 
 .C{
@@ -83,4 +85,14 @@ h1{
     width: 100px;
     height: 90px;
     padding-top: 60px;
+    z-index: 3;
+}
+
+.iconoHorarios{
+    position: relative;
+    padding-left: 318px;
+    width: 100px;
+    height: 90px;
+    padding-top: 325px;
+    z-index: 2;
 }
