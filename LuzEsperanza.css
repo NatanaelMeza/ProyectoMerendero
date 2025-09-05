@@ -114,3 +114,13 @@ h1{
     height: 90px;
     padding-top: 475px;
 }
+
+button{
+    background-color: white;
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+    border: #6e4172 solid;
+    color: #59355c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
