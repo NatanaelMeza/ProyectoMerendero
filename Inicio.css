@@ -98,6 +98,27 @@
 .filaB{
     display: flex;
 }
+
+.caja1,.caja2,.caja3,.caja4{
+    padding-left: 60px;
+    margin-left: 120px;
+    width: 400px;
+    height: 200px;
+}
+
+.caja1{
+    background-color: #3b3b3b;
+}
+.caja2{
+    background-color: #3b3b3b;
+}
+.caja3{
+    background-color: #3b3b3b;
+}
+.caja4{
+    background-color: #3b3b3b;
+}
+
 /*Página 3*/
 .fondoC{
     background-color: #fbd6ff;
