@@ -131,11 +131,19 @@ button{
 }
 
 
-.AImg,.BImg,.CImg,.DImg{
+.AImg,.BImg{
     width: 600px;
     height: 500px;
     margin-left: 40px;
     margin-top: 500px;
+}
+
+.CImg,.DImg{
+    width: 600px;
+    height: 500px;
+    margin-left: 27px;
+    margin-top: 50px;
+    border: 10px solid #caaacd;
 }
 
 .Fila{
@@ -149,12 +157,6 @@ button{
     text-align: center;
 }
 
-.CImg,.DImg{
-    border: 5px solid #caaacd;
-    margin-top: 50px;
-    border-radius: 0px;
-    margin-bottom: 20px;
-}
 
 
 
