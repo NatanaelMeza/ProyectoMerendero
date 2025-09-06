@@ -91,17 +91,10 @@
     padding: 10px;
 }
 
-.filaA{
+.filaA,.filaB{
     display: flex;
     margin: 50px;
-    margin-left: 130px;
-    gap: 50px;
-}
-
-.filaB{
-    display: flex;
-    margin: 50px;
-    margin-left: 130px;
+    margin-left: 90px;
     gap: 50px;
 }
 
@@ -131,13 +124,16 @@
 .ImgIn{
     width: 200px;
     height: 250px;
-    padding: 0px;
 }
 
 .texto{
     font-size: 20px;
     color: white;
     text-align: left;
+}
+
+.ND{
+    padding-bottom: 60px;
 }
 /*Página 3*/
 .fondoC{
