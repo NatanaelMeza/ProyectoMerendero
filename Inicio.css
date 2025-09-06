@@ -109,8 +109,11 @@
     width: 500px;
     height: 300px;
     border-radius: 50px;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;    
     align-items: center;
+    padding: 20px;
 }
 
 .caja1{
@@ -126,13 +129,11 @@
     background-color: #3b3b3b;
 }
 
-.texto{
-    padding: 30px;
-}
+.ImgIn{
+    width: 200px;
+    height: 250px;
+    padding-right:60px;
 
-.imagen1,.imagen2,.imagen3,.imagen4{
-    width: 30px;
-    height: 40;
 }
 
 /*Página 3*/
