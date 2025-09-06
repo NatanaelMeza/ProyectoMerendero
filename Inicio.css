@@ -111,7 +111,6 @@
     border-radius: 50px;
     display: flex;
     justify-content: space-between;
-    gap: 80px;    
     align-items: center;
     padding: 20px;
 }
@@ -132,10 +131,14 @@
 .ImgIn{
     width: 200px;
     height: 250px;
-    padding-right:60px;
-
+    padding: 0px;
 }
 
+.texto{
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
 /*Página 3*/
 .fondoC{
     background-color: #fbd6ff;
