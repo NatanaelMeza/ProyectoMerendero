@@ -46,3 +46,9 @@ right: 150px;
 top: 650px;
 background-color:#B165B8 ; 
 }
+.imgTextoPresentacion{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
