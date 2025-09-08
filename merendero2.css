@@ -1,0 +1,58 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #B165B8;
+    text-align: center;
+}
+body{
+    background-color: #F3D3F6;
+}
+.direccion{
+    color: #B165B8;
+    text-align: center;
+    font-style:italic;
+}
+.imgmerendero2{
+    width: 1150px;
+    height: 468px;
+    padding-left: 90px;
+    padding-right: 60px;
+}
+.A, .B ,.C, .D{
+    border-radius: 100%;
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.A{
+width: 450px;
+height: 410px;
+right: 600px;
+top:900px;
+background-color: #DF73E8;
+}
+.B{
+width: 350px;
+height: 350px;
+right: 900px;
+top: 650px;
+background-color:#B165B8 ;
+}
+.C{
+width: 550px;
+height: 550px;
+right: 150px;
+top: 650px;
+background-color:#B165B8 ; 
+}
+/*FALTA MODIFICAR .C Y AGREGAR .D*/
+
+/*DIVIDI LA PAGINA EN EL TITULO Y EN PRESENTACION. LO DEJO EN COMENTARIOS PARA QUE NO SE VEA MAL
+
+.Presentación{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}*/
