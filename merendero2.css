@@ -16,7 +16,19 @@ body{
     height: 468px;
     padding-left: 90px;
     padding-right: 60px;
+    
 }
+
+.info_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*son dos columnas*/
+    gap: 40px;
+    padding: 50px;
+}
+
+
+
+
 .A, .B ,.C, .D{
     border-radius: 100%;
     position:absolute;
