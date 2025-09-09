@@ -1,6 +1,7 @@
 /*Página 1*/
-.fondoA{
+#fondo1{
     background-color:#FFFFB0;
+    padding-top: 120px;
 }
 
 .barranav{
@@ -8,9 +9,14 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 50px 10px 25px;
-    border-radius: 50px;
-    margin: 10px;
     margin-bottom: 30px;
+ 
+
+    position:fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 100;
 }
 
 .logo{
@@ -80,79 +86,63 @@
 
 /*Página 2*/
 
-.fondoB{
+#fondo2{
     background-color:#fdf3dd;
     padding: 10px;
 }
 
-.Lugares{
-    display: grid;
-    gap: 20px;
-    margin-left: 200px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
 .filaA,.filaB{
-    display:flex;
+    display: flex;
+    margin: 50px;
+    margin-left: 90px;
+    gap: 50px;
 }
 
-.caja1, .caja2,.caja3, .caja4{
-    display: flex;
+.caja1,.caja2,.caja3,.caja4{
+    width: 500px;
     height: 300px;
-    width: 550px;
-    border-radius: 30px;
-    padding: 20px 20px 20px 0px;
-    margin: 20px 20px 20px 0px;
-    color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 
 .caja1{
-    background-color:#caaacd;
+    background-color: #CAAACD;
 }
 .caja2{
-    background-color: #d6e8f7;
+    background-color: #D6E8F7;
 }
-
 .caja3{
-    background-color: #dfdc80;
+    background-color: #BFDC80;
 }
-
 .caja4{
-    background-color: #f1dfb6;
+    background-color: #F1DFB6;
 }
 
-.texto h2 {
-    font-size: 45px;
-    text-align:center;
-    margin: 5px 0px 0px;
-
+.ImgIn{
+    width: 200px;
+    height: 250px;
 }
 
-.texto h3{
-    text-align: center;
-    font-size: 28px;
-    margin: 5px 0px 0px;
-    
+.texto{
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
+
+.ND{
+    padding-bottom: 60px;
 }
 
 .BtnMas{
-    background-color: rgba(62, 65, 57, 0.148);
-    border: none;
-    border-radius: 15px;
-    margin-top: 1px;
-    margin-left: 30px;
-    padding: 10px 2px;
+    background-color:#5b5e5548;
+    border-radius: 10px;
+    text-decoration: none;
     color: white;
+    padding: 10px;
 }
-
-.imagen1,.imagen2,.imagen3,.imagen4{
-    display:flex;
-    width: 600px;
-    height: 220px;
-    border-radius: 90px;
-}
-
 /*Página 3*/
 .fondoC{
     background-color: #fbd6ff;

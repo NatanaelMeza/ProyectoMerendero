@@ -1,0 +1,163 @@
+body{
+    background-color: #f3d3f6;
+}
+
+h1{
+    color: #b165b8;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    margin-bottom: 5px;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.direccion{
+    color: #b165b8;
+    font-style:italic;
+    text-align: center;
+}
+
+.imgmerendero1{
+    width: 1150px;
+    height: 468px;
+    padding-left: 90px;
+    padding-right: 60px;
+}
+
+.A, .B, .C, .D{
+    border-radius: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    padding: 50px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.tituloCirc{
+    font-family:'Bebas Neue', sans-serif;
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+.A{
+    width: 550px;
+    height: 550px;
+    right: 700px;
+    top: 850px;
+    z-index: 1;
+    text-align: center;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.B{
+    width: 350px;
+    height: 350px;
+    right: 950px;
+    top: 650px;
+    z-index: 3;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.C{
+    width: 550px;
+    height: 550px;
+    left: 750px;
+    top: 650px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.D{
+    width: 350px;
+    height: 350px;
+    left: 650px;
+    top: 1050px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.circ1{ background-color: #df73e8;}
+.circ2{ background-color: #b165b8;}
+.circ3{ background-color: #df73e8;}
+.circ4{ background-color: #b165b8;}
+
+.iconoResponsables{
+    position: absolute;
+    padding-left: 168px;
+    width: 100px;
+    height: 90px;
+    padding-top: 60px;
+    z-index: 3;
+}
+
+.iconoHorarios{
+    position: relative;
+    padding-left: 318px;
+    width: 100px;
+    height: 90px;
+    padding-top: 325px;
+    z-index: 2;
+}
+
+.iconoNecesitan{
+    position: absolute;
+    padding-left: 530px;
+    width: 130px;
+    height: 80px;
+    padding-top: 90px;
+}
+
+.iconoContacto{
+    position: absolute;
+    padding-left: 335px;
+    width: 110px;
+    height: 90px;
+    padding-top: 475px;
+}
+
+button{
+    background-color: white;
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+    border: #6e4172 solid;
+    color: #59355c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.AImg,.BImg{
+    width: 600px;
+    height: 500px;
+    margin-left: 40px;
+    margin-top: 500px;
+}
+
+.CImg,.DImg{
+    width: 600px;
+    height: 500px;
+    margin-left: 27px;
+    margin-top: 50px;
+    border: 10px solid #caaacd;
+}
+
+.Fila{
+    display: flex;
+}
+
+.Parrafo{
+    padding: 50px 50px 0px 50px;
+    font-size: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: #b165b8;
+}
+
+
+
+
