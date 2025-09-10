@@ -49,8 +49,11 @@ h1{
 .A{
     width: 550px;
     height: 550px;
-    right: 650px;
-    top: 950px;
+    right: 700px;
+    top: 850px;
+    z-index: 1;
+    text-align: center;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 .B{
     width: 350px;
