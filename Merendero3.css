@@ -71,3 +71,10 @@ h1{
 .D{
     background-color:chartreuse;
 }
+
+.Aimg, .Bimg{
+    width: 600px;
+    height: 500px;
+    margin-left: 40px;
+    margin-top: 700px;
+}
