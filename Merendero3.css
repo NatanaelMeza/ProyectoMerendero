@@ -4,12 +4,12 @@ body{
 
 h1{
     color: aqua;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
     text-align: center;
     padding-top: 10px;
     margin-bottom: 5px;
-    font-size: 45px;
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .Direccion{
