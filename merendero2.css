@@ -2,6 +2,10 @@ h1{
     font-family: 'Bebas Neue', sans-serif;
     color: #4892db;
     text-align: center;
+    padding: 10px 0px 0px 0px;
+    margin-bottom: 5px;
+    font-size: 48px;
+    font-weight: 900;
 }
 body{
     background-color: #D6E7F8;
