@@ -136,11 +136,6 @@
     padding-left: 10px;
 }
 
-.ND{
-    padding-bottom: 50px;
-    
-}
-
 .BtnMas{
     background-color:#5b5e5548;
     border-radius: 10px;
@@ -151,9 +146,16 @@
     font-size: 16px;
 }
 
-.boton{
-    padding-bottom: 60px;
+.TD{
+    padding-bottom: 10px;
 }
+
+.TA{
+    padding-bottom: 40px;
+}
+
+
+
 /*Página 3*/
 .fondoC{
     background-color: #fbd6ff;
