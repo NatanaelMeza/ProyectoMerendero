@@ -3,7 +3,7 @@ body{
 }
 
 h1{
-    color: aqua;
+    color: #788d4b;
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
     padding-top: 10px;
@@ -13,7 +13,7 @@ h1{
 }
 
 .Direccion{
-    color: bisque;
+    color: #788d4b;
     font-style: italic;
     text-align: center;
 }
