@@ -1,28 +1,28 @@
 body{
-    background-color: yellowgreen;
+    background-color: #e3ffa7;
 }
 
 h1{
-    color: aqua;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    color: #788d4b;
+    font-family: 'Bebas Neue', sans-serif;
     text-align: center;
     padding-top: 10px;
     margin-bottom: 5px;
-    font-size: 45px;
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .Direccion{
-    color: bisque;
+    color: #788d4b;
     font-style: italic;
     text-align: center;
 }
 
 .ImgMerendero3{
-    width: 830px;
-    height: 480px;
-    padding-left: 250px;
-    padding-right: 250px;
+    width: 1150px;
+    height: 468;
+    padding-left: 90;
+    padding-right: 60;
 }
 
 .A,.B,.C,.D{
@@ -32,42 +32,68 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    padding: 50px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.tituloCirc{
+    font-family: 'Bebas Neue', sans-serif;
+    padding-top: 30px;
+    font-size: 25px;
 }
 
 .A{
     width: 550px;
     height: 550px;
-    right: 650px;
-    top: 950px;
+    right: 700px;
+    top: 850px;
+    z-index: 1;
+    text-align: center;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 .B{
     width: 350px;
     height: 350px;
-    right: 900px;
+    right: 950px;
     top: 650px;
+    z-index: 3;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 .C{
     width: 550px;
     height: 550px;
-    right: 150px;
+    left: 750px;
     top: 650px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 .D{
     width: 350px;
     height: 350px;
-    right: 100px;
-    top: 1000;
+    left: 650px;
+    top: 1050px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 
 .A{
-    background-color: brown;
+    background-color: #92b24e;
 }
 .B{
-    background-color:burlywood;
+    background-color:#677b3b;
 }
 .C{
-    background-color:cadetblue;
+    background-color:#92b24e;
 }
 .D{
-    background-color:chartreuse;
+    background-color:#677b3b;
+}
+
+.Aimg, .Bimg{
+    width: 600px;
+    height: 500px;
+    margin-left: 40px;
+    margin-top: 700px;
 }
