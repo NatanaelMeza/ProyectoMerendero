@@ -57,7 +57,5 @@ padding-left:230px;
 padding-right:230px ;
 padding-top: 600px;
 }
-.imgText1 .imgText2{
-width:600px;
-height:500px;
+.imgText1 , .imgText2{
 }
