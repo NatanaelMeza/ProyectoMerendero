@@ -14,8 +14,8 @@ body{
 .imgmerendero2{
     width: 1150px;
     height: 468px;
-    padding-left: 90px;
-    padding-right: 60px;
+    padding-left: 180px;
+    padding-right: 70px;
     
 }
 
@@ -87,13 +87,13 @@ padding-top: 600px;
 .imgText1{
     width: 600px;
     height: 500px;
-    margin-left: 40px;
+    margin-left: 70px;
     margin-top: 300px;
 }
 .imgText2{
     width: 600px;
     height: 500px;
-    margin-left: 100px;
+    margin-right: 70px;
     margin-top: 300px;
 }
 .Párrafo{
