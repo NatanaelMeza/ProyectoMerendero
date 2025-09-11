@@ -76,7 +76,6 @@ body{
 .circ3{ background-color: #2b167d;}
 .circ4{ background-color: #454bf4;}
 
-/*FALTA MODIFICAR .C Y AGREGAR .D*/
 
 .Presentación{
 border-radius: 50px;
@@ -86,10 +85,16 @@ align-items: center;
 padding-top: 600px;
 }
 .imgText1{
-padding-left: 50px;
+    width: 600px;
+    height: 500px;
+    margin-left: 40px;
+    margin-top: 300px;
 }
 .imgText2{
-padding-right: 50px;
+    width: 600px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 300px;
 }
 .Párrafo{
     padding: 50px 50px 0px 50px;
