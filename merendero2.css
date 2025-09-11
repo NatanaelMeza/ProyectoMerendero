@@ -20,7 +20,7 @@ body{
 }
 
 .A, .B ,.C, .D{
-    border-radius: 100%;
+   
     position:absolute;
     display: flex;
     flex-direction: column;
@@ -34,38 +34,44 @@ body{
 
 }
 .A{
-width: 450px;
-height: 410px;
-right: 600px;
-top:900px;
-background-color: #DF73E8;
-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
-
-}
-.B{
-width: 350px;
-height: 350px;
-right: 900px;
-top: 650px;
-background-color:#B165B8 ;
-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
-}
-.C {
-    width: 350px;
-    height: 350px;
-    background: #C785CC;
-    color: white;
-    left: 650px;
-    top: 1050px;
+    width: 550px;
+    height: 550px;
+    right: 700px;
+    top: 850px;
+    z-index: 1;
+    text-align: center;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
-.D{
-    background: #E6A1EB;
-    color: white;
+
+.B{
+    width: 350px;
+    height: 350px;
+    right: 950px;
+    top: 650px;
+    z-index: 3;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.C{
+    width: 550px;
+    height: 550px;
     left: 750px;
     top: 650px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
+
+.D{
+    width: 350px;
+    height: 350px;
+    left: 650px;
+    top: 1050px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.circ1{ background-color: #df73e8;}
+.circ2{ background-color: #b165b8;}
+.circ3{ background-color: #df73e8;}
+.circ4{ background-color: #b165b8;}
 
 /*FALTA MODIFICAR .C Y AGREGAR .D*/
 
