@@ -25,6 +25,16 @@ h1{
     padding-right: 60;
 }
 
+button{
+    background-color: whites;
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+    border: #677b3b solid ;
+    color: #788d4b;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
 .A,.B,.C,.D{
     border-radius: 100%;
     position: absolute;
