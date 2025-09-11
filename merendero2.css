@@ -78,6 +78,16 @@ body{
 .circ3{ background-color: #78a8d1;}
 .circ4{ background-color: #6c8ba6;}
 
+button{
+    background-color: white;
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+    border: #3a89c6 ;
+    color: #6596c1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
 
 .Presentación{
 border-radius: 50px;
