@@ -47,7 +47,7 @@ h1{
     top: 850px;
     z-index: 1;
     text-align: center;
-    background-color: brown;
+    background-color: rgb(233, 12, 12);
     box-shadow: 0 10px 15px rgba(0,0,0,0.3);
 }
 .B{
@@ -72,8 +72,9 @@ h1{
 .D{
     width: 350px;
     height: 350px;
-    right: 100px;
-    top: 1000;
+    left: 650px;
+    top: 1050;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
     background-color:chartreuse;
 }
 
@@ -81,7 +82,7 @@ h1{
     width: 600px;
     height: 500px;
     margin-left: 40px;
-    margin-top: 500px;
+    margin-top: 850px;
 }
 
 .CImg, .DImg{
