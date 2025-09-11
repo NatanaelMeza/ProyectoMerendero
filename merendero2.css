@@ -107,6 +107,9 @@ padding-top: 600px;
     margin-left: 70px;
     margin-top: 100px;
 }
+.Fila{
+    display: flex;
+}
 .Párrafo{
     padding: 50px 50px 0px 50px;
     font-size: 20px;
