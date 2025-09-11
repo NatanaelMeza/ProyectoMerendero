@@ -19,29 +19,6 @@ body{
     
 }
 
-.info_section {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /*son dos columnas*/
-    gap: 40px;
-    padding: 50px;
-}
-
-.card{
-    background-color: #fff;
-    border-radius: 50px 80px 60px 120px;
-    padding: 30px 20px;
-    text-align: center;
-    box-shadow: 0 8px 15px rgba(0,0,0,0,25);
-
-
-}
-
-.info_section .card:nth-child(1){
-    background-color: aquamarine;
-    border-radius: 80px 60px 100px 50px;
-    box-shadow: 0 10px 15px rgba(0,0,0,0.3) ;
-}
-
 .A, .B ,.C, .D{
     border-radius: 100%;
     position:absolute;
@@ -64,13 +41,23 @@ right: 900px;
 top: 650px;
 background-color:#B165B8 ;
 }
-.C{
-width: 550px;
-height: 550px;
-right: 150px;
-top: 650px;
-background-color:#B165B8 ; 
+.C {
+    width: 350px;
+    height: 350px;
+    background: #C785CC;
+    color: white;
+    left: 650px;
+    top: 1050px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
+.D{
+    background: #E6A1EB;
+    color: white;
+    left: 750px;
+    top: 650px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
 /*FALTA MODIFICAR .C Y AGREGAR .D*/
 
 /*DIVIDI LA PAGINA EN EL TITULO Y EN PRESENTACION. LO DEJO EN COMENTARIOS PARA QUE NO SE VEA MAL
