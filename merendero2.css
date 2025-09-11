@@ -39,9 +39,9 @@ body{
 }
 .A{
     width: 480px;
-    height: 450px;
+    height: 480px;
     right: 700px;
-    top:900px;
+    top:950px;
     z-index: 3;
     background-color:#97c2ec;
 }
@@ -49,9 +49,9 @@ body{
 .B{
     width: 450px;
     height: 350px;
-    right: 900px;
-    top: 650px;
-    z-index: 3;
+    right: 980px;
+    top: 680px;
+    z-index:4 ;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 
 }
@@ -59,9 +59,8 @@ body{
 .C{
     width: 550px;
     height: 450px;
-    left: 700px;
+    left: 880px;
     top: 650px;
-    z-index: 4;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 
 }
@@ -71,7 +70,6 @@ body{
     height: 350px;
     left: 780px;
     top: 1050px;
-    z-index: 4;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 
