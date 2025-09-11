@@ -48,11 +48,9 @@ background-color:#B165B8 ;
 }
 /*FALTA MODIFICAR .C Y AGREGAR .D*/
 
-/*DIVIDI LA PAGINA EN EL TITULO Y EN PRESENTACION. LO DEJO EN COMENTARIOS PARA QUE NO SE VEA MAL
-
 .Presentación{
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-}*/
+}
