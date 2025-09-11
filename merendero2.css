@@ -20,7 +20,7 @@ body{
 }
 
 .A, .B ,.C, .D{
-    border-radius: 15px;
+    border-radius: 80px 60px 100px 50px;
     position:absolute;
     display: flex;
     flex-direction: column;
@@ -54,7 +54,7 @@ body{
 
 .C{
     width: 550px;
-    height: 550px;
+    height: 450px;
     left: 750px;
     top: 650px;
     z-index: 3;
