@@ -49,9 +49,10 @@ background-color:#B165B8 ;
 /*FALTA MODIFICAR .C Y AGREGAR .D*/
 
 .Presentación{
+border-radius: 50px;
 display: flex;
-flex-direction: column;
-justify-content: center;
+justify-content: space-between;
 align-items: center;
+padding: 20px;
 padding-top: 600px;
 }
