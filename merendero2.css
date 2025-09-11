@@ -55,7 +55,9 @@ justify-content: space-between;
 align-items: center;
 padding-top: 600px;
 }
-.imgText1 , .imgText2{
+.imgText1{
 padding-left: 50px;
-padding-right: 0px;
+}
+.imgText2{
+padding-right: 50px;
 }
