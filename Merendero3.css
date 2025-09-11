@@ -72,3 +72,10 @@ h1{
     background-color:chartreuse;
 }
 
+.CImg, .DImg{
+    width: 600px;
+    height: 500px;
+    margin-left: 27px;
+    margin-top: 50px;
+    border: 10px solid white;
+}
