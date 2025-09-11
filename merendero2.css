@@ -34,19 +34,20 @@ body{
 
 }
 .A{
-width: 450px;
-height: 410px;
-right: 600px;
-top:900px;
-background-color:#97c2ec;
+    width: 480px;
+    height: 450px;
+    right: 700px;
+    top:900px;
+    z-index: 3;
+    background-color:#97c2ec;
 }
 
 .B{
     width: 450px;
     height: 350px;
-    right: 950px;
+    right: 900px;
     top: 650px;
-    z-index: 3;
+    z-index: 2;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 
 }
@@ -54,9 +55,9 @@ background-color:#97c2ec;
 .C{
     width: 550px;
     height: 450px;
-    left: 750px;
+    left: 700px;
     top: 650px;
-    z-index: 3;
+    z-index: 2;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 
 }
@@ -66,7 +67,7 @@ background-color:#97c2ec;
     height: 350px;
     left: 780px;
     top: 1050px;
-    z-index: 3;
+    z-index: 4;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 
