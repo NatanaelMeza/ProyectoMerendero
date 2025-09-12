@@ -281,3 +281,8 @@ h3{
 .deco1inicio, .deco2inicio, .deco3inicio, .deco4inicio{
     position: absolute;
 }
+
+.deco4inicio{
+    padding-top: 520px;
+    padding-left: 1160px;
+}
