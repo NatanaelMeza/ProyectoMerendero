@@ -126,17 +126,19 @@
 .ImgIn{
     width: 200px;
     height: 250px;
+    border-radius: 15px;
+}
+
+.imgDecoVL{
+    position: absolute;
+    z-index: 2;
 }
 
 .texto{
     font-size: 20px;
     color: white;
     text-align: left;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.ND{
-    padding-bottom: 60px;
+    padding-left: 10px;
 }
 
 .BtnMas{
@@ -145,7 +147,20 @@
     text-decoration: none;
     color: white;
     padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
 }
+
+.TD{
+    padding-bottom: 35px;
+}
+
+.TA{
+    padding-bottom: 30px;
+}
+
+
+
 /*Página 3*/
 .fondoC{
     background-color: #fbd6ff;
@@ -173,8 +188,9 @@
 
 .galeriaNovedades{
     display: flex;
-    padding-left: 40px;
+    padding-left: 20px;
     padding-right: 20px;
+    gap: 25px;
 }
 
 .novedadesImg{
@@ -223,12 +239,14 @@
 .parrafoNosotros{
     color:white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 90px;
+    font-size: 100px;
 }
 .decorativa1{
     position: relative;
-    top:120px;
-    left: 240px;
+    width: 150px;
+    height: 150px;
+    top:170px;
+    left: 280px;
 }
 .decorativa2{
     position: relative;
@@ -251,3 +269,36 @@
     left: 185px;
 }
 
+h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;   
+    font-size: 18px;
+}
+
+.deco1inicio, .deco2inicio, .deco3inicio, .deco4inicio{
+    position: absolute;
+}
+
+.deco4inicio{
+    padding-top: 520px;
+    padding-left: 1160px;
+}
+.deco3inicio{
+    padding-top: 40px;
+    padding-left: 735px;
+}
+.deco2inicio{
+    padding-top: 300px;
+    padding-left: 600px;
+    width: 160px;
+    height: 140px;
+}
+.deco1inicio{
+    bottom: 400px;
+    right: 1190px;
+    width: 180px;
+    height: 160px;
+}
