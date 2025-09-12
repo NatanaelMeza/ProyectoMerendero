@@ -129,16 +129,16 @@
     border-radius: 15px;
 }
 
+.imgDecoVL{
+    position: absolute;
+    z-index: 2;
+}
+
 .texto{
     font-size: 20px;
     color: white;
     text-align: left;
     padding-left: 10px;
-}
-
-.ND{
-    padding-bottom: 50px;
-    
 }
 
 .BtnMas{
@@ -151,9 +151,16 @@
     font-size: 16px;
 }
 
-.boton{
-    padding-bottom: 60px;
+.TD{
+    padding-bottom: 35px;
 }
+
+.TA{
+    padding-bottom: 30px;
+}
+
+
+
 /*Página 3*/
 .fondoC{
     background-color: #fbd6ff;
