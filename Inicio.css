@@ -346,3 +346,28 @@ h3{
     font-family: Arial, Helvetica, sans-serif;   
     font-size: 18px;
 }
+
+.deco1inicio, .deco2inicio, .deco3inicio, .deco4inicio{
+    position: absolute;
+}
+
+.deco4inicio{
+    padding-top: 520px;
+    padding-left: 1160px;
+}
+.deco3inicio{
+    padding-top: 40px;
+    padding-left: 735px;
+}
+.deco2inicio{
+    padding-top: 300px;
+    padding-left: 600px;
+    width: 160px;
+    height: 140px;
+}
+.deco1inicio{
+    bottom: 400px;
+    right: 1190px;
+    width: 180px;
+    height: 160px;
+}
