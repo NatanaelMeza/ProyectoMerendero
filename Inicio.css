@@ -184,8 +184,10 @@
 
 .EstrellaVL{
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 140px;
+    height: 100px;
+    bottom: 90px;
+    left: 10px;
 }
 
 .FlorVL{
