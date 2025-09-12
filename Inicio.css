@@ -175,11 +175,15 @@
 }
 
 .DRayitaVL{
-    width: 20px;
-    height: 20px;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    right: 60px;
+    bottom: 45px;
 }
 
 .EstrellaVL{
+    position: relative;
     width: 20px;
     height: 20px;
 }
