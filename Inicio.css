@@ -277,3 +277,7 @@ h3{
     font-family: Arial, Helvetica, sans-serif;   
     font-size: 18px;
 }
+
+.deco1inicio, .deco2inicio, .deco3inicio, .deco4inicio{
+    position: absolute;
+}
