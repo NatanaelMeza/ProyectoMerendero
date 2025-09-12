@@ -172,8 +172,8 @@
     color: white;
     font-size: 50px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-
+    z-index: 2;
+    position: relative;
 }
 
 .parrafoC{
@@ -301,4 +301,15 @@ h3{
     right: 1190px;
     width: 180px;
     height: 160px;
+}
+
+.deco1NV, .deco2NV{
+    position:absolute;
+}
+.deco1NV{
+    padding-left: 420px;
+    z-index: 1;
+    top: 1670px;
+    width: 110px;
+    height: 110px;
 }
