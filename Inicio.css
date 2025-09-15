@@ -317,3 +317,63 @@ h3{
     width: 180px;
     height: 160px;
 }
+#imgAsterisco{
+    position: relative;
+    left: 930px;
+    top:80px;
+}
+#imgCarita{
+    position: relative;
+    left: 340px;
+    top:240px;
+}
+#imgCuatroFlores{
+    position: relative;
+    left: 160px;
+    top:580px;
+}
+#imgRayitas{
+    position: relative;
+    right: 500px;
+    bottom:10px;
+}
+#imgEstrella{
+    position: relative;
+    right: 380px;
+    top:30px;
+}
+#imgFlor{
+    position: relative;
+    left: 50px;
+    top:420px;
+}
+#imgPestaña{
+    position: relative;
+    left: 70px;
+    bottom: 20px;
+}
+#imgRulo{
+    position:relative;
+    top: 445px;
+    right: 20px;
+}
+#imgEstrellas{
+    position:relative;
+    top: 500px;
+    left: 940px;
+}
+
+.deco1NV, .deco2NV{
+    position:absolute;
+}
+.deco1NV{
+    padding-left: 420px;
+    z-index: 1;
+    top: 1670px;
+    width: 110px;
+    height: 110px;
+}
+.deco2NV{
+    padding-left: 780px;
+    top: 1690px;
+}
