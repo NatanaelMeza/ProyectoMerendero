@@ -12,4 +12,6 @@ h1{
 }
 .direccion{
     color: #d9e626;
+    font-style:italic;
+    text-align: center;
 }
