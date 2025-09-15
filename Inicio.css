@@ -347,3 +347,8 @@ h3{
     left: 50px;
     top:420px;
 }
+#imgPestaña{
+    position: relative;
+    left: 70px;
+    bottom: 20px;
+}
