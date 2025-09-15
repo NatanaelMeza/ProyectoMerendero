@@ -320,12 +320,12 @@ h3{
 #imgAsterisco{
     position: relative;
     left: 930px;
-    bottom: 20px;
+    top:40px;
 }
 #imgCarita{
     position: relative;
     left: 380px;
-    top:140px;
+    top:150px;
 }
 #imgCuatroFlores{
     position: relative;
@@ -334,11 +334,11 @@ h3{
 }
 #imgRayitas{
     position: relative;
-    right: 465px;
-    bottom:115px;
+    right: 500px;
+    bottom:75px;
 }
 #imgEstrella{
     position: relative;
-    right: 360px;
+    right: 390px;
     bottom:30px;
 }
