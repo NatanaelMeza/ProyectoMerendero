@@ -4,4 +4,9 @@ body{
 h1{
     color: #e3b85c;
     font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    margin-bottom: 5px;
+    font-size: 48px;
+    font-weight: 900;
 }
