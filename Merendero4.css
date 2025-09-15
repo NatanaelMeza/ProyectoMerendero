@@ -2,7 +2,7 @@ body{
     background-color: #f7e9cb;
 }
 h1{
-    color: #e3b85c;
+    color: #c2a460;
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
     padding: 10px 0px 0px 0px;
@@ -11,7 +11,7 @@ h1{
     font-weight: 900;
 }
 .direccion{
-    color: #d9e626;
+    color: #c2a460;
     font-style:italic;
     text-align: center;
 }
