@@ -39,6 +39,7 @@
 
 .fila{
     display: flex;
+    
 }
 
 .columna{
@@ -79,8 +80,9 @@
 }
 
 #InicioImg{
-    width: 500px;
-    height: 625px;
+    width: 100%;
+    max-height: 500px;
+    height: auto;
     border-radius: 500px 500px 0px 0px;
 }
 
