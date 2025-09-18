@@ -127,5 +127,6 @@ padding-top: 600px;
     color: #6c8ba6;
 }
 #IconoResponsables{
-    
+    display: flex;
+    bottom: 40px;
 }
