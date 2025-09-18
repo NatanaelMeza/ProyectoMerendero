@@ -80,12 +80,35 @@
 }
 
 #InicioImg{
-    width: 100%;
-    max-height: 500px;
-    height: auto;
+    width: 350px;
+    height: 550px;
     border-radius: 500px 500px 0px 0px;
 }
 
+.deco1inicio, .deco2inicio, .deco3inicio, .deco4inicio{
+    position: absolute;
+}
+
+.deco4inicio{
+    padding-top: 520px;
+    padding-left: 1160px;
+}
+.deco3inicio{
+    padding-top: 40px;
+    padding-left: 735px;
+}
+.deco2inicio{
+    padding-top: 300px;
+    padding-left: 600px;
+    width: 160px;
+    height: 140px;
+}
+.deco1inicio{
+    bottom: 400px;
+    right: 1190px;
+    width: 180px;
+    height: 160px;
+}
 
 
 /*Página 2*/
@@ -364,30 +387,6 @@ h3{
     font-size: 18px;
 }
 
-.deco1inicio, .deco2inicio, .deco3inicio, .deco4inicio{
-    position: absolute;
-}
-
-.deco4inicio{
-    padding-top: 520px;
-    padding-left: 1160px;
-}
-.deco3inicio{
-    padding-top: 40px;
-    padding-left: 735px;
-}
-.deco2inicio{
-    padding-top: 300px;
-    padding-left: 600px;
-    width: 160px;
-    height: 140px;
-}
-.deco1inicio{
-    bottom: 400px;
-    right: 1190px;
-    width: 180px;
-    height: 160px;
-}
 #imgAsterisco{
     position: relative;
     left: 930px;
