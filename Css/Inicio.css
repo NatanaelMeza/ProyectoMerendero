@@ -114,13 +114,12 @@
 
 #fondo2{
     background-color:#fdf3dd;
-    padding: 10px;
+    padding: 1px;
 }
 
 .filaA,.filaB{
     display: flex;
-    margin: 50px;
-    margin-left: 90px;
+    margin: 50px 50px 50px 50px;
     gap: 50px;
 }
 
