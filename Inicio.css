@@ -14,13 +14,13 @@
 
     position:fixed;
     top: 0px;
-    right: 0px;
-    left: 0px;
+    right: 9px;
+    left: 9px;
     z-index: 100;
 }
 
 .logo{
-    text-align: center;
+    padding-right: 30px;
 }
 
 .barraLinks{
