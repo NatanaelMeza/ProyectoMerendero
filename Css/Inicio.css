@@ -117,9 +117,11 @@
 
 .filaA,.filaB{
     display: flex;
-    margin: 50px 50px 50px 50px;
+    margin: auto;
     gap: 50px;
+    padding:20px 50px 20px 50px;
     position: auto;
+    justify-content: center;
 }
 
 .caja1,.caja2,.caja3,.caja4{
