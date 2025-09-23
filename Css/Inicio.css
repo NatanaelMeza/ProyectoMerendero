@@ -58,7 +58,7 @@
 }
 
 .Manos{
-    padding-left: 200px;
+    padding-left: 11%;
 }
 
 #Titulo{
@@ -78,7 +78,7 @@
 }
 
 #InicioImg{
-    width: 450px;
+    width: auto;
     height: 600px;
     border-radius: 500px 500px 0px 0px;
 }
@@ -92,7 +92,7 @@
     padding-left: 1030px;
 }
 .deco3inicio{
-    padding-left: 950px;
+    padding-left: 930px;
 }
 .deco2inicio{
     padding-top: 300px;
