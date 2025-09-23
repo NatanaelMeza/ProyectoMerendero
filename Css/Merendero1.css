@@ -62,6 +62,7 @@ h1{
     right: 950px;
     top: 650px;
     z-index: 3;
+    text-align: center;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 
