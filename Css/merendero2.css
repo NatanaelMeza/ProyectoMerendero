@@ -38,6 +38,7 @@ body{
     box-sizing: border-box;
 
 }
+
 .A{
     width: 550px;
     height: 550px;
@@ -86,8 +87,10 @@ button{
     border: #3a89c6 ;
     color: #6596c1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
 
 }
+
 
 .Presentación{
 border-radius: 50px;
