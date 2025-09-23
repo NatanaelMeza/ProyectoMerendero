@@ -58,6 +58,7 @@
 }
 
 .Manos{
+    padding: auto;
     padding-left: 200px;
 }
 
@@ -201,8 +202,8 @@
 }
 #imgRayitas{
     position: relative;
-    right: 550px;
-    bottom:10px;
+    right: 430px;
+    bottom:36px;
 }
 #imgEstrella{
     position: relative;
