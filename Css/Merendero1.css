@@ -81,6 +81,9 @@ h1{
     top: 1050px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
+.correo{
+    font-size: 15px;
+}
 
 .circ1{ background-color: #df73e8;}
 .circ2{ background-color: #b165b8;}
