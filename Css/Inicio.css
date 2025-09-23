@@ -219,7 +219,6 @@
     width: 200px;
     height: 200px;
     top: 350px;
-    right: 20px;
 }
 
 #TEstrellaVL{
@@ -424,7 +423,7 @@ h3{
 #imgRulo{
     position:relative;
     top: 445px;
-    right: 20px;
+    right: 50px;
 }
 #imgEstrellas{
     position:relative;
