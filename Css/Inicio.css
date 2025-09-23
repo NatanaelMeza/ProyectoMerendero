@@ -117,9 +117,11 @@
 
 .filaA,.filaB{
     display: flex;
-    margin: 50px 50px 50px 50px;
+    margin: auto;
     gap: 50px;
+    padding:20px 50px 20px 50px;
     position: auto;
+    justify-content: center;
 }
 
 .caja1,.caja2,.caja3,.caja4{
@@ -181,14 +183,8 @@
     padding-bottom: 30px;
 }
 
-#AsteriscoVL{
-    position: relative;
-    width: 100px;
-    height: 100px;
-    left: 950px;
-}
 
-#CaritaVL{
+#imgAsterisco{
     position: relative;
     width: 180px;
     height: 150px;
@@ -250,6 +246,48 @@
     height: 200px;
     top: 350px;
     left: 930px;
+    top:80px;
+}
+#imgCarita{
+    position: relative;
+    left: 340px;
+    top:20px;
+}
+#imgCuatroFlores{
+    position: relative;
+    left: 140px;
+    top:580px;
+}
+#imgRayitas{
+    position: relative;
+    right: 550px;
+    bottom:10px;
+}
+#imgEstrella{
+    position: relative;
+    right: 420px;
+    top: 250px;
+}
+#imgFlor{
+    position: relative;
+    left: 50px;
+    top:420px;
+}
+#imgPestaña{
+    position: relative;
+    left: 70px;
+    bottom: 40px;
+}
+#imgRulo{
+    position:relative;
+    top: 250px;
+    right: 30px;
+    
+}
+#imgEstrellas{
+    position:relative;
+    top: 500px;
+    left: 900px;
 }
 
 /*Página 3*/
@@ -383,52 +421,6 @@ h2{
 h3{
     font-family: Arial, Helvetica, sans-serif;   
     font-size: 18px;
-}
-
-#imgAsterisco{
-    position: relative;
-    left: 930px;
-    top:80px;
-}
-#imgCarita{
-    position: relative;
-    left: 340px;
-    top:240px;
-}
-#imgCuatroFlores{
-    position: relative;
-    left: 160px;
-    top:580px;
-}
-#imgRayitas{
-    position: relative;
-    right: 500px;
-    bottom:10px;
-}
-#imgEstrella{
-    position: relative;
-    right: 380px;
-    top:30px;
-}
-#imgFlor{
-    position: relative;
-    left: 50px;
-    top:420px;
-}
-#imgPestaña{
-    position: relative;
-    left: 70px;
-    bottom: 20px;
-}
-#imgRulo{
-    position:relative;
-    top: 445px;
-    right: 20px;
-}
-#imgEstrellas{
-    position:relative;
-    top: 500px;
-    left: 940px;
 }
 
 .deco1NV, .deco2NV{
