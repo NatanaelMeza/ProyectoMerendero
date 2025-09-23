@@ -187,8 +187,65 @@
 
 #imgAsterisco{
     position: relative;
-    left: 930px;
-    top:80px;
+    width: 180px;
+    height: 150px;
+    left: 420px;
+    top: 180px;
+}
+
+#CFloresVL{
+    position: relative;
+    width: 170px;
+    height: 170px;
+    top: 500px;
+    left: 270px;
+}
+
+#DRayitaVL{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    right: 440px;
+    bottom: 45px;
+}
+
+#EstrellaVL{
+    position: relative;
+    width: 140px;
+    height: 140px;
+    bottom: 90px;
+    right: 360px;
+}
+
+#FlorVL{
+    position: relative;
+    width: 110px;
+    height: 110px;
+    top: 300px;
+    left: 80px;
+}
+
+#PestañaVL{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 170px;
+    bottom: 80px;
+}
+
+#imgRulo{
+    position: relative;
+    width: 50px;
+    height: 200px;
+    top: 10px;
+    right: 10px;
+}
+
+#TEstrellaVL{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 350px;
 }
 #imgCarita{
     position: relative;
