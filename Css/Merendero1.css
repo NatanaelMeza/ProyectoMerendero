@@ -42,7 +42,7 @@ h1{
 
 .tituloCirc{
     font-family:'Bebas Neue', sans-serif;
-    padding-top: 30px;
+    padding-top: 40px;
     font-size: 25px;
 }
 
@@ -120,7 +120,7 @@ h1{
     padding-left: 335px;
     width: 110px;
     height: 90px;
-    padding-top: 475px;
+    padding-top: 460px;
 }
 
 button{
@@ -131,6 +131,9 @@ button{
     border: #6e4172 solid;
     color: #59355c;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.infoContactoM1{
+    top: 1000px;
 }
 
 .AImg,.BImg,.CImg,.DImg{
