@@ -58,7 +58,8 @@
 }
 
 .Manos{
-    padding-left: 200px;
+    margin: auto;
+    margin-bottom: 60px;
 }
 
 #Titulo{
@@ -118,6 +119,7 @@
 .filaA,.filaB{
     display: flex;
     margin: auto;
+
     gap: 50px;
     padding:20px 50px 20px 50px;
     position: auto;
