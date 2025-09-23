@@ -80,8 +80,7 @@ h1{
     left: 650px;
     top: 1050px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
-}
-.correo{
+    text-align: center;
     font-size: 15px;
 }
 
