@@ -181,74 +181,51 @@
     padding-bottom: 30px;
 }
 
-#AsteriscoVL{
-    position: relative;
-    width: 100px;
-    height: 100px;
-    left: 950px;
-}
 
-#CaritaVL{
+#imgAsterisco{
     position: relative;
-    width: 180px;
-    height: 150px;
-    left: 420px;
-    top: 180px;
-}
-
-#CFloresVL{
-    position: relative;
-    width: 170px;
-    height: 170px;
-    top: 500px;
-    left: 270px;
-}
-
-#DRayitaVL{
-    position: relative;
-    width: 250px;
-    height: 250px;
-    right: 440px;
-    bottom: 45px;
-}
-
-#EstrellaVL{
-    position: relative;
-    width: 140px;
-    height: 140px;
-    bottom: 90px;
-    right: 360px;
-}
-
-#FlorVL{
-    position: relative;
-    width: 110px;
-    height: 110px;
-    top: 300px;
-    left: 80px;
-}
-
-#PestañaVL{
-    position: relative;
-    width: 200px;
-    height: 200px;
-    left: 170px;
-    bottom: 80px;
-}
-
-#RuloVL{
-    position: relative;
-    width: 200px;
-    height: 200px;
-    top: 350px;
-}
-
-#TEstrellaVL{
-    position: relative;
-    width: 200px;
-    height: 200px;
-    top: 350px;
     left: 930px;
+    top:80px;
+}
+#imgCarita{
+    position: relative;
+    left: 340px;
+    top:240px;
+}
+#imgCuatroFlores{
+    position: relative;
+    left: 160px;
+    top:580px;
+}
+#imgRayitas{
+    position: relative;
+    right: 500px;
+    bottom:10px;
+}
+#imgEstrella{
+    position: relative;
+    right: 380px;
+    top:30px;
+}
+#imgFlor{
+    position: relative;
+    left: 50px;
+    top:420px;
+}
+#imgPestaña{
+    position: relative;
+    left: 70px;
+    bottom: 20px;
+}
+#imgRulo{
+    position:relative;
+    top: 445px;
+    right: 50px;
+}
+#imgEstrellas{
+    position:relative;
+    top: 500px;
+    left: 940px;
 }
 
 /*Página 3*/
@@ -382,52 +359,6 @@ h2{
 h3{
     font-family: Arial, Helvetica, sans-serif;   
     font-size: 18px;
-}
-
-#imgAsterisco{
-    position: relative;
-    left: 930px;
-    top:80px;
-}
-#imgCarita{
-    position: relative;
-    left: 340px;
-    top:240px;
-}
-#imgCuatroFlores{
-    position: relative;
-    left: 160px;
-    top:580px;
-}
-#imgRayitas{
-    position: relative;
-    right: 500px;
-    bottom:10px;
-}
-#imgEstrella{
-    position: relative;
-    right: 380px;
-    top:30px;
-}
-#imgFlor{
-    position: relative;
-    left: 50px;
-    top:420px;
-}
-#imgPestaña{
-    position: relative;
-    left: 70px;
-    bottom: 20px;
-}
-#imgRulo{
-    position:relative;
-    top: 445px;
-    right: 50px;
-}
-#imgEstrellas{
-    position:relative;
-    top: 500px;
-    left: 940px;
 }
 
 .deco1NV, .deco2NV{
