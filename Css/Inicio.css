@@ -190,7 +190,7 @@
     width: 180px;
     height: 150px;
     left: 1000px;
-    top: 100px;
+    top: 10px;
 }
 
 #CFloresVL{
@@ -269,8 +269,8 @@
 }
 #imgFlor{
     position: relative;
-    left: 50px;
-    top:420px;
+    left: 98px;
+    top:320px;
 }
 #imgPestaña{
     position: relative;
