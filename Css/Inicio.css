@@ -190,8 +190,8 @@
     position: relative;
     width: 180px;
     height: 150px;
-    left: 420px;
-    top: 180px;
+    left: 1000px;
+    top: 10px;
 }
 
 #CFloresVL{
@@ -252,8 +252,8 @@
 }
 #imgCarita{
     position: relative;
-    left: 340px;
-    top:20px;
+    left: 230px;
+    bottom:40px;
 }
 #imgCuatroFlores{
     position: relative;
@@ -262,23 +262,23 @@
 }
 #imgRayitas{
     position: relative;
-    right: 550px;
-    bottom:10px;
+    right: 430px;
+    bottom:88px;
 }
 #imgEstrella{
     position: relative;
-    right: 420px;
-    top: 250px;
+    right: 120px;
+    top: 170px;
 }
 #imgFlor{
     position: relative;
-    left: 50px;
-    top:420px;
+    left: 98px;
+    top:320px;
 }
 #imgPestaña{
     position: relative;
-    left: 70px;
-    bottom: 40px;
+    left: 130px;
+    bottom: 100px;
 }
 #imgRulo{
     position:relative;
@@ -288,8 +288,8 @@
 }
 #imgEstrellas{
     position:relative;
-    top: 500px;
-    left: 900px;
+    top: 430px;
+    left: 1230px;
 }
 
 /*Página 3*/
