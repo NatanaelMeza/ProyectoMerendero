@@ -36,6 +36,7 @@ body{
     text-align: left;
     padding: 50px;
     box-sizing: border-box;
+    transform: translate(-15px);
     opacity: 0;
     animation: slideUp 1.5s ease forwards;
 }
