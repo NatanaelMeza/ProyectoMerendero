@@ -423,9 +423,12 @@
     height: 100px;
 }
 .decorativa5{
+    margin: auto;
     position: relative;
-    bottom:120px;
-    left: 185px;
+    bottom:140px;
+    left: 230px;
+    width: 250px;
+    height: 250px;
 }
 .decorativa7{
     position: relative;
