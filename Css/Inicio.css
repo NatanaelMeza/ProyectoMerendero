@@ -188,10 +188,10 @@
 
 
 #imgAsterisco{
-    position: relative;
     width: auto;
     height: 150px;
-    margin: 10px 10px 10px 10px;
+    margin: 100px 10px 10px 10px;
+    z-index: 1;
 }
 
 #CFloresVL{
