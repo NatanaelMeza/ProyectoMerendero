@@ -186,6 +186,23 @@
     padding-bottom: 30px;
 }
 
+#imgCarita{
+    position: absolute;
+    z-index: 3;
+    width: auto;
+    height: 120px;
+    left: 450px;
+    bottom: 230px;
+}
+
+#imgEstrella{
+    position: absolute;
+    z-index: 3;
+    width: auto;
+    height: 100px;
+    top: 250px;
+    left: 260px;
+}
 
 #imgAsterisco{
     position: relative;
@@ -265,14 +282,7 @@
     top: 350px;
 }
 
-#imgCarita{
-    position: absolute;
-    z-index: 3;
-    width: auto;
-    height: 120px;
-    left: 450px;
-    bottom: 230px;
-}
+
 
 #imgCuatroFlores{
     position: relative;
@@ -289,14 +299,7 @@
     bottom:88px;
 }
 
-#imgEstrella{
-    position: absolute;
-    z-index: 3;
-    width: auto;
-    height: 100px;
-    top: 250px;
-    left: 260px;
-}
+
 
 #imgFlor{
     position: relative;
