@@ -23,7 +23,7 @@ body{
     
 }
 
-.A, .B ,.C, .D{
+.A:hover, .B:hover ,.C:hover, .D:hover{
     color: white;
     border-radius: 80px 60px 100px 50px;
     position:absolute;
