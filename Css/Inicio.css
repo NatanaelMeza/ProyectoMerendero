@@ -266,11 +266,13 @@
 }
 #imgCarita{
     position: relative;
-    z-index: 2;
-
-    left: 230px;
-    bottom:40px;
+    z-index: 3;
+    width: auto;
+    height: 120px;
+    left: 260px;
+    bottom:110px;
 }
+
 #imgCuatroFlores{
     position: relative;
     z-index: 2;
