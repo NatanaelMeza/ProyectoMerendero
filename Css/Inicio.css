@@ -187,7 +187,7 @@
 
 
 #imgAsterisco{
-    position: absolute;
+    position: relative;
     width: auto;
     height: 130px;
     left: 940px;
