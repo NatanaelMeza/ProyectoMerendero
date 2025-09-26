@@ -393,11 +393,12 @@
     font-size: 100px;
 }
 .decorativa1{
+    margin: auto;
     position: relative;
-    width: 150px;
-    height: 150px;
-    top:170px;
-    left: 280px;
+    width: 180px;
+    height: 180px;
+    top: 190px;
+    left: 260px;
 }
 .decorativa2{
     position: relative;
