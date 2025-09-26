@@ -401,9 +401,12 @@
     left: 260px;
 }
 .decorativa2{
+    margin: auto;
     position: relative;
-    top:170px;
-    left: 250px;
+    top:250px;
+    left: 280px;
+    width: 120px;
+    height: 120px;
 }
 .decorativa3{
     position: relative;
