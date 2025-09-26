@@ -236,7 +236,7 @@
 }
 
 #imgRulo{
-    position: ;
+    position: relative;
     width: 50px;
     height: 200px;
     top: 10px;
