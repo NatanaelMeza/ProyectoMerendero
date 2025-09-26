@@ -138,6 +138,7 @@
 
 .caja1{
     background-color: #CAAACD;
+    position: relative;
 }
 .caja2{
     background-color: #D6E8F7;
@@ -189,7 +190,6 @@
 #imgAsterisco{
     position: relative;
     z-index: 2;
-
     width: auto;
     height: 130px;
     left: 65px;
@@ -265,7 +265,7 @@
     top: 350px;
 }
 #imgCarita{
-    position: relative;
+    position: absolute;
     z-index: 3;
     width: auto;
     height: 120px;
@@ -287,13 +287,16 @@
     right: 430px;
     bottom:88px;
 }
-#imgEstrella{
-    position: relative;
-    z-index: 2;
 
-    right: 120px;
-    top: 170px;
+#imgEstrella{
+    position: absolute;
+    z-index: 3;
+    width: auto;
+    height: 100px;
+    top: 250px;
+    left: 260px;
 }
+
 #imgFlor{
     position: relative;
     z-index: 2;
