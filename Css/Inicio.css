@@ -58,8 +58,8 @@
 }
 
 .Manos{
-    padding: auto;
-    padding-left: 200px;
+    margin: auto;
+    margin-bottom: 60px;
 }
 
 #Titulo{
@@ -71,7 +71,7 @@
 #ParrafoI{
     font-size: 20px;
     width: 700px;
-    margin-left: 10px ;
+    margin-left: 45px ;
     padding-top: 50px;
     text-align: center;
     color: #3b3b3b;
@@ -119,6 +119,7 @@
 .filaA,.filaB{
     display: flex;
     margin: auto;
+
     gap: 50px;
     padding:20px 50px 20px 50px;
     position: auto;
@@ -246,6 +247,9 @@
     width: 200px;
     height: 200px;
     top: 350px;
+    left: 930px;
+    top:80px;
+
 }
 #imgCarita{
     position: relative;
