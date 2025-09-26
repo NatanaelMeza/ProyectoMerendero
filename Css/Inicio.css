@@ -188,15 +188,18 @@
 
 #imgAsterisco{
     position: relative;
+    z-index: 2;
+
     width: auto;
     height: 130px;
-    left: 665px;
+    left: 65px;
     top: 15px;
-    z-index: 2;
 }
 
 #CFloresVL{
     position: relative;
+    z-index: 2;
+
     width: 170px;
     height: 170px;
     top: 500px;
@@ -205,6 +208,8 @@
 
 #DRayitaVL{
     position: relative;
+    z-index: 2;
+
     width: 250px;
     height: 250px;
     right: 440px;
@@ -213,6 +218,8 @@
 
 #EstrellaVL{
     position: relative;
+    z-index: 2;
+
     width: 140px;
     height: 140px;
     bottom: 90px;
@@ -221,6 +228,8 @@
 
 #FlorVL{
     position: relative;
+    z-index: 2;
+
     width: 110px;
     height: 110px;
     top: 300px;
@@ -229,6 +238,8 @@
 
 #PestañaVL{
     position: relative;
+    z-index: 2;
+
     width: 200px;
     height: 200px;
     left: 170px;
@@ -237,6 +248,8 @@
 
 #imgRulo{
     position: relative;
+    z-index: 2;
+
     width: 50px;
     height: 200px;
     top: 10px;
@@ -245,48 +258,66 @@
 
 #TEstrellaVL{
     position: relative;
+    z-index: 2;
+
     width: 200px;
     height: 200px;
     top: 350px;
 }
 #imgCarita{
     position: relative;
+    z-index: 2;
+
     left: 230px;
     bottom:40px;
 }
 #imgCuatroFlores{
     position: relative;
+    z-index: 2;
+
     left: 140px;
     top:580px;
 }
 #imgRayitas{
     position: relative;
+    z-index: 2;
+
     right: 430px;
     bottom:88px;
 }
 #imgEstrella{
     position: relative;
+    z-index: 2;
+
     right: 120px;
     top: 170px;
 }
 #imgFlor{
     position: relative;
+    z-index: 2;
+
     left: 98px;
     top:320px;
 }
 #imgPestaña{
     position: relative;
+    z-index: 2;
+
     left: 130px;
     bottom: 100px;
 }
 #imgRulo{
     position:relative;
+    z-index: 2;
+
     top: 250px;
     right: 30px;
     
 }
 #imgEstrellas{
     position:relative;
+    z-index: 2;
+
     top: 430px;
     left: 1230px;
 }
