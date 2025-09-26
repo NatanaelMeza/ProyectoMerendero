@@ -415,9 +415,12 @@
     right: 350px;
 }
 .decorativa4{
+    margin: auto;
     position: relative;
-    bottom:195px;
+    bottom:180px;
     left: 90px;
+    width: 100px;
+    height: 100px;
 }
 .decorativa5{
     position: relative;
