@@ -264,13 +264,14 @@
     height: 200px;
     top: 350px;
 }
+
 #imgCarita{
     position: absolute;
     z-index: 3;
     width: auto;
     height: 120px;
-    left: 260px;
-    bottom:110px;
+    left: 450px;
+    bottom: 230px;
 }
 
 #imgCuatroFlores{
