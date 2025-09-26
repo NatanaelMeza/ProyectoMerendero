@@ -71,7 +71,7 @@
 #ParrafoI{
     font-size: 20px;
     width: 700px;
-    margin-left: 10px ;
+    margin-left: 45px ;
     padding-top: 50px;
     text-align: center;
     color: #3b3b3b;
@@ -89,21 +89,22 @@
 }
 
 .deco4inicio{
-    padding-top: 470px;
-    padding-left: 1030px;
+    margin-top: 470px;
+    margin-left: 1030px;
 }
 .deco3inicio{
-    padding-left: 930px;
+    margin: auto;
+    margin-left: 880px;
 }
 .deco2inicio{
-    padding-top: 300px;
-    padding-left: 600px;
+    margin-top: 300px;
+    margin-left: 600px;
     width: 160px;
     height: 140px;
 }
 .deco1inicio{
     bottom: 470px;
-    right: 1030px;
+    left: 78x;
     width: 180px;
     height: 160px;
 }
@@ -246,6 +247,9 @@
     width: 200px;
     height: 200px;
     top: 350px;
+    left: 930px;
+    top:80px;
+
 }
 #imgCarita{
     position: relative;
