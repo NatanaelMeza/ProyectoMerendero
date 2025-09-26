@@ -89,6 +89,7 @@
 }
 
 .deco4inicio{
+    margin: auto;
     margin-top: 470px;
     margin-left: 1030px;
 }
@@ -97,12 +98,14 @@
     margin-left: 880px;
 }
 .deco2inicio{
+    margin: auto;
     margin-top: 300px;
     margin-left: 600px;
     width: 160px;
     height: 140px;
 }
 .deco1inicio{
+    margin: auto;
     bottom: 470px;
     left: 78x;
     width: 180px;
