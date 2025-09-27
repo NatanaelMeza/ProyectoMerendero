@@ -48,7 +48,6 @@ h1{
 }
 
 .A{
-    margin: auto;
     width: 550px;
     height: 550px;
     right: 700px;
@@ -59,7 +58,6 @@ h1{
 }
 
 .B{
-    margin: auto;
     width: 350px;
     height: 350px;
     right: 950px;
@@ -70,7 +68,6 @@ h1{
 }
 
 .C{
-    margin: auto;
     width: 550px;
     height: 550px;
     left: 750px;
@@ -79,7 +76,6 @@ h1{
 }
 
 .D{
-    margin: auto;
     width: 350px;
     height: 350px;
     left: 650px;
