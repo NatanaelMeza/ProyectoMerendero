@@ -22,6 +22,12 @@ h1{
     text-align: center;
 }
 
+.flecha{
+    margin: auto;
+    padding-left: 980px;
+    bottom: 30px;
+}
+
 .imgmerendero1{
     margin: auto;
     width: 1150px;
