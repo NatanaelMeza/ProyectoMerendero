@@ -24,8 +24,11 @@ h1{
 
 .flecha{
     margin: auto;
-    padding-left: 980px;
-    bottom: 30px;
+    position: absolute;
+    padding-left: 950px;
+    bottom: 500px;
+    width: 125px;
+    height: 110px;
 }
 
 .imgmerendero1{
