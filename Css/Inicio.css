@@ -232,6 +232,14 @@
     right: 910px;
 }
 
+#imgCarita{
+    margin: auto;
+    position: relative;
+    z-index: 4;
+    top: 170px;
+    left: 520px;
+}
+
 
 
 /*Página 3*/
