@@ -18,6 +18,15 @@ h1{
     text-align: center;
 }
 
+.flecha{
+    margin: auto;
+    position: absolute;
+    padding-left: 950px;
+    bottom: 500px;
+    width: 125px;
+    height: 110px;
+}
+
 .ImgMerendero3{
     width: 1150px;
     height: 468;
@@ -130,5 +139,5 @@ button{
     height: 500px;
     margin-left: 27px;
     margin-top: 50px;
-    border: 10px solid white;
+    border: 10px solid #5a6e2e;
 }

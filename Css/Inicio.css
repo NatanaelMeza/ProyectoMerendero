@@ -1,5 +1,6 @@
 /*Página 1*/
 #fondo1{
+    margin: auto;
     background-color:#FFFFB0;
     padding-top: 120px;
 }
@@ -19,10 +20,6 @@
     z-index: 100;
 }
 
-.logo{
-    padding-right: 30px;
-}
-
 .barraLinks{
     display: flex;
     gap: 150px;
@@ -37,6 +34,10 @@
     font-weight: bold;
 }
 
+.logo{
+    padding-right: 30px;
+}
+
 .fila{
     display: flex;
 }
@@ -45,6 +46,7 @@
     display:grid;
     margin-bottom: 50px;
 }
+
 .Titulo{
     background-color: #ffd2d5;
     width:700px;
@@ -55,11 +57,6 @@
     align-items: center;
     margin-left: 50px ;
     font-family: 'Barrio', cursive;
-}
-
-.Manos{
-    margin: auto;
-    margin-bottom: 60px;
 }
 
 #Titulo{
@@ -78,51 +75,55 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.Manos{
+    margin: auto;
+    margin-bottom: 60px;
+}
+
 #InicioImg{
     width: auto;
     height: 600px;
     border-radius: 500px 500px 0px 0px;
 }
 
-.deco1inicio, .deco2inicio, .deco3inicio, .deco4inicio{
-    position: absolute;
-}
 
-.deco4inicio{
-    margin: auto;
-    margin-top: 470px;
-    margin-left: 1030px;
-}
-.deco3inicio{
-    padding-left: 930px;
-}
-.deco2inicio{
-    margin: auto;
-    margin-top: 300px;
-    margin-left: 600px;
-    width: 160px;
-    height: 140px;
-}
 .deco1inicio{
-    margin: auto;
+    position: absolute;
     bottom: 470px;
     right: 1030px;
     width: 180px;
     height: 160px;
 }
 
+.deco2inicio{
+    position: absolute;
+    padding-top: 300px;
+    padding-left: 600px;
+    width: 160px;
+    height: 140px;
+}
+
+.deco3inicio{
+    position: absolute;
+    padding-left: 930px;
+}
+
+.deco4inicio{
+    position: absolute;
+    padding-top: 470px;
+    padding-left: 1030px;
+}
 
 /*Página 2*/
 
 #fondo2{
+    margin: auto;
     background-color:#fdf3dd;
-    padding: 1px;
 }
 
 .filaA,.filaB{
     display: flex;
     margin: auto;
-
     gap: 50px;
     padding:20px 50px 20px 50px;
     position: auto;
@@ -152,22 +153,15 @@
     background-color: #F1DFB6;
 }
 
-.ImgIn{
-    width: 200px;
-    height: 250px;
-    border-radius: 15px;
-}
-
-.imgDecoVL{
-    position: absolute;
-    z-index: 2;
-}
-
 .texto{
     font-size: 20px;
     color: white;
     text-align: left;
     padding-left: 10px;
+}
+
+.TextVL{
+    padding-bottom: 35px;
 }
 
 .BtnMas{
@@ -180,122 +174,91 @@
     font-size: 16px;
 }
 
-.TD{
-    padding-bottom: 35px;
-}
-
-.TA{
+.Btn{
     padding-bottom: 30px;
 }
 
+.ImgIn{
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+#imgCuatroflores{
+    margin: auto;
+    position: relative;
+    z-index: 4;
+    top: 750px;
+    left: 540px;
+}
+
+#imgFlor{
+    margin: auto;
+    position: relative;
+    z-index: 4;
+    top: 680px;
+    left: 735px;
+}
+
+#imgPestaña{
+    margin: auto;
+    position: relative;
+    z-index: 4;
+    top: 280px;
+    left: 770px;
+}
+
+#imgRulo{
+    margin: auto;
+    position: relative;
+    z-index: 4;
+    top: 660px;
+    right: 570px;
+}
+
+#imgEstrellas{
+    margin: auto;
+    position: relative;
+    z-index: 4;
+    top: 890px;
+    left: 360px; 
+}
+
+#imgRayitas{
+    margin: auto;
+    position: relative;
+    z-index: 4;
+    top: 270px;
+    right: 910px;
+}
+
+#imgCarita{
+    margin: auto;
+    position: relative;
+    z-index: 4;
+    top: 170px;
+    left: 520px;
+}
+
+#imgEstrella{
+    margin: auto;
+    position: relative;
+    z-index: 4;
+    top: 370px;
+    left: 150px;
+}
 
 #imgAsterisco{
+    margin: auto;
     position: relative;
-    width: auto;
-    height: 130px;
-    left: 665px;
-    top: 15px;
-    z-index: 2;
-}
-
-#CFloresVL{
-    position: relative;
-    width: 170px;
-    height: 170px;
-    top: 500px;
-    left: 270px;
-}
-
-#DRayitaVL{
-    position: relative;
-    width: 250px;
-    height: 250px;
-    right: 440px;
-    bottom: 45px;
-}
-
-#EstrellaVL{
-    position: relative;
-    width: 140px;
-    height: 140px;
-    bottom: 90px;
-    right: 360px;
-}
-
-#FlorVL{
-    position: relative;
-    width: 110px;
-    height: 110px;
+    z-index: 4;
     top: 300px;
-    left: 80px;
-}
-
-#PestañaVL{
-    position: relative;
-    width: 200px;
-    height: 200px;
-    left: 170px;
-    bottom: 80px;
-}
-
-#imgRulo{
-    position: relative;
-    width: 50px;
-    height: 200px;
-    top: 10px;
-    margin: 100px;
-}
-
-#TEstrellaVL{
-    position: relative;
-    width: 200px;
-    height: 200px;
-    top: 350px;
-}
-#imgCarita{
-    position: relative;
-    left: 230px;
-    bottom:40px;
-}
-#imgCuatroFlores{
-    position: relative;
-    left: 140px;
-    top:580px;
-}
-#imgRayitas{
-    position: relative;
-    right: 430px;
-    bottom:88px;
-}
-#imgEstrella{
-    position: relative;
-    right: 120px;
-    top: 170px;
-}
-#imgFlor{
-    position: relative;
-    left: 98px;
-    top:320px;
-}
-#imgPestaña{
-    position: relative;
-    left: 130px;
-    bottom: 100px;
-}
-#imgRulo{
-    position:relative;
-    top: 250px;
-    right: 30px;
-    
-}
-#imgEstrellas{
-    position:relative;
-    top: 430px;
-    left: 1230px;
+    left: 600px;
 }
 
 /*Página 3*/
 .fondoC{
+    margin: auto;
     background-color: #fbd6ff;
     padding: 10px;
 }
@@ -343,6 +306,24 @@
     margin-bottom: 40px;
 }
 
+.deco1NV{
+    position:absolute;
+    margin: auto;
+    left: 425px;
+    z-index: 1;
+    top: 1565px;
+    width: 145px;
+    height: 145px;
+}
+.deco2NV{
+    position:absolute;
+    margin: auto;
+    left: 795px;
+    top: 1605px;
+}
+
+/*Fondo 4*/
+
 .fondoD {
     background-color: #e7ffb1;
     padding-left: 90px;
@@ -350,6 +331,15 @@
     display: flex;
     align-items: center;
 
+}
+
+h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;   
+    font-size: 18px;
 }
 
 .parrafoD {
@@ -364,80 +354,81 @@
 }
 
 .parrafo{
-    font-size: 21px;
+    font-size: 19px;
     text-align:center;
-    margin: 20px 0px 0px;
+    margin: auto;
+    margin-top: 50px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 .parrafoNosotros{
+    margin: auto;
     color:white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 100px;
+    text-shadow: 0 5px 5px rgba(134, 133, 133, 0.3);
 }
 .decorativa1{
+    margin: auto;
     position: relative;
-    width: 150px;
-    height: 150px;
-    top:170px;
-    left: 280px;
+    width: 180px;
+    height: 180px;
+    top: 100px;
+    left: 260px;
 }
 .decorativa2{
+    margin: auto;
     position: relative;
-    top:170px;
-    left: 250px;
+    top:150px;
+    left: 280px;
+    width: 120px;
+    height: 120px;
 }
 .decorativa3{
+    margin: auto;
     position: relative;
-    top:80px;
-    right: 240px;
+    top: 20px;
+    right: 350px;
 }
 .decorativa4{
+    margin: auto;
     position: relative;
-    bottom:195px;
+    bottom:150px;
     left: 90px;
+    width: 100px;
+    height: 100px;
 }
 .decorativa5{
+    margin: auto;
     position: relative;
-    bottom:120px;
-    left: 185px;
+    bottom:60px;
+    left: 230px;
+    width: 250px;
+    height: 250px;
 }
 .decorativa7{
+    margin: auto;
     position: relative;
-    bottom:40px;
-    left: 400px;
+    bottom: 30px;
+    left: 300px;
+    width: 220px;
+    height: 60px;
 }
 .decorativa8{
+    margin: auto;
     position: relative;
-    bottom:600px;
-    left: 350px;
-}
-.decorativa9{
-    position: relative;
-    bottom:40px;
-    right: 220px;
-}
-
-h2{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-h3{
-    font-family: Arial, Helvetica, sans-serif;   
-    font-size: 18px;
-}
-
-.deco1NV, .deco2NV{
-    position:absolute;
-}
-.deco1NV{
-    padding-left: 420px;
-    z-index: 1;
-    top: 1670px;
-    width: 110px;
+    bottom: 530px;
+    left: 180px;
+    width: 128px;
     height: 110px;
 }
-.deco2NV{
-    padding-left: 780px;
-    top: 1690px;
+.decorativa9{
+    margin: auto;
+    position: relative;
+    bottom:5px;
+    right: 380px;
+    width: 80px;
+    height: 80px;
 }
+
+
