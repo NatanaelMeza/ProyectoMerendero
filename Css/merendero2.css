@@ -36,16 +36,15 @@ body{
     text-align: left;
     padding: 50px;
     box-sizing: border-box;
-    opacity: 0;
-    transform: translateY(50px);
-    animation: slideUp 1.5s ease forwards;
+    transition: transform 0.3s ease
 
 }
-@keyframes slideUp {
-  0% { opacity: 0; transform: translateY(50px); }
-  100% { opacity: 1; transform: translateY(0px); }
-}
 
+.A:hover, .B:hover ,.C:hover, .D:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
 .A{
     width: 550px;
     height: 550px;
