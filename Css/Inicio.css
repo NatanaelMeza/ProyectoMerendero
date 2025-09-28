@@ -20,10 +20,6 @@
     z-index: 100;
 }
 
-.logo{
-    padding-right: 30px;
-}
-
 .barraLinks{
     display: flex;
     gap: 150px;
@@ -38,6 +34,10 @@
     font-weight: bold;
 }
 
+.logo{
+    padding-right: 30px;
+}
+
 .fila{
     display: flex;
 }
@@ -46,6 +46,7 @@
     display:grid;
     margin-bottom: 50px;
 }
+
 .Titulo{
     background-color: #ffd2d5;
     width:700px;
@@ -56,11 +57,6 @@
     align-items: center;
     margin-left: 50px ;
     font-family: 'Barrio', cursive;
-}
-
-.Manos{
-    margin: auto;
-    margin-bottom: 60px;
 }
 
 #Titulo{
@@ -79,36 +75,43 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.Manos{
+    margin: auto;
+    margin-bottom: 60px;
+}
+
 #InicioImg{
     width: auto;
     height: 600px;
     border-radius: 500px 500px 0px 0px;
 }
 
-.deco1inicio, .deco2inicio, .deco3inicio, .deco4inicio{
-    position: absolute;
-}
-
-.deco4inicio{
-    padding-top: 470px;
-    padding-left: 1030px;
-}
-.deco3inicio{
-    padding-left: 930px;
-}
-.deco2inicio{
-    padding-top: 300px;
-    padding-left: 600px;
-    width: 160px;
-    height: 140px;
-}
 .deco1inicio{
+    position: absolute;
     bottom: 470px;
     right: 1030px;
     width: 180px;
     height: 160px;
 }
 
+.deco2inicio{
+    position: absolute;
+    padding-top: 300px;
+    padding-left: 600px;
+    width: 160px;
+    height: 140px;
+}
+
+.deco3inicio{
+    position: absolute;
+    padding-left: 930px;
+}
+
+.deco4inicio{
+    position: absolute;
+    padding-top: 470px;
+    padding-left: 1030px;
+}
 
 /*Página 2*/
 
@@ -149,17 +152,15 @@
     background-color: #F1DFB6;
 }
 
-.ImgIn{
-    width: 200px;
-    height: 250px;
-    border-radius: 15px;
-}
-
 .texto{
     font-size: 20px;
     color: white;
     text-align: left;
     padding-left: 10px;
+}
+
+.TextVL{
+    padding-bottom: 35px;
 }
 
 .BtnMas{
@@ -172,14 +173,15 @@
     font-size: 16px;
 }
 
-.TextVL{
-    padding-bottom: 35px;
-}
-
 .Btn{
     padding-bottom: 30px;
 }
 
+.ImgIn{
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+}
 
 #imgCuatroflores{
     margin: auto;
@@ -253,8 +255,6 @@
     left: 600px;
 }
 
-
-
 /*Página 3*/
 .fondoC{
     margin: auto;
@@ -305,10 +305,8 @@
     margin-bottom: 40px;
 }
 
-.deco1NV, .deco2NV{
-    position:absolute;
-}
 .deco1NV{
+    position:absolute;
     margin: auto;
     left: 425px;
     z-index: 1;
@@ -317,6 +315,7 @@
     height: 145px;
 }
 .deco2NV{
+    position:absolute;
     margin: auto;
     left: 795px;
     top: 1605px;
@@ -331,6 +330,15 @@
     display: flex;
     align-items: center;
 
+}
+
+h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;   
+    font-size: 18px;
 }
 
 .parrafoD {
@@ -422,12 +430,4 @@
     height: 80px;
 }
 
-h2{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-h3{
-    font-family: Arial, Helvetica, sans-serif;   
-    font-size: 18px;
-}
 
