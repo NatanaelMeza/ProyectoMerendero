@@ -116,13 +116,12 @@
 /*Página 2*/
 
 #fondo2{
-    margin: auto;
+    position: relative;
     background-color:#fdf3dd;
 }
 
 .filaA,.filaB{
     display: flex;
-    margin: auto;
     gap: 50px;
     padding:20px 50px 20px 50px;
     position: auto;
@@ -185,7 +184,7 @@
 
 #imgCuatroflores{
     margin: auto;
-    position: relative;
+    position: absolute;
     z-index: 4;
     top: 750px;
     left: 540px;
@@ -193,7 +192,7 @@
 
 #imgFlor{
     margin: auto;
-    position: relative;
+    position: absolute;
     z-index: 4;
     top: 680px;
     left: 735px;
@@ -201,7 +200,7 @@
 
 #imgPestaña{
     margin: auto;
-    position: relative;
+    position: absolute;
     z-index: 4;
     top: 280px;
     left: 770px;
@@ -209,7 +208,7 @@
 
 #imgRulo{
     margin: auto;
-    position: relative;
+    position: absolute;
     z-index: 4;
     top: 660px;
     right: 570px;
@@ -217,7 +216,7 @@
 
 #imgEstrellas{
     margin: auto;
-    position: relative;
+    position: absolute;
     z-index: 4;
     top: 890px;
     left: 360px; 
@@ -225,7 +224,7 @@
 
 #imgRayitas{
     margin: auto;
-    position: relative;
+    position: absolute;
     z-index: 4;
     top: 270px;
     right: 910px;
@@ -233,7 +232,7 @@
 
 #imgCarita{
     margin: auto;
-    position: relative;
+    position: absolute;
     z-index: 4;
     top: 170px;
     left: 520px;
@@ -241,7 +240,7 @@
 
 #imgEstrella{
     margin: auto;
-    position: relative;
+    position: absolute;
     z-index: 4;
     top: 370px;
     left: 150px;
@@ -249,7 +248,7 @@
 
 #imgAsterisco{
     margin: auto;
-    position: relative;
+    position: absolute;
     z-index: 4;
     top: 300px;
     left: 600px;
