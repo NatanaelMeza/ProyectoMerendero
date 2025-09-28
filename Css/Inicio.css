@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 /*Página 1*/
 #fondo1{
     margin: auto;
