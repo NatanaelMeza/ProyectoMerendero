@@ -200,6 +200,14 @@
     left: 735px;
 }
 
+#imgPestaña{
+    margin: auto;
+    position: relative;
+    z-index: 4;
+    top: 280px;
+    left: 770px;
+}
+
 
 
 /*Página 3*/
