@@ -115,13 +115,11 @@
 #fondo2{
     margin: auto;
     background-color:#fdf3dd;
-    padding: 1px;
 }
 
 .filaA,.filaB{
     display: flex;
     margin: auto;
-
     gap: 50px;
     padding:20px 50px 20px 50px;
     position: auto;
@@ -140,7 +138,6 @@
 
 .caja1{
     background-color: #CAAACD;
-    position: relative;
 }
 .caja2{
     background-color: #D6E8F7;
@@ -175,11 +172,11 @@
     font-size: 16px;
 }
 
-.TD{
+.TextVL{
     padding-bottom: 35px;
 }
 
-.TA{
+.Btn{
     padding-bottom: 30px;
 }
 
