@@ -204,6 +204,25 @@
     left: 260px;
 }
 
+#imgRayitas{
+    position: absolute;
+    z-index: 3;
+    width: auto;
+    height: 150px;
+    bottom: 270px;
+    right: 470px;
+}
+
+#PestañaVL{
+    position: relative;
+    z-index: 2;
+
+    width: 200px;
+    height: 200px;
+    left: 170px;
+    bottom: 80px;
+}
+
 #imgAsterisco{
     position: relative;
     z-index: 2;
@@ -253,15 +272,7 @@
     left: 80px;
 }
 
-#PestañaVL{
-    position: relative;
-    z-index: 2;
 
-    width: 200px;
-    height: 200px;
-    left: 170px;
-    bottom: 80px;
-}
 
 #imgRulo{
     position: relative;
@@ -291,13 +302,7 @@
     left: 140px;
     top:580px;
 }
-#imgRayitas{
-    position: relative;
-    z-index: 2;
 
-    right: 430px;
-    bottom:88px;
-}
 
 
 
