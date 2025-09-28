@@ -240,6 +240,14 @@
     left: 520px;
 }
 
+#imgEstrella{
+    margin: auto;
+    position: relative;
+    z-index: 4;
+    top: 370px;
+    left: 150px;
+}
+
 
 
 /*Página 3*/
