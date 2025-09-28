@@ -224,6 +224,14 @@
     left: 360px; 
 }
 
+#imgRayitas{
+    margin: auto;
+    position: relative;
+    z-index: 4;
+    top: 270px;
+    right: 910px;
+}
+
 
 
 /*Página 3*/
