@@ -225,8 +225,8 @@
     margin: auto;
     position: absolute;
     z-index: 4;
-    top: 270px;
-    right: 910px;
+    bottom: 640px;
+    left: 60px;
 }
 
 #imgCarita{
