@@ -290,7 +290,13 @@
 
     width: 200px;
     height: 200px;
-    top: 350px;
+    left: 930px;
+    top:80px;
+}
+#imgCarita{
+    position: relative;
+    left: 230px;
+    bottom:40px;
 }
 
 
@@ -385,6 +391,25 @@
     margin-bottom: 40px;
 }
 
+.deco1NV, .deco2NV{
+    position:absolute;
+}
+.deco1NV{
+    margin: auto;
+    left: 425px;
+    z-index: 1;
+    top: 1565px;
+    width: 145px;
+    height: 145px;
+}
+.deco2NV{
+    margin: auto;
+    left: 795px;
+    top: 1605px;
+}
+
+/*Fondo 4*/
+
 .fondoD {
     background-color: #e7ffb1;
     padding-left: 90px;
@@ -406,58 +431,81 @@
 }
 
 .parrafo{
-    font-size: 21px;
+    font-size: 19px;
     text-align:center;
-    margin: 20px 0px 0px;
+    margin: auto;
+    margin-top: 50px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 .parrafoNosotros{
+    margin: auto;
     color:white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 100px;
+    text-shadow: 0 5px 5px rgba(134, 133, 133, 0.3);
 }
 .decorativa1{
+    margin: auto;
     position: relative;
-    width: 150px;
-    height: 150px;
-    top:170px;
-    left: 280px;
+    width: 180px;
+    height: 180px;
+    top: 100px;
+    left: 260px;
 }
 .decorativa2{
+    margin: auto;
     position: relative;
-    top:170px;
-    left: 250px;
+    top:150px;
+    left: 280px;
+    width: 120px;
+    height: 120px;
 }
 .decorativa3{
+    margin: auto;
     position: relative;
-    top:80px;
-    right: 240px;
+    top: 20px;
+    right: 350px;
 }
 .decorativa4{
+    margin: auto;
     position: relative;
-    bottom:195px;
+    bottom:150px;
     left: 90px;
+    width: 100px;
+    height: 100px;
 }
 .decorativa5{
+    margin: auto;
     position: relative;
-    bottom:120px;
-    left: 185px;
+    bottom:60px;
+    left: 230px;
+    width: 250px;
+    height: 250px;
 }
 .decorativa7{
+    margin: auto;
     position: relative;
-    bottom:40px;
-    left: 400px;
+    bottom: 30px;
+    left: 300px;
+    width: 220px;
+    height: 60px;
 }
 .decorativa8{
+    margin: auto;
     position: relative;
-    bottom:600px;
-    left: 350px;
+    bottom: 530px;
+    left: 180px;
+    width: 128px;
+    height: 110px;
 }
 .decorativa9{
+    margin: auto;
     position: relative;
-    bottom:40px;
-    right: 220px;
+    bottom:5px;
+    right: 380px;
+    width: 80px;
+    height: 80px;
 }
 
 h2{
@@ -469,17 +517,3 @@ h3{
     font-size: 18px;
 }
 
-.deco1NV, .deco2NV{
-    position:absolute;
-}
-.deco1NV{
-    padding-left: 420px;
-    z-index: 1;
-    top: 1670px;
-    width: 110px;
-    height: 110px;
-}
-.deco2NV{
-    padding-left: 780px;
-    top: 1690px;
-}
