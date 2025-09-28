@@ -193,7 +193,7 @@
     margin: auto;
     position: absolute;
     z-index: 4;
-    top: 370px;
+    top: 375px;
     left: 910px;
 }
 
@@ -201,15 +201,16 @@
     margin: auto;
     position: absolute;
     z-index: 4;
-    left: 1100px;
+    right: 20px;
+    bottom: 650px;
 }
 
 #imgRulo{
     margin: auto;
     position: absolute;
     z-index: 4;
-    top: 660px;
-    right: 570px;
+    top: 480px;
+    left: 11px;
 }
 
 #imgEstrellas{
