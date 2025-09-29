@@ -141,6 +141,11 @@ html{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    transition: transform 0.3s;
+}
+
+.caja1:hover,.caja2:hover,.caja3:hover,.caja4:hover{
+    transform: scale(1.1)
 }
 
 .caja1{
