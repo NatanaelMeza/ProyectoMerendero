@@ -347,7 +347,7 @@ html{
 .deco1NV{
     position:absolute;
     z-index: 1;
-    top: 262%;
+    top: 255%;
     left: 36%;
     transform: translate(-50%, -50%);
     width: 11%;
@@ -356,7 +356,7 @@ html{
 .deco2NV{
     position:absolute;
     left: 63%;
-    top: 264%;
+    top: 256%;
     transform: translate(-50%, -50%);
     width: 9%;
     height: auto;
