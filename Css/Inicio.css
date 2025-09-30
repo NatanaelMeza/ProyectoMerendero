@@ -204,8 +204,10 @@ html{
     margin: 0 auto;
     position: absolute;
     z-index: 4;
-    top: 570px;
-    left: 520px;
+    top: 80%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 15%;
 }
 
 #imgFlor{
