@@ -122,11 +122,13 @@ html{
 /*Página 2*/
 
 #fondo2{
+    margin: auto;
     position: relative;
     background-color:#fdf3dd;
 }
 
 .filaA,.filaB{
+    margin: auto;
     display: flex;
     gap: 50px;
     padding:20px 50px 20px 50px;
@@ -134,6 +136,7 @@ html{
 }
 
 .caja1,.caja2,.caja3,.caja4{
+    margin: auto;
     width: 40%;
     height: 300px;
     border-radius: 50px;
@@ -144,19 +147,24 @@ html{
 }
 
 .caja1{
+    margin: auto;
     background-color: #CAAACD;
 }
 .caja2{
+    margin: auto;
     background-color: #D6E8F7;
 }
 .caja3{
+    margin: auto;
     background-color: #BFDC80;
 }
 .caja4{
+    margin: auto;
     background-color: #F1DFB6;
 }
 
 .texto{
+    margin: auto;
     font-size: 20px;
     color: white;
     text-align: left;
@@ -164,11 +172,13 @@ html{
 }
 
 .TextVL{
+    margin: auto;
     padding-bottom: 35px;
     text-shadow: 0 3px 3px rgba(34, 34, 34, 0.3);
 }
 
 .BtnMas{
+    margin: auto;
     background-color:#5b5e5548;
     border-radius: 10px;
     text-decoration: none;
@@ -179,10 +189,12 @@ html{
 }
 
 .Btn{
+    margin: auto;
     padding-bottom: 30px;
 }
 
 .ImgIn{
+    margin: auto;
     width: 200px;
     height: 250px;
     border-radius: 15px;
@@ -192,23 +204,23 @@ html{
     margin: auto;
     position: absolute;
     z-index: 4;
-    top: 500px;
-    left: 540px;
+    top: 570px;
+    left: 520px;
 }
 
 #imgFlor{
     margin: auto;
     position: absolute;
     z-index: 4;
-    top: 375px;
-    left: 910px;
+    top: 385px;
+    left: 950px;
 }
 
 #imgPestaña{
     margin: auto;
     position: absolute;
     z-index: 4;
-    right: 20px;
+    left: 1160px;
     bottom: 650px;
 }
 
@@ -216,8 +228,8 @@ html{
     margin: auto;
     position: absolute;
     z-index: 4;
-    top: 480px;
-    left: 11px;
+    top: 490px;
+    right: 1164px;
 }
 
 #imgEstrellas{
@@ -225,7 +237,7 @@ html{
     position: absolute;
     z-index: 4;
     top: 635px;
-    right: 20px;
+    right: 5px;
 }
 
 #imgRayitas{
@@ -233,15 +245,15 @@ html{
     position: absolute;
     z-index: 4;
     bottom: 640px;
-    left: 60px;
+    left: 40px;
 }
 
 #imgCarita{
     margin: auto;
     position: absolute;
     z-index: 4;
-    top: 170px;
-    left: 520px;
+    top: 190px;
+    left: 510px;
 }
 
 #imgEstrella{
@@ -249,7 +261,7 @@ html{
     position: absolute;
     z-index: 4;
     bottom: 635px;
-    left: 360px;
+    left: 340px;
 }
 
 #imgAsterisco{
@@ -257,7 +269,7 @@ html{
     position: absolute;
     z-index: 4;
     top: 160px;
-    right: 250px;
+    right: 230px;
 }
 
 /*Página 3*/
