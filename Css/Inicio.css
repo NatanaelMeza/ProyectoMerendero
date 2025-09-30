@@ -200,7 +200,7 @@ html{
 }
 
 #imgCuatroflores{
-    margin: auto;
+    margin: 0 auto;
     position: absolute;
     z-index: 4;
     top: 570px;
@@ -208,7 +208,7 @@ html{
 }
 
 #imgFlor{
-    margin: auto;
+    margin: 0 auto;
     position: absolute;
     z-index: 4;
     top: 385px;
@@ -216,7 +216,7 @@ html{
 }
 
 #imgPestaña{
-    margin: auto;
+    margin: 0 auto;
     position: absolute;
     z-index: 4;
     left: 1160px;
@@ -224,7 +224,7 @@ html{
 }
 
 #imgRulo{
-    margin: auto;
+    margin: 0 auto;
     position: absolute;
     z-index: 4;
     top: 490px;
@@ -232,7 +232,7 @@ html{
 }
 
 #imgEstrellas{
-    margin: auto;
+    margin: 0 auto;
     position: absolute;
     z-index: 4;
     top: 635px;
@@ -240,7 +240,7 @@ html{
 }
 
 #imgRayitas{
-    margin: auto;
+    margin: 0 auto;
     position: absolute;
     z-index: 4;
     bottom: 640px;
@@ -248,7 +248,7 @@ html{
 }
 
 #imgCarita{
-    margin: auto;
+    margin: 0 auto;
     position: absolute;
     z-index: 4;
     top: 190px;
@@ -256,7 +256,7 @@ html{
 }
 
 #imgEstrella{
-    margin: auto;
+    margin: 0 auto;
     position: absolute;
     z-index: 4;
     bottom: 635px;
@@ -264,7 +264,7 @@ html{
 }
 
 #imgAsterisco{
-    margin: auto;
+    margin: 0 auto;
     position: absolute;
     z-index: 4;
     top: 160px;
@@ -324,7 +324,7 @@ html{
 
 .deco1NV{
     position:absolute;
-    margin: auto;
+    margin: 0 auto;
     left: 425px;
     z-index: 1;
     top: 1565px;
@@ -333,7 +333,7 @@ html{
 }
 .deco2NV{
     position:absolute;
-    margin: auto;
+    margin: 0 auto;
     left: 795px;
     top: 1605px;
 }
