@@ -203,23 +203,23 @@ html{
     margin: auto;
     position: absolute;
     z-index: 4;
-    top: 500px;
-    left: 540px;
+    top: 570px;
+    left: 520px;
 }
 
 #imgFlor{
     margin: auto;
     position: absolute;
     z-index: 4;
-    top: 375px;
-    left: 910px;
+    top: 385px;
+    left: 950px;
 }
 
 #imgPestaña{
     margin: auto;
     position: absolute;
     z-index: 4;
-    right: 20px;
+    left: 1160px;
     bottom: 650px;
 }
 
@@ -227,8 +227,8 @@ html{
     margin: auto;
     position: absolute;
     z-index: 4;
-    top: 480px;
-    left: 11px;
+    top: 490px;
+    right: 1164px;
 }
 
 #imgEstrellas{
@@ -236,7 +236,7 @@ html{
     position: absolute;
     z-index: 4;
     top: 635px;
-    right: 20px;
+    right: 5px;
 }
 
 #imgRayitas{
@@ -244,15 +244,15 @@ html{
     position: absolute;
     z-index: 4;
     bottom: 640px;
-    left: 60px;
+    left: 40px;
 }
 
 #imgCarita{
     margin: auto;
     position: absolute;
     z-index: 4;
-    top: 170px;
-    left: 520px;
+    top: 190px;
+    left: 510px;
 }
 
 #imgEstrella{
@@ -260,7 +260,7 @@ html{
     position: absolute;
     z-index: 4;
     bottom: 635px;
-    left: 360px;
+    left: 340px;
 }
 
 #imgAsterisco{
@@ -268,7 +268,7 @@ html{
     position: absolute;
     z-index: 4;
     top: 160px;
-    right: 250px;
+    right: 230px;
 }
 
 /*Página 3*/
