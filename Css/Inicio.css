@@ -213,64 +213,80 @@ html{
     margin: 0 auto;
     position: absolute;
     z-index: 4;
-    top: 385px;
-    left: 950px;
+    top: 60%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    width: 15%;
 }
 
 #imgPestaña{
     margin: 0 auto;
     position: absolute;
     z-index: 4;
-    left: 1160px;
-    bottom: 650px;
+    left: 94%;
+    bottom: 75%;
+    transform: translate(-50%, -50%);
+    width: 15%;
 }
 
 #imgRulo{
     margin: 0 auto;
     position: absolute;
     z-index: 4;
-    top: 490px;
-    right: 1164px;
+    top: 72%;
+    right: 79%;
+    transform: translate(-50%, -50%);
+    width: 15%;
 }
 
 #imgEstrellas{
     margin: 0 auto;
     position: absolute;
     z-index: 4;
-    top: 635px;
-    right: 5px;
+    top: 93%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+    width: 15%;
 }
 
 #imgRayitas{
     margin: 0 auto;
     position: absolute;
     z-index: 4;
-    bottom: 640px;
-    left: 40px;
+    bottom: 75%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    width: 15%;
 }
 
 #imgCarita{
     margin: 0 auto;
     position: absolute;
     z-index: 4;
-    top: 190px;
-    left: 510px;
+    top: 37%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 15%;
 }
 
 #imgEstrella{
     margin: 0 auto;
     position: absolute;
     z-index: 4;
-    bottom: 635px;
-    left: 340px;
+    bottom: 77%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 11%;
 }
 
 #imgAsterisco{
     margin: 0 auto;
     position: absolute;
     z-index: 4;
-    top: 160px;
-    right: 230px;
+    top: 30%;
+    right: 9%;
+    transform: translate(-50%, -50%);
+    width: 13%;
 }
 
 /*Página 3*/
@@ -327,17 +343,21 @@ html{
 .deco1NV{
     position:absolute;
     margin: 0 auto;
-    left: 425px;
     z-index: 1;
-    top: 1565px;
-    width: 145px;
-    height: 145px;
+    top: 262%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    width: 11%;
+    height: 24%;
 }
 .deco2NV{
     position:absolute;
     margin: 0 auto;
-    left: 795px;
-    top: 1605px;
+    left: 63%;
+    top: 264%;
+    transform: translate(-50%, -50%);
+    width: 9%;
+    height: 13%;
 }
 
 /*Fondo 4*/
