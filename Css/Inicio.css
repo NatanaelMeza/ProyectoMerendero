@@ -121,11 +121,13 @@ html{
 /*Página 2*/
 
 #fondo2{
+    margin: auto;
     position: relative;
     background-color:#fdf3dd;
 }
 
 .filaA,.filaB{
+    margin: auto;
     display: flex;
     gap: 50px;
     padding:20px 50px 20px 50px;
@@ -133,6 +135,7 @@ html{
 }
 
 .caja1,.caja2,.caja3,.caja4{
+    margin: auto;
     width: 40%;
     height: 300px;
     border-radius: 50px;
@@ -143,19 +146,24 @@ html{
 }
 
 .caja1{
+    margin: auto;
     background-color: #CAAACD;
 }
 .caja2{
+    margin: auto;
     background-color: #D6E8F7;
 }
 .caja3{
+    margin: auto;
     background-color: #BFDC80;
 }
 .caja4{
+    margin: auto;
     background-color: #F1DFB6;
 }
 
 .texto{
+    margin: auto;
     font-size: 20px;
     color: white;
     text-align: left;
@@ -163,11 +171,13 @@ html{
 }
 
 .TextVL{
+    margin: auto;
     padding-bottom: 35px;
     text-shadow: 0 3px 3px rgba(34, 34, 34, 0.3);
 }
 
 .BtnMas{
+    margin: auto;
     background-color:#5b5e5548;
     border-radius: 10px;
     text-decoration: none;
@@ -178,10 +188,12 @@ html{
 }
 
 .Btn{
+    margin: auto;
     padding-bottom: 30px;
 }
 
 .ImgIn{
+    margin: auto;
     width: 200px;
     height: 250px;
     border-radius: 15px;
