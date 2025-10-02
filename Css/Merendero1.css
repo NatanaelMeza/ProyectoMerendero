@@ -66,8 +66,8 @@ h1{
     margin: auto;
     width: 550px;
     height: 85%;
-    right: 700px;
-    top: 850px;
+    right: 51%;
+    top: 140%;
     z-index: 1;
     text-align: center;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
@@ -77,8 +77,8 @@ h1{
     margin: auto;
     width: 350px;
     height: 55%;
-    right: 950px;
-    top: 650px;
+    left: 4%;
+    top: 100%;
     z-index: 3;
     text-align: center;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
@@ -88,7 +88,7 @@ h1{
     margin: auto;
     width: 550px;
     height: 85%;
-    left: 750px;
+    left: 56%;
     top: 100%;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
