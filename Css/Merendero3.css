@@ -22,10 +22,10 @@ h1{
 .flecha{
     margin: auto;
     position: absolute;
-    padding-left: 950px;
-    bottom: 500px;
-    width: 125px;
-    height: 110px;
+    left: 82%;
+    bottom: 67%;
+    transform: translate(-50%, -50%);
+    width: 11%;
 }
 
 .ImgMerendero3{
