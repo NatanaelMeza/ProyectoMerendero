@@ -93,10 +93,10 @@ button{
 }
 
 .D{
-    width: 350px;
-    height: 350px;
-    left: 650px;
-    top: 1050px;
+    width: 25%;
+    height: 54%;
+    left: 50%;
+    top: 165%;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 
