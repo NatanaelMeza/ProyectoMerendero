@@ -3,13 +3,14 @@ body{
 }
 
 h1{
+    margin: auto;
     color: #788d4b;
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
-    padding-top: 10px;
+    padding: 10px 0px 0px 0px;
     margin-bottom: 5px;
     font-size: 48px;
-    font-weight: 900px;
+    font-weight: 900;
 }
 
 .Direccion{
