@@ -89,7 +89,7 @@ h1{
     width: 550px;
     height: 85%;
     left: 750px;
-    top: 650px;
+    top: 100%;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 
