@@ -29,10 +29,10 @@ h1{
 }
 
 .ImgMerendero3{
-    width: 1150px;
-    height: 468;
-    padding-left: 90;
-    padding-right: 60;
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 75%;
 }
 
 button{
