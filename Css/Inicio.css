@@ -146,6 +146,10 @@ html{
     padding: 20px;
 }
 
+.caja1:hover,.caja2:hover,.caja3:hover,.caja4:hover{
+    transform: scale(1.1)
+}
+
 .caja1{
     margin: auto;
     background-color: #CAAACD;
