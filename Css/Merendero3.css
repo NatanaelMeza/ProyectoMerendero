@@ -75,10 +75,10 @@ button{
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 .B{
-    width: 350px;
-    height: 350px;
-    right: 950px;
-    top: 650px;
+    width: 25%;
+    height: 54%;
+    right: 73%;
+    top: 105%;
     z-index: 3;
     box-shadow: 0 10px 15px rgba(0,0,0,0.3);
 
