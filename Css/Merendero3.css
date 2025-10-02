@@ -78,26 +78,20 @@ button{
     width: 25%;
     height: 54%;
     right: 73%;
-    top: 105%;
+    top: 101%;
     z-index: 3;
     box-shadow: 0 10px 15px rgba(0,0,0,0.3);
 
 
 }
 .C{
-    width: 550px;
-    height: 550px;
-    left: 750px;
-    top: 650px;
+    width: 40%;
+    height: 84%;
+    left: 58%;
+    top: 101%;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
-.C{
-    width: 550px;
-    height: 550px;
-    left: 750px;
-    top: 650px;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
-}
+
 .D{
     width: 350px;
     height: 350px;
