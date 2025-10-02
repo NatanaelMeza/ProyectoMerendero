@@ -75,8 +75,8 @@ h1{
 
 .B{
     margin: auto;
-    width: 350px;
-    height: 55%;
+    width: 25%;
+    height: 54%;
     left: 4%;
     top: 100%;
     z-index: 3;
@@ -112,9 +112,9 @@ h1{
 .iconoResponsables{
     margin: auto;
     position: absolute;
-    padding-left: 168px;
-    width: 100px;
-    height: 90px;
+    padding-left: 12%;
+    width: 8%;
+    height: 14%;
     padding-top: 60px;
     z-index: 3;
 }
