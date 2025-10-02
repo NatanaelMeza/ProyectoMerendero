@@ -8,10 +8,10 @@ h1{
     color: #b165b8;
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
-    padding: 10px 0px 0px 0px;
-    margin-bottom: 5px;
+    padding-top: 2%;
+    margin-bottom: 1%;
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 900px;
 }
 
 .direccion{
@@ -144,7 +144,7 @@ h1{
     padding-left: 26.5%;
     width: 8%;
     height: 13%;
-    padding-top: 38%;
+    padding-top: 38.5%;
 }
 
 button{
