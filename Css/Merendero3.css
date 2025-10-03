@@ -117,7 +117,8 @@ button{
 }
 
 .AImg,.BImg{
-    width: 105%;
+    width: 40%;
+    height: auto;
     margin-top: 100%;
     margin-left: 1%;
     margin-right: 1%;
