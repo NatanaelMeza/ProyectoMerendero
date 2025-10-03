@@ -113,6 +113,11 @@ button{
     background-color:#677b3b;
 }
 
+.infoAdicional{
+    font-size: 15px;
+    text-align: center;
+}
+
 .AImg,.BImg{
     width: 105%;
     margin-top: 100%;
