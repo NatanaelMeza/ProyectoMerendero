@@ -91,6 +91,7 @@ html{
     border-radius: 500px 500px 0px 0px;
 }
 
+
 .deco1inicio{
     margin: auto;
     position: absolute;
@@ -147,6 +148,10 @@ html{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+}
+
+.caja1:hover,.caja2:hover,.caja3:hover,.caja4:hover{
+    transform: scale(1.1)
 }
 
 .caja1{
