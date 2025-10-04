@@ -116,6 +116,45 @@ button{
     text-align: center;
 }
 
+.iconoResponsables{
+    margin: auto;
+    position: absolute;
+    padding-left: 10.8%;
+    width: 6.5%;
+    height: 13%;
+    padding-top: 38%;
+    z-index: 3;
+}
+
+.iconoHorarios{
+    margin: auto;
+    position: relative;
+    padding-left: 24%;
+    width: 8%;
+    height: 14%;
+    padding-top: 28%;
+    z-index: 2;
+}
+
+.iconoNecesitan{
+    margin: auto;
+    position: absolute;
+    padding-left: 39%;
+    width: 10%;
+    height: 13%;
+    padding-top: 7%;
+}
+
+.iconoContacto{
+    margin: auto;
+    position: absolute;
+    padding-left: 26.5%;
+    width: 8%;
+    height: 13%;
+    padding-top: 38.5%;
+}
+
+
 .AImg,.BImg{
     margin: auto;
     width: 600px;
