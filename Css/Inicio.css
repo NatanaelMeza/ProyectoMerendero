@@ -93,7 +93,7 @@ html{
 
 
 .deco1inicio{
-    margin: auto;
+    margin: 0 auto;
     position: absolute;
     bottom: 60%;
     right: 86%;
@@ -102,7 +102,7 @@ html{
 }
 
 .deco2inicio{
-    margin: auto;
+    margin: 0 auto;
     position: absolute;
     top: 70%;
     left: 48%;
@@ -111,13 +111,13 @@ html{
 }
 
 .deco3inicio{
-    margin: auto;
+    margin: 0 auto;
     position: absolute;
     left: 60%;
 }
 
 .deco4inicio{
-    margin: auto;
+    margin: 0 auto;
     position: absolute;
     top: 100%;
     left: 85%;
@@ -350,6 +350,7 @@ html{
 }
 
 .deco1NV{
+    margin: 0 auto;
     position:absolute;
     z-index: 1;
     top: 255%;
@@ -359,6 +360,7 @@ html{
     height: auto;
 }
 .deco2NV{
+    margin: 0 auto;
     position:absolute;
     left: 63%;
     top: 256%;
@@ -418,7 +420,7 @@ h3{
     text-shadow: 0 5px 5px rgba(134, 133, 133, 0.3);
 }
 .decorativa1{
-    margin: auto;
+    margin: 0 auto;
     position: relative;
     width: 180px;
     height: 180px;
@@ -426,7 +428,7 @@ h3{
     left: 260px;
 }
 .decorativa2{
-    margin: auto;
+    margin: 0 auto;
     position: relative;
     top:150px;
     left: 280px;
@@ -434,13 +436,13 @@ h3{
     height: 120px;
 }
 .decorativa3{
-    margin: auto;
+    margin: 0 auto;
     position: relative;
     top: 20px;
     right: 350px;
 }
 .decorativa4{
-    margin: auto;
+    margin: 0 auto;
     position: relative;
     bottom:150px;
     left: 90px;
@@ -448,7 +450,7 @@ h3{
     height: 100px;
 }
 .decorativa5{
-    margin: auto;
+    margin: 0  auto;
     position: relative;
     bottom:60px;
     left: 230px;
@@ -456,7 +458,7 @@ h3{
     height: 250px;
 }
 .decorativa7{
-    margin: auto;
+    margin: 0 auto;
     position: relative;
     bottom: 5%;
     left: 65%;
@@ -464,7 +466,7 @@ h3{
     height: 60px;
 }
 .decorativa8{
-    margin: auto;
+    margin: 0 auto;
     position: relative;
     bottom: 105%;
     left: 38%;
@@ -472,7 +474,7 @@ h3{
     height: 110px;
 }
 .decorativa9{
-    margin: auto;
+    margin: 0 auto;
     position: relative;
     bottom: 1%;
     right: 78%;
