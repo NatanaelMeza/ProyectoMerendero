@@ -8,10 +8,9 @@ h1{
     color: #b165b8;
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
-    padding-top: 2%;
     margin-bottom: 1%;
     font-size: 48px;
-    font-weight: 900px;
+    font-weight: 900;
 }
 
 .direccion{
@@ -26,8 +25,8 @@ h1{
 .flecha{
     margin: 0 auto;
     position: absolute;
-    padding-left: 71%;
-    bottom: 79%;
+    padding-left: 69%;
+    bottom: 81%;
     width: 10%;
     height: 16%;
 }
