@@ -7,8 +7,7 @@ h1{
     color: #788d4b;
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
-    padding: 10px 0px 0px 0px;
-    margin-bottom: 5px;
+    margin-bottom: 1%;
     font-size: 48px;
     font-weight: 900;
 }
@@ -23,7 +22,7 @@ h1{
     margin: auto;
     position: absolute;
     left: 82%;
-    bottom: 67%;
+    bottom: 69%;
     transform: translate(-50%, -50%);
     width: 11%;
 }
