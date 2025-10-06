@@ -50,6 +50,11 @@ h1{
     animation: aparecer 1s ease;
 }
 
+@keyframes aparecer {
+    from{opacity: 0; transform: translateY(20px);}
+    to{opacity: 1; transform: translateY(0);}
+}
+
 .A, .B, .C, .D{
     margin: 0 auto;
     border-radius: 100%;
