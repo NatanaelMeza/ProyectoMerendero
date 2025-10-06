@@ -148,6 +148,7 @@ html{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    transition: all 0.3s ease;
 }
 
 .caja1:hover,.caja2:hover,.caja3:hover,.caja4:hover{
