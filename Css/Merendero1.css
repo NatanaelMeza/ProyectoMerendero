@@ -35,6 +35,10 @@ h1{
     bottom: 81%;
     width: 10%;
     height: 16%;
+    opacity: 0;
+    animation: aparecer 1s ease forwards;
+    animation: mover 2s ease-in-out infinite alternate;
+    animation-delay: 0.4s;
 }
 
 .imgmerendero1{
