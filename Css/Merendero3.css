@@ -3,40 +3,42 @@ body{
 }
 
 h1{
-    margin: auto;
+    margin: 0 auto;
     color: #788d4b;
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
-    padding: 10px 0px 0px 0px;
-    margin-bottom: 5px;
+    margin-bottom: 1%;
     font-size: 48px;
     font-weight: 900;
 }
 
 .Direccion{
+    margin: 0 auto;
     color: #788d4b;
     font-style: italic;
     text-align: center;
 }
 
 .flecha{
-    margin: auto;
+    margin: 0 auto;
     position: absolute;
     left: 82%;
-    bottom: 67%;
+    bottom: 69%;
     transform: translate(-50%, -50%);
     width: 11%;
 }
 
 .ImgMerendero3{
+    margin: 0 auto;
     position: absolute;
     left: 10%;
     width: 80%;
     height: 75%;
+    top: 22%;
 }
 
 button{
-    margin: auto;
+    margin: 0 auto;
     background-color: white;
     border-radius: 30px;
     height: 40px;
@@ -48,6 +50,7 @@ button{
 }
 
 .A,.B,.C,.D{
+    margin: 0 auto;
     border-radius: 100%;
     position: absolute;
     display: flex;
@@ -62,6 +65,7 @@ button{
 }
 
 .tituloCirc{
+    margin: 0 auto;
     font-family: 'Bebas Neue', sans-serif;
     top: 30%;
     font-size: 25px;
@@ -115,54 +119,55 @@ button{
 }
 
 .infoAdicional{
+    margin: 0 auto;
     font-size: 15px;
     text-align: center;
 }
 
 .iconoResponsables{
-    margin: auto;
+    margin: 0 auto;
     position: absolute;
     padding-left: 10.8%;
     width: 6.5%;
     height: 13%;
-    padding-top: 38%;
+    padding-top: 41%;
     z-index: 3;
 }
 
 .iconoHorarios{
-    margin: auto;
+    margin: 0  auto;
     position: absolute;
     padding-left: 25.8%;
     width: 7%;
     height: 14%;
-    padding-top: 59%;
+    padding-top: 62%;
     z-index: 2;
 }
 
 .iconoNecesitan{
-    margin: auto;
+    margin: 0 auto;
     position: absolute;
     padding-left: 72.3%;
     width: 9%;
     height: 14%;
-    padding-top: 41%;
+    padding-top: 43%;
 }
 
 .iconoContacto{
-    margin: auto;
+    margin: 0 auto;
     position: absolute;
     padding-left: 58%;
     width: 7%;
     height: 13%;
-    padding-top: 69%;
+    padding-top: 72%;
 }
 
 
 .AImg,.BImg{
-    margin: auto;
+    margin: 0 auto;
     width: 600px;
     height: 640px;
-    margin-top: 97%;
+    margin-top: 99%;
     margin-left: 4%;
     margin-right: 4%;
     border: 10px solid #5a6e2e;
@@ -173,15 +178,16 @@ button{
 }
 
 .Parrafo{
+    margin: 0 auto;
     font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     color: #3b3b3b;
-    margin-top: 5%;
+    margin-top: 4%;
 }
 
 .CImg, .DImg{
-    margin: auto;
+    margin: 0 auto;
     width: 600px;
     height: 640px;
     margin-top: 4%;
