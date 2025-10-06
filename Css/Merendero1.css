@@ -47,6 +47,7 @@ h1{
     height: 468px;
     padding-left: 90px;
     padding-right: 60px;
+    animation: aparecer 1s ease;
 }
 
 .A, .B, .C, .D{
