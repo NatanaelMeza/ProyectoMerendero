@@ -34,9 +34,9 @@ h1{
 .imgmerendero1{
     margin: 0 auto;
     width: 86%;
-    height: 468px;
-    padding-left: 90px;
-    padding-right: 60px;
+    height: 74%;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 .A, .B, .C, .D{
@@ -62,8 +62,9 @@ h1{
 }
 
 .A{
-    margin: 0 auto;
-    width: 550px;
+
+    margin: auto;
+    width: 42%;
     height: 85%;
     right: 51%;
     top: 140%;
