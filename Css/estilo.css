@@ -53,8 +53,10 @@ html{
 
 .Titulo{
     background-color: #ffd2d5;
-    width:700px;
-    height: 400px;
+    width: 70%;
+    min-width: 320px;
+    max-width: 900px;
+    height: 90%;
     border-radius: 50px;
     padding-top: 10px;
     display: flex;
