@@ -11,6 +11,9 @@ h1{
     margin-bottom: 1%;
     font-size: 48px;
     font-weight: 900;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: aparecer 1s ease forwards;
 }
 
 .direccion{
