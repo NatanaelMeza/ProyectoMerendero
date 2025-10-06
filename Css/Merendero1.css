@@ -23,6 +23,9 @@ h1{
     color: #b165b8;
     font-style:italic;
     text-align: center;
+    opacity: 0;
+    animation: aparecer 1s ease forwards;
+    animation-delay: 0.3s;
 }
 
 .flecha{
