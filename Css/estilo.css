@@ -395,25 +395,6 @@ html{
     width: 13%;
 }
 
-@media(min-width: 1600px){
-    #Fondo2{
-        padding-left: 8%;
-        padding-right: 8%;
-    }
-    .filaA, .filaB{
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-    .caja1, .caja2, .caja3, .caja4{
-        width: 40%;
-        font-size: 100%;
-    }
-    .ImgIn{
-        width: 200px;
-        height: 300px;
-    }
-
-}
 /*Página 3*/
 #fondo3{
     margin: auto;
@@ -485,29 +466,6 @@ html{
     height: auto;
 }
 
-@media(min-width: 1600px){
-    #fondo3{
-        padding-left: 8%;
-        padding-right: 8%;
-    }
-    .parrafoC{
-        padding-left: 15%;
-        padding-right: 15%;
-        font-size: 22px;
-    }
-    .galeriaNovedades{
-        gap: 5%;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-    .novedadesImg{
-        width: 350px;
-        height: 550px;
-    }
-    .descripNovedades{
-        font-size: 18px;
-    }
-}
 /*Fondo 4*/
 
 #fondo4{
@@ -619,21 +577,5 @@ h3{
     right: 78%;
     width: 80px;
     height: 80px;
-}
-
-@media (min-width: 1600px){
-    #fondo4{
-        padding: 8% 8% 8% 0%;
-    }
-    .parrafoD{
-        width:700px;
-        height: 500px;
-        font-size: 100%;
-        padding: 90px 100px 90px 100px;
-        margin: 60px auto;;
-    }
-    .parrafoNosotros{
-        font-size: 100px;
-    }
 }
 
