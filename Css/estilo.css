@@ -123,8 +123,8 @@ html{
 .deco4inicio{
     margin: 0 auto;
     position: absolute;
-    top: 100%;
-    left: 85%;
+    top: 110%;
+    left: 87%;
 }
 
 @media(min-width: 1600px){
