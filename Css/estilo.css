@@ -94,7 +94,7 @@ html{
     width: 100%;
     max-width: 500px;
     display: block;
-    border-radius: 100% 100% 0% 0%;
+    border-radius: 500% 500% 0% 0%;
 }
 
 
@@ -127,19 +127,41 @@ html{
     left: 87%;
 }
 
-@media(min-width: 1600px){
+@media(min-width: 1500px){
+    .columna{
+        width: 500px;
+        min-width: 520px;
+        max-width: 900px;
+    }
     .Titulo {
-        max-width: 90%;
+        background-color: #ffd2d5;
+        width: 130%;
+        border-radius: 50px;
+        font-family: 'Barrio', cursive;
+        box-shadow: 8px 8px 8px rgba(68, 68, 68, 0.3);
+        flex-direction: column;
+        align-items: center;
     }
     #Titulo {
-        font-size: 200px; 
+        font-size: 140px; 
     }
     #ParrafoI {
-        width: 90%;
-        font-size: 32px;
+        width: 130%;
+        font-size: 20px;
         margin-left: auto;
         margin-right: auto;
         padding-top: 20px;
+    }
+    #InicioImg{
+        position:absolute;
+        height: auto;
+        width: 90%;
+        max-width: 480px;
+        display: block;
+        border-radius: 500% 500% 0% 0%;
+        bottom: 1%;
+        top: 10%;
+        left: 62%;
     }
     .fila, .filaA, .filaB, .galeriaNovedades{
         gap: 5%;
@@ -159,8 +181,38 @@ html{
     .parrafoNosotros{
         font-size: 400%;
     }
-}
+    .deco1inicio{
+        position: absolute;
+        z-index: 8;
+        bottom: 65%;
+        right: 81%;
+        width: 180px;
+        height: 160px;
+    }
 
+    .deco2inicio{
+        position: absolute;
+        z-index: 8;
+        top: 76%;
+        left: 48%;
+        width: 160px;
+        height: 140px;
+    }
+
+    .deco3inicio{
+        position: absolute;
+        z-index: 8;
+        left: 59%;
+        width: 160px;
+    }
+
+    .deco4inicio{
+        position: absolute;
+        z-index: 8;
+        top: 92%;
+        left: 87%;
+    }
+}
 /*Página 2*/
 
 #fondo2{
