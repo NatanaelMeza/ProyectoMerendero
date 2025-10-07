@@ -3,48 +3,54 @@ body{
 }
 
 h1{
+    margin: 0 auto;
     color: #788d4b;
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
-    padding-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 1%;
     font-size: 48px;
-    font-weight: 900px;
+    font-weight: 900;
 }
 
 .Direccion{
+    margin: 0 auto;
     color: #788d4b;
     font-style: italic;
     text-align: center;
 }
 
 .flecha{
-    margin: auto;
+    margin: 0 auto;
     position: absolute;
-    padding-left: 950px;
-    bottom: 500px;
-    width: 125px;
-    height: 110px;
+    left: 82%;
+    bottom: 69%;
+    transform: translate(-50%, -50%);
+    width: 11%;
 }
 
 .ImgMerendero3{
-    width: 1150px;
-    height: 468;
-    padding-left: 90;
-    padding-right: 60;
+    margin: 0 auto;
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 75%;
+    top: 22%;
 }
 
 button{
-    background-color: whites;
+    margin: 0 auto;
+    background-color: white;
     border-radius: 30px;
     height: 40px;
     width: 100px;
     border: #677b3b solid ;
     color: #788d4b;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
 }
 
 .A,.B,.C,.D{
+    margin: 0 auto;
     border-radius: 100%;
     position: absolute;
     display: flex;
@@ -54,56 +60,49 @@ button{
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: left;
-    padding: 50px;
     box-sizing: border-box;
     font-size: 20px;
 }
 
 .tituloCirc{
+    margin: 0 auto;
     font-family: 'Bebas Neue', sans-serif;
-    padding-top: 30px;
+    top: 30%;
     font-size: 25px;
 }
 
 .A{
-    width: 550px;
-    height: 550px;
-    right: 700px;
-    top: 850px;
+    width: 40%;
+    height: 84%;
+    right: 50%;
+    top: 135%;
     z-index: 1;
-    text-align: center;
+    text-align: left;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 .B{
-    width: 350px;
-    height: 350px;
-    right: 950px;
-    top: 650px;
+    width: 25%;
+    height: 54%;
+    right: 73%;
+    top: 101%;
     z-index: 3;
     box-shadow: 0 10px 15px rgba(0,0,0,0.3);
-
-
 }
 .C{
-    width: 550px;
-    height: 550px;
-    left: 750px;
-    top: 650px;
+    width: 40%;
+    height: 84%;
+    left: 58%;
+    top: 101%;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
-.C{
-    width: 550px;
-    height: 550px;
-    left: 750px;
-    top: 650px;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
-}
+
 .D{
-    width: 350px;
-    height: 350px;
-    left: 650px;
-    top: 1050px;
+    width: 25%;
+    height: 54%;
+    left: 50%;
+    top: 165%;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    padding-top: 3%;
 }
 
 .A{
@@ -119,25 +118,80 @@ button{
     background-color:#677b3b;
 }
 
+.infoAdicional{
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: center;
+}
+
+.iconoResponsables{
+    margin: 0 auto;
+    position: absolute;
+    padding-left: 10.8%;
+    width: 6.5%;
+    height: 13%;
+    padding-top: 41%;
+    z-index: 3;
+}
+
+.iconoHorarios{
+    margin: 0  auto;
+    position: absolute;
+    padding-left: 25.8%;
+    width: 7%;
+    height: 14%;
+    padding-top: 62%;
+    z-index: 2;
+}
+
+.iconoNecesitan{
+    margin: 0 auto;
+    position: absolute;
+    padding-left: 72.3%;
+    width: 9%;
+    height: 14%;
+    padding-top: 43%;
+}
+
+.iconoContacto{
+    margin: 0 auto;
+    position: absolute;
+    padding-left: 58%;
+    width: 7%;
+    height: 13%;
+    padding-top: 72%;
+}
+
+
 .AImg,.BImg{
+    margin: 0 auto;
     width: 600px;
-    height: 500px;
-    margin-left: 40px;
-    margin-top: 850px;
+    height: 640px;
+    margin-top: 99%;
+    margin-left: 4%;
+    margin-right: 4%;
+    border: 10px solid #5a6e2e;
+}
+
+.Fila{
+    display: flex;
 }
 
 .Parrafo{
-    padding: 50px 50px 0px 50px;
+    margin: 0 auto;
     font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     color: #3b3b3b;
+    margin-top: 4%;
 }
 
 .CImg, .DImg{
+    margin: 0 auto;
     width: 600px;
-    height: 500px;
-    margin-left: 27px;
-    margin-top: 50px;
+    height: 640px;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
     border: 10px solid #5a6e2e;
 }
