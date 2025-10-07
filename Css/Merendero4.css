@@ -76,3 +76,6 @@ h1{
 .Fila{
     display: flex;
 }
+.parrafo{
+     padding: 50px 50px 0px 50px;
+}
