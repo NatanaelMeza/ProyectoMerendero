@@ -51,10 +51,46 @@ html{
     margin-bottom: 50px;
 }
 
+@media(min-width: 1600px){
+    .Titulo {
+        max-width: 90%;
+    }
+    #Titulo {
+        font-size: 200px; 
+    }
+    #ParrafoI {
+        width: 90%;
+        font-size: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+    }
+    .fila, .filaA, .filaB, .galeriaNovedades{
+        gap: 5%;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    .barranav{
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    .parrafoD{
+        width: 60%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 120%;
+    }
+    .parrafoNosotros{
+        font-size: 400%;
+    }
+}
+
 .Titulo{
     background-color: #ffd2d5;
-    width:700px;
-    height: 400px;
+    width: 70%;
+    min-width: 320px;
+    max-width: 900px;
+    height: 90%;
     border-radius: 50px;
     padding-top: 10px;
     display: flex;
