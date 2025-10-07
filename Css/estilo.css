@@ -571,4 +571,19 @@ h3{
     height: 80px;
 }
 
+@media (min-width: 1600px){
+    #fondo4{
+        padding: 8% 8% 8% 0%;
+    }
+    .parrafoD{
+        width:700px;
+        height: 500px;
+        font-size: 100%;
+        padding: 90px 100px 90px 100px;
+        margin: 60px auto;;
+    }
+    .parrafoNosotros{
+        font-size: 100px;
+    }
+}
 
