@@ -181,3 +181,7 @@ body {
     top: -30px;
     left: 30px;
 }
+.cloud::after {
+    top: -20px;
+    left: 100px;
+}
