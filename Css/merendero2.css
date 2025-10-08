@@ -193,3 +193,8 @@ body {
 .cloud4 { top: 300px; left: -500px; width: 250px; height: 80px; animation-duration: 90s; }
 .cloud5 { top: 400px; left: -350px; width: 180px; height: 50px; animation-duration: 65s; }
 
+@keyframes moveClouds {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(1500px); }
+}
+
