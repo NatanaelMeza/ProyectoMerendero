@@ -222,9 +222,9 @@ body{
 }
 
 .C{
-    width: 550px;
+    width: 450px;
     height: 450px;
-    left: 880px;
+    left: 840px;
     top: 650px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
