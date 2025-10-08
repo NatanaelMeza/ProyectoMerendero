@@ -49,9 +49,6 @@ body{
 @keyframes bounce {
     0% {transform: translateY(0px);}
     30% {transform: translateY(-30px);} /*sube la caja*/
-    50% {transform: translateY(-20px);} /*baja un poco la caja*/
-    70% {transform: translateY(-50px);} /*sube la caja otra vez*/
-    100% {transform: translateY(-0px);} /*vuelve la caja otra vez a su posicion org*/
     
 }
 .A{
