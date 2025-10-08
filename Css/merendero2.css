@@ -190,3 +190,5 @@ body {
 .cloud1 { top: 50px; left: -250px; width: 180px; height: 60px; animation-duration: 60s; }
 .cloud2 { top: 120px; left: -400px; width: 220px; height: 70px; animation-duration: 80s; }
 .cloud3 { top: 200px; left: -300px; width: 200px; height: 60px; animation-duration: 70s; }
+.cloud4 { top: 300px; left: -500px; width: 250px; height: 80px; animation-duration: 90s; }
+
