@@ -207,6 +207,7 @@ button:hover{
     margin-left: 4%;
     margin-right: 4%;
     border: 10px solid #5a6e2e;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .Fila{
@@ -230,4 +231,5 @@ button:hover{
     margin-left: 4%;
     margin-right: 4%;
     border: 10px solid #5a6e2e;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
