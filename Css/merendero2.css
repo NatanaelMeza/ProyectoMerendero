@@ -188,3 +188,4 @@ body {
 
 /* Nubes con distintas posiciones y velocidades */
 .cloud1 { top: 50px; left: -250px; width: 180px; height: 60px; animation-duration: 60s; }
+.cloud2 { top: 120px; left: -400px; width: 220px; height: 70px; animation-duration: 80s; }
