@@ -206,6 +206,7 @@ button:hover{
     margin-top: 99%;
     margin-left: 4%;
     margin-right: 4%;
+    border-radius: 8%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -231,5 +232,6 @@ button:hover{
     margin-top: 4%;
     margin-left: 4%;
     margin-right: 4%;
+    border-radius: 8%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
