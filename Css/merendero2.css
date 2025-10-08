@@ -185,3 +185,6 @@ body {
     top: -20px;
     left: 100px;
 }
+
+/* Nubes con distintas posiciones y velocidades */
+.cloud1 { top: 50px; left: -250px; width: 180px; height: 60px; animation-duration: 60s; }
