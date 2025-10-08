@@ -42,6 +42,11 @@ h1{
         transform:  translateY(0);
     }
 }
+@keyframes mover {
+    0% {transform: translateX(0) translateY(0);}
+    50% {transform: translateX(5px) translateY(5px);}
+    100% {transform: translateX(-5px) translateY(10px);}
+}
 
 .ImgMerendero3{
     margin: 0 auto;
