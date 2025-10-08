@@ -167,3 +167,5 @@ body {
     background: linear-gradient(to bottom, #fff 0%, #e0f0ff 100%);
     border-radius: 50% 50% 60% 60%; /* formas más de nube */
 }
+/*forma de nubes*/
+.cloud::before,
