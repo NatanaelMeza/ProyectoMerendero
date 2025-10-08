@@ -177,3 +177,7 @@ body {
     height: 80px;
     border-radius: 50%;
 }
+.cloud::before {
+    top: -30px;
+    left: 30px;
+}
