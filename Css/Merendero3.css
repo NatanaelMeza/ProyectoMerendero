@@ -77,6 +77,9 @@ button{
     text-align: center;
     transition: box-shadow 0.3s ease;
 }
+button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
 
 .A,.B,.C,.D{
     margin: 0 auto;
