@@ -157,3 +157,13 @@ body {
     pointer-events: none; /* para que el contenido siga siendo clickeable */
     z-index: 0;
 }
+.cloud {
+    position: absolute;
+    background: #fff;
+    width: 200px;
+    height: 60px;
+    opacity: 0.9;
+    animation: moveClouds linear infinite;
+    background: linear-gradient(to bottom, #fff 0%, #e0f0ff 100%);
+    border-radius: 50% 50% 60% 60%; /* formas más de nube */
+}
