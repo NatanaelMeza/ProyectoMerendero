@@ -31,7 +31,10 @@ h1{
     left: 82%;
     bottom: 69%;
     transform: translate(-50%, -50%);
-    width: 11%;
+    width: 9%;
+    opacity: 0;
+    animation: aparecer 1s ease forwards 0.4s, mover 3.5s ease-in-out infinite alternate;
+    animation-delay: 0.4s;
 }
 
 .ImgMerendero3{
