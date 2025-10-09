@@ -13,10 +13,11 @@ h1{
     font-style:italic;
 }
 .imgmerendero2{
-    width: 1150px;
-    height: 468px;
-    padding-left: 180px;
-    padding-right: 70px;
+    margin: 0 auto;
+    width: 70%;
+    height: 74%;
+    margin-left: 14.5%;
+    margin-top: 1%;
     border-radius: 7%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     animation: aparecer 1s ease;
@@ -105,10 +106,12 @@ button{
     border: #3a89c6 ;
     color: #6596c1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    
-
+    transition: box-shadow 0.3s ease;
 }
 
+button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
 
 .Presentación{
 border-radius: 50px;
