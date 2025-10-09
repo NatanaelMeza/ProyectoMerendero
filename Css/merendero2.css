@@ -13,10 +13,8 @@ h1{
     font-style:italic;
 }
 .imgmerendero2{
-    margin: 0 auto;
     width: 70%;
     height: 74%;
-    margin-left: 14.5%;
     margin-top: 1%;
     border-radius: 7%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -178,8 +176,7 @@ button:hover{
     .imgmerendero2{
         width: 1150px;
         height: 468px;
-        padding-left: 90px;
-        padding-right: 85px;
+        margin-left: 80px;
     }
 
     .A, .B ,.C, .D{
