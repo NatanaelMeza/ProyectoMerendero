@@ -125,12 +125,14 @@ padding-top: 600px;
     height: 500px;
     margin-left: 70px;
     margin-top: 300px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .imgText2{
     width: 600px;
     height: 500px;
     margin-right: 70px;
     margin-top: 300px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .CImg, .DImg{
     width: 600px;
@@ -139,6 +141,7 @@ padding-top: 600px;
     margin-left: 70px;
     margin-top: 100px;
     border: 10px solid #3a89c6;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .Fila{
     display: flex;
