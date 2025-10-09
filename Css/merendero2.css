@@ -16,7 +16,9 @@ h1{
     width: 1150px;
     height: 468px;
     padding-left: 180px;
-    padding-right: 70px;box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding-right: 70px;
+    border-radius: 7%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     animation: aparecer 1s ease;
 }
 
