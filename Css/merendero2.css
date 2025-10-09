@@ -7,20 +7,25 @@ h1{
     font-size: 48px;
     font-weight: 900;
 }
-body{
-    background-color: #d9eaf8;
-}
 .direccion{
     color: #6b7c8b;
     text-align: center;
     font-style:italic;
 }
 .imgmerendero2{
-    width: 1150px;
-    height: 468px;
-    padding-left: 180px;
-    padding-right: 70px;
-    
+    margin: 0 auto;
+    width: 70%;
+    height: 74%;
+    margin-left: 14.5%;
+    margin-top: 1%;
+    border-radius: 7%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    animation: aparecer 1s ease;
+}
+
+@keyframes aparecer {
+    from{opacity: 0; transform: translateY(20px);}
+    to{opacity: 1; transform: translateY(0);}
 }
 
 .A, .B ,.C, .D{
@@ -49,9 +54,6 @@ body{
 @keyframes bounce {
     0% {transform: translateY(0px);}
     30% {transform: translateY(-30px);} /*sube la caja*/
-    50% {transform: translateY(-20px);} /*baja un poco la caja*/
-    70% {transform: translateY(-50px);} /*sube la caja otra vez*/
-    100% {transform: translateY(-0px);} /*vuelve la caja otra vez a su posicion org*/
     
 }
 .A{
@@ -104,29 +106,35 @@ button{
     border: #3a89c6 ;
     color: #6596c1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    
-
+    transition: box-shadow 0.3s ease;
 }
 
+button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
 
 .Presentación{
-border-radius: 50px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding-top: 600px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 600px;
 }
 .imgText1{
     width: 600px;
     height: 500px;
     margin-left: 70px;
     margin-top: 300px;
+    border-radius: 8%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .imgText2{
     width: 600px;
     height: 500px;
     margin-right: 70px;
     margin-top: 300px;
+    border-radius: 8%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .CImg, .DImg{
     width: 600px;
@@ -134,7 +142,8 @@ padding-top: 600px;
     margin-right: 70px;
     margin-left: 70px;
     margin-top: 100px;
-    border: 10px solid #3a89c6;
+    border-radius: 8%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .Fila{
     display: flex;
@@ -281,3 +290,68 @@ padding-top: 600px;
         text-shadow: 0 5px 4px rgba(5, 5, 5, 0.3);
     }
 }
+/* Fondo azul tipo cielo */
+body {
+    background: linear-gradient(to bottom, #b5e4f6 0%, #a4d4f5 100%);
+    overflow-x: hidden;
+    position: relative;
+}
+/*contenedor de nubes*/
+.clouds{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* para que el contenido siga siendo clickeable */
+    z-index: -1;
+}
+.cloud {
+    position: absolute;
+    background: #fff;
+    width: 200px;
+    height: 60px;
+    opacity: 0.9;
+    animation: moveClouds linear infinite;
+    background: linear-gradient(to bottom, #fff 0%, #e0f0ff 100%);
+    border-radius: 50% 50% 60% 60%; /* formas más de nube */
+}
+/*forma de nubes*/
+.cloud::before,
+.cloud::after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.cloud::before {
+    top: -30px;
+    left: 30px;
+}
+.cloud::after {
+    top: -20px;
+    left: 100px;
+}
+
+/* Nubes con distintas posiciones y velocidades */
+.cloud1 { top: 50px; left: -250px; width: 180px; height: 60px; animation-duration: 60s; }
+.cloud2 { top: 120px; left: -400px; width: 220px; height: 70px; animation-duration: 80s; }
+.cloud3 { top: 200px; left: -300px; width: 200px; height: 60px; animation-duration: 70s; }
+.cloud4 { top: 300px; left: -500px; width: 250px; height: 80px; animation-duration: 90s; }
+.cloud5 { top: 400px; left: -350px; width: 180px; height: 50px; animation-duration: 65s; }
+
+@keyframes moveClouds {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(1500px); }
+}
+@keyframes floatClouds {
+    0%   { transform: translateY(0) translateX(0); }
+    25%  { transform: translateY(-10px) translateX(5px); }
+    50%  { transform: translateY(0) translateX(0); }
+    75%  { transform: translateY(10px) translateX(-5px); }
+    100% { transform: translateY(0) translateX(0); 
+}
+}
+

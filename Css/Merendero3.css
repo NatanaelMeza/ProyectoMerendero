@@ -10,6 +10,9 @@ h1{
     margin-bottom: 1%;
     font-size: 48px;
     font-weight: 900;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: aparecer 1s ease forwards;
 }
 
 .Direccion{
@@ -17,24 +20,49 @@ h1{
     color: #788d4b;
     font-style: italic;
     text-align: center;
+    opacity: 0;
+    animation: aparecer 1s ease forwards;
+    animation-delay: 0.3s;
 }
 
 .flecha{
     margin: 0 auto;
     position: absolute;
-    left: 82%;
-    bottom: 69%;
+    left: 76.5%;
+    bottom: 80.5%;
     transform: translate(-50%, -50%);
-    width: 11%;
+    width: 9%;
+    opacity: 0;
+    animation: aparecer 1s ease forwards 0.4s, mover 3.5s ease-in-out infinite alternate;
+    animation-delay: 0.4s;
+}
+
+@keyframes aparecer {
+    to { opacity: 1; 
+        transform:  translateY(0);
+    }
+}
+@keyframes mover {
+    0% {transform: translateX(0) translateY(0);}
+    50% {transform: translateX(5px) translateY(5px);}
+    100% {transform: translateX(-5px) translateY(10px);}
 }
 
 .ImgMerendero3{
     margin: 0 auto;
     position: absolute;
-    left: 10%;
-    width: 80%;
-    height: 75%;
+    left: 17%;
+    width: 65%;
+    height: 72%;
     top: 22%;
+    border-radius: 7%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    animation: aparecer 1s ease;
+}
+
+@keyframes aparecer {
+    from{opacity: 0; transform: translateY(20px);}
+    to{opacity: 1; transform: translateY(0);}
 }
 
 button{
@@ -45,8 +73,11 @@ button{
     width: 100px;
     border: #677b3b solid ;
     color: #788d4b;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .A,.B,.C,.D{
@@ -62,6 +93,11 @@ button{
     text-align: left;
     box-sizing: border-box;
     font-size: 20px;
+    transition: all 0.3s ease;
+}
+.circ:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .tituloCirc{
@@ -170,7 +206,8 @@ button{
     margin-top: 99%;
     margin-left: 4%;
     margin-right: 4%;
-    border: 10px solid #5a6e2e;
+    border-radius: 8%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .Fila{
@@ -184,6 +221,13 @@ button{
     text-align: center;
     color: #3b3b3b;
     margin-top: 4%;
+    width: 90%;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+.Parrafo:hover{
+    transform: scale(1.05) translateY(-3px);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 
 .CImg, .DImg{
@@ -193,5 +237,6 @@ button{
     margin-top: 4%;
     margin-left: 4%;
     margin-right: 4%;
-    border: 10px solid #5a6e2e;
+    border-radius: 8%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
