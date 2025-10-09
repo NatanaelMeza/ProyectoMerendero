@@ -114,11 +114,11 @@ button:hover{
 }
 
 .Presentación{
-border-radius: 50px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding-top: 600px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 600px;
 }
 .imgText1{
     width: 600px;
