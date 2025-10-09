@@ -100,7 +100,7 @@ html{
 
 .deco1inicio{
     position: absolute;
-    bottom: 60%;
+    bottom: 65%;
     right: 88%;
     width: 180px;
     height: 160px;
@@ -183,13 +183,29 @@ html{
     }
     .deco1inicio{
         position: absolute;
-        z-index: 8;
         bottom: 65%;
-        right: 81%;
+        right: 88%;
         width: 180px;
         height: 160px;
     }
-
+    .deco2inicio{
+        position: absolute;
+        top: 75%;
+        left: 46%;
+        width: 160px;
+        height: 140px;
+    }
+    .deco3inicio{
+        position: absolute;
+        left: 59%;
+        width: 160px;
+    }
+    .deco4inicio{
+        position: absolute;
+        top: 92%;
+        left: 87%;
+    }
+}
     .deco2inicio{
         position: absolute;
         z-index: 8;
@@ -212,7 +228,7 @@ html{
         top: 92%;
         left: 87%;
     }
-}
+
 /*Página 2*/
 
 #fondo2{
