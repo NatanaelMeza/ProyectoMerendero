@@ -77,6 +77,9 @@ button{
     margin-top: 10px;
     transition: background 0.3s;
 }
+button:hover{
+    background-color: #ff58db;
+}
 
 
 
