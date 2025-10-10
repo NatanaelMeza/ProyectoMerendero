@@ -10,6 +10,12 @@ h1{
     font-weight: 900;
 }
 
+.imgmerendero4{
+    width: 900px;
+    height: 468px;
+    margin-left: 220px;
+}
+
 .direccion{
     color: #c2a460;
     font-style:italic;
@@ -37,49 +43,79 @@ h1{
 }
 
 .A{
-        width: 500px;
-        height: 500px;
-        right: 700px;
-        top: 900px;
-        z-index: 1;
-        text-align: center;
-        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
-    }
-    .B{
-        width: 300px;
-        height: 300px;
-        right: 980px;
-        top: 680px;
-        z-index:4 ;
-        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
-    }
-    .C{
-        width: 450px;
-        height: 450px;
-        left: 840px;
-        top: 650px;
-        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
-    }
-    .D{
-        width: 350px;
-        height: 350px;
-        left: 750px;
-        top: 1050px;
-        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
-    }
+    width: 500px;
+    height: 500px;
+    right: 700px;
+    top: 900px;
+    z-index: 1;
+    text-align: center;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+.B{
+    width: 300px;
+    height: 300px;
+    right: 980px;
+    top: 680px;
+    z-index:4 ;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+.C{
+    width: 450px;
+    height: 450px;
+    left: 840px;
+    top: 650px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+.D{
+    width: 350px;
+    height: 350px;
+    left: 750px;
+    top: 1050px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+.AImg,.BImg,.CImg,.DImg{
+    margin: 0 auto;
+    width: 300px;
+    height: 500px;
+    margin-left: 185px;
+    border-radius: 8%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.AImg,.BImg{
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    margin-left: 30px;
+    margin-top: 450px;
+}
+
+.CImg,.DImg{
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    margin-left: 27px;
+    margin-top: 50px;
+}
 
 .Fila{
     display: flex;
 }
 
-.parrafo{
-     padding: 50px 50px 0px 50px;
-     font-size: 20px;
-     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     text-align: center;
-     color: #c2a460;
-     text-shadow: 0 5px 4px rgba(5, 5, 5, 0.3);
+.Parrafo{
+    margin: 0 auto;
+    padding: 50px 50px 0px 50px;
+    font-size: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: #3b3b3b;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
 }
+.Parrafo:hover{
+    transform: scale(1.05) translateY(-3px);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
 
 #CirculoV{
     position: fixed;
