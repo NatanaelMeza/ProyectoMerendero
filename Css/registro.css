@@ -1,18 +1,18 @@
 body{
-    margin: 0 auto;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(255, 230, 252);
-    min-height: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 20%;
+    align-items: flex-start;
+    padding: 2%;
     overflow-y: auto;
 }
 
 .caja{
     background-color: white;
-    width: 400%;
+    width: 90%;
     border-radius: 5%;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     overflow: hidden;
@@ -27,30 +27,32 @@ body{
     background-color: rgb(255, 183, 90);
     color: white;
     font-size: 200%;
-    padding: 10%;
+    padding: 5%;
 }
 
 .formulario{
     opacity: 0;
     max-height: 0;
     overflow: hidden;
+    padding: 0 3%;
     transition: all 0.8s ease;
 }
 
 .caja:hover{
-    width: 90%;
+    width: 90vw;
     max-height: 55%;
 }
 
 .caja:hover .formulario{
     opacity: 1;
     max-height: 200%;
-    padding: 3% 3%;
+    padding: 40px 60px;
 }
 
 .filaA, .filaB{
     display: flex;
     gap: 3%;
+    flex-wrap: wrap;
 
 }
 
@@ -64,6 +66,13 @@ input, select, textarea{
     font-size: 15px;
     outline: none;
     background: transparent;
+    resize: none;
+}
+
+.opciones label{
+    display: block;
+    margin-bottom: 6px;
+    font-size: 15px;
 }
 
 button{
