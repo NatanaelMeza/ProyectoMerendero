@@ -10,6 +10,11 @@ h1{
     font-size: 48px;
     font-weight: 900;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 .direccion{
     color: #c2a460;
     font-style:italic;
@@ -88,3 +93,20 @@ h1{
      color: #c2a460;
      text-shadow: 0 5px 4px rgba(5, 5, 5, 0.3);
     }
+#CirculoV{
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: #b165b8;
+}
+
+#Volver{
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+}
