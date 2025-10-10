@@ -2,6 +2,9 @@
 body{
     background-color: #f3d3f6;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 h1{
     margin: 0 auto;
@@ -247,14 +250,14 @@ button:hover{
     position: fixed;
     right: 5%;
     bottom: 5%;
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
     background: #b165b8;
 }
 
 #Volver{
-    padding-top: 40px;
+    padding-top: 20px;
     justify-content: center;
     align-items: center;
     text-decoration: none;
