@@ -40,7 +40,7 @@ body{
 
 .caja:hover{
     width: 90vw;
-    max-height: 55%;
+    max-width: 55%;
 }
 
 .caja:hover .formulario{
