@@ -29,6 +29,13 @@ body{
     font-size: 20%;
 }
 
+.formulario{
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.8s ease;
+}
+
 .filaA, .filaB{
     display: flex;
     gap: 3%;
