@@ -1,5 +1,10 @@
 body{
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(255, 203, 248);
+    background-color: rgb(255, 230, 252);
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
 }
