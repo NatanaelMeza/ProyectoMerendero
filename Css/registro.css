@@ -8,3 +8,8 @@ body{
     align-items: center;
     padding: 20%;
 }
+
+.caja{
+    background-color: white;
+    width: 400%;
+}
