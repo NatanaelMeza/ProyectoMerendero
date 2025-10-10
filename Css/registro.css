@@ -53,7 +53,7 @@ body{
     gap: 20px;
 }
 
-input:not([type="checkbox"]), select, textarea {
+input:not([type="checkbox"]), select {
     width: 100%;
     padding: 1%;
     margin-top: 2%;
@@ -64,6 +64,10 @@ input:not([type="checkbox"]), select, textarea {
     outline: none;
     background: transparent;
     resize: none;
+  }
+
+  input:focus, select:focus{
+    border-bottom: 2px solid #ffa3eb;
   }
 
 button{
