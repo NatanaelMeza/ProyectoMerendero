@@ -26,3 +26,10 @@ body{
     color: white;
     font-size: 20%;
 }
+
+.filaA, .filaB{
+    display: flex;
+    gap: 1%;
+
+}
+
