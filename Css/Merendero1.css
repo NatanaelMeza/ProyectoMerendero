@@ -262,6 +262,7 @@ button:hover{
     align-items: center;
     text-decoration: none;
     display: flex;
+    color: white;
 }
 
 
