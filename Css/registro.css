@@ -19,3 +19,10 @@ body{
     position: relative;
     padding: 8%;
 }
+
+.cajita{
+    text-align: center;
+    background-color: rgb(255, 183, 90);
+    color: white;
+    font-size: 20%;
+}
