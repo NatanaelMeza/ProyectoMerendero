@@ -42,6 +42,12 @@ body{
     max-height: 55%;
 }
 
+.caja:hover .formulario{
+    opacity: 1;
+    max-height: 200%;
+    padding: 3% 3%;
+}
+
 .filaA, .filaB{
     display: flex;
     gap: 3%;
