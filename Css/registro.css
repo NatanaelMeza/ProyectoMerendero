@@ -46,5 +46,15 @@ input, select, textarea{
     background: transparent;
 }
 
+button{
+    background-color: #ff7ae2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5%;
+    padding: 2%;
+    font-size: 95%;
+}
+
 
 
