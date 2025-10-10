@@ -26,7 +26,8 @@ body{
     text-align: center;
     background-color: rgb(255, 183, 90);
     color: white;
-    font-size: 20%;
+    font-size: 200%;
+    padding: 10%;
 }
 
 .formulario{
@@ -34,6 +35,11 @@ body{
     max-height: 0;
     overflow: hidden;
     transition: all 0.8s ease;
+}
+
+.caja:hover{
+    width: 90%;
+    max-height: 55%;
 }
 
 .filaA, .filaB{
