@@ -19,6 +19,7 @@ body{
     cursor: pointer;
     position: relative;
     padding: 8%;
+    transition: all 0.8s ease;
 }
 
 .cajita{
