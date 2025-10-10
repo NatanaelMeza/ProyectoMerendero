@@ -17,4 +17,5 @@ body{
     overflow: auto;
     cursor: pointer;
     position: relative;
+    padding: 8%;
 }
