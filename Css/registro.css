@@ -30,7 +30,7 @@ body{
 
 .filaA, .filaB{
     display: flex;
-    gap: 1%;
+    gap: 3%;
 
 }
 
@@ -46,9 +46,5 @@ input, select, textarea{
     background: transparent;
 }
 
-.opciones label{
-    display: flex;
-    margin-bottom: 10%;
-    font-size: 98%;
-}
+
 
