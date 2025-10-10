@@ -53,23 +53,18 @@ body{
     gap: 20px;
 }
 
-input, select, textarea{
+input:not([type="checkbox"]), select, textarea {
     width: 100%;
-    padding: 12px;
-    margin-top: 8px;
-    margin-bottom: 18px;
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 4%;
     border: none;
     border-bottom: 1px solid #ccc;
     font-size: 15px;
     outline: none;
     background: transparent;
-}
-
-.opciones label{
-    display: block;
-    margin-bottom: 6px;
-    font-size: 15px;
-}
+    resize: none;
+  }
 
 button{
     background-color: #ff7ae2;
