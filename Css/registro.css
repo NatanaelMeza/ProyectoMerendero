@@ -11,7 +11,8 @@ body{
     background-image: url('../Imagenes/Fondo-Registro.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: auto;
+    background-attachment: fixed;
 }
 
 .caja{
@@ -27,7 +28,7 @@ body{
 
 .cajita{
     text-align: center;
-    background-color: #ff58db;
+    background-color: #ffaeeb;
     color: white;
     font-size: 20px;
     padding: 20px;
