@@ -38,7 +38,7 @@ body{
     max-height: 0;
     overflow: hidden;
     padding: 0 40px;
-    transition: all 0.8s ease;
+    transition: all 1s ease;
     
     background: linear-gradient(to bottom right, #ffffff, #ffdbba);
     border-radius: 20px;
