@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    /* background-color: rgb(255, 230, 252);*/
+    background-color: rgb(255, 230, 252);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -11,7 +11,6 @@ body{
     background-image: url('../Imagenes/Fondo-Registro.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: auto;
     background-attachment: fixed;
 }
 
@@ -19,7 +18,7 @@ body{
     background-color: white;
     width: 300px;
     border-radius: 25px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
     overflow: hidden;
     cursor: pointer;
     position: relative;
