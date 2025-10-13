@@ -79,7 +79,7 @@ input:not([type="checkbox"]), select {
   }
 
 button{
-    background-color: #ff7ae2;
+    background-color: #ffaeeb;
     color: white;
     font-weight: bold;
     border: none;
@@ -90,7 +90,7 @@ button{
     transition: background 0.3s;
 }
 button:hover{
-    background-color: #ff58db;
+    background-color: #ff9dea;
 }
 
 
