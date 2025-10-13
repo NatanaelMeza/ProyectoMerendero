@@ -39,6 +39,10 @@ body{
     overflow: hidden;
     padding: 0 40px;
     transition: all 0.8s ease;
+    
+    background: linear-gradient(to bottom right, #ffffff, #ffdbba);
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
 .caja:hover{
