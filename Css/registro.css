@@ -61,7 +61,7 @@ body{
     gap: 20px;
 }
 
-input:not([type="checkbox"]), select {
+input:not([type="checkbox"]):not([type="submit"]):not([type="reset"]), select {
     width: 100%;
     padding: 1%;
     margin-top: 2%;
@@ -78,7 +78,7 @@ input:not([type="checkbox"]), select {
     border-bottom: 2px solid #ffa3eb;
   }
 
-button{
+.botón{
     background-color: #ffaeeb;
     color: white;
     font-weight: bold;
@@ -89,6 +89,6 @@ button{
     margin-top: 10px;
     transition: background 0.3s;
 }
-button:hover{
+.botón:hover{
     background-color: #ff9dea;
 }
