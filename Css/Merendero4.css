@@ -107,6 +107,16 @@ button:hover{
 .circ3{ background-color: #dbbf83;}
 .circ4{ background-color: #c6a256;}
 
+.CImg, .DImg{
+    width: 600px;
+    height: 500px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 100px;
+    border-radius: 8%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 .Fila{
     display: flex;
 }
