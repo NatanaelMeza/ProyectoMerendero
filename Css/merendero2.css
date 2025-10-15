@@ -116,19 +116,12 @@ button:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.Presentación{
-    border-radius: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 600px;
-}
 .imgText1{
     width: 600px;
     height: 500px;
     margin-left: 70px;
     margin-top: 300px;
-    border-radius: 8%;
+    border-radius: 10%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .imgText2{
@@ -136,18 +129,32 @@ button:hover{
     height: 500px;
     margin-right: 70px;
     margin-top: 300px;
-    border-radius: 8%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
-.CImg, .DImg{
-    width: 600px;
+.AImg,.BImg,.CImg,.DImg{
+    margin: 0 auto;
+    width: 300px;
     height: 500px;
-    margin-right: 70px;
-    margin-left: 70px;
-    margin-top: 100px;
+    margin-left: 185px;
     border-radius: 8%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
+.AImg,.BImg{
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    margin-left: 30px;
+    margin-top: 450px;
+}
+
+.CImg,.DImg{
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    margin-left: 27px;
+    margin-top: 50px;
+}
+
 .Fila{
     display: flex;
 }
