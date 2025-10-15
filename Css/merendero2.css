@@ -15,8 +15,10 @@ h1{
     font-style:italic;
 }
 .imgmerendero2{
+    margin: 0 auto;
     width: 70%;
     height: 74%;
+    margin-left: 14.5%;
     margin-top: 1%;
     border-radius: 7%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -31,6 +33,7 @@ h1{
 .A, .B ,.C, .D{
     color: white;
     border-radius: 80px 60px 100px 50px;
+    margin-top: 120px;
     position:absolute;
     display: flex;
     flex-direction: column;
@@ -262,7 +265,7 @@ body {
     .imgmerendero2{
         width: 900px;
         height: 468px;
-        margin-left: 220px;
+        margin-left: 400px;
     }
 
     .A, .B ,.C, .D{
