@@ -1,6 +1,86 @@
-.nombre{
-    margin: auto;
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 230, 252);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 20px;
+    overflow-y: auto;
 }
-.apellido{
-    margin-left: 500px ;
+
+.caja{
+    background-color: white;
+    width: 300px;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.8s ease;
+}
+
+.cajita{
+    text-align: center;
+    background-color: #ff58db;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.formulario{
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 40px;
+    transition: all 0.8s ease;
+}
+
+.caja:hover{
+    width: 60vw;
+    max-width: 800px;
+}
+
+.caja:hover .formulario{
+    opacity: 1;
+    max-height: 2000px;
+    padding: 40px 60px;
+}
+
+.filaA, .filaB{
+    display: flex;
+    gap: 20px;
+}
+
+input:not([type="checkbox"]), select {
+    width: 100%;
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 15px;
+    outline: none;
+    background: transparent;
+    resize: none;
+  }
+
+  input:focus, select:focus{
+    border-bottom: 2px solid #ffa3eb;
+  }
+
+button{
+    background-color: #ff7ae2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 15px;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+button:hover{
+    background-color: #ff58db;
 }
