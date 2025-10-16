@@ -433,3 +433,17 @@ button{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 }
+/* HOJAS CAÍDAS */
+
+.leaf {
+  position: fixed;
+  top: -10%;
+  width: 25px;
+  height: 15px;
+  background: linear-gradient(45deg, #4caf50, #81c784);
+  border-radius: 50% 0 50% 0;
+  transform: rotate(20deg);
+  opacity: 0.8;
+  animation: fall linear infinite;
+}
+
