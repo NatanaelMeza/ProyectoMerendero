@@ -447,3 +447,6 @@ button{
   animation: fall linear infinite;
 }
 
+/* Asignar posiciones y duraciones distintas a cada hoja */
+.leaf:nth-child(1) { left: 10%; animation-duration: 6s; }
+
