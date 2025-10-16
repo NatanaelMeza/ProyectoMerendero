@@ -451,5 +451,6 @@ button{
 .leaf:nth-child(1) { left: 10%; animation-duration: 6s; }
 .leaf:nth-child(2) { left: 30%; animation-duration: 8s; }
 .leaf:nth-child(3) { left: 50%; animation-duration: 7s; }
-
+.leaf:nth-child(4) { left: 70%; animation-duration: 9s; }
+.leaf:nth-child(5) { left: 90%; animation-duration: 6.5s; }
 
