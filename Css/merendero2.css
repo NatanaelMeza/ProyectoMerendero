@@ -116,21 +116,6 @@ button:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.imgText1{
-    width: 600px;
-    height: 500px;
-    margin-left: 70px;
-    margin-top: 300px;
-    border-radius: 10%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-}
-.imgText2{
-    width: 600px;
-    height: 500px;
-    margin-right: 70px;
-    margin-top: 300px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-}
 .AImg,.BImg,.CImg,.DImg{
     margin: 0 auto;
     width: 300px;
@@ -144,7 +129,7 @@ button:hover{
     width: 600px;
     height: 600px;
     margin-left: 30px;
-    margin-top: 450px;
+    margin-top: 950px;
 }
 
 .CImg,.DImg{
