@@ -85,7 +85,7 @@ h1{
     width: 42%;
     height: 85%;
     right: 51%;
-    top: 140%;
+    top: 130%;
     z-index: 1;
     text-align: center;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
@@ -116,14 +116,15 @@ h1{
 
 .D{
     margin: 0 auto;
-    width: 350px;
-    height: 55%;
+    width: 25%;
+    height: 54%;
     left: 50%;
-    top: 171%;
+    top: 160%;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
     text-align: center;
     font-size: 15px;
     background-color: #b165b8;
+    padding-top: 3%;
 }
 
 .iconoResponsables{
@@ -132,7 +133,7 @@ h1{
     padding-left: 12%;
     width: 8%;
     height: 14%;
-    padding-top: 4%;
+    padding-top: 6%;
     z-index: 3;
 }
 
@@ -142,14 +143,14 @@ h1{
     padding-left: 24%;
     width: 8%;
     height: 16%;
-    padding-top: 28%;
+    padding-top: 25.5%;
     z-index: 2;
 }
 
 .iconoNecesitan{
     margin: 0 auto;
     position: absolute;
-    padding-left: 39%;
+    padding-left: 36.5%;
     width: 10%;
     height: 13%;
     padding-top: 7%;
@@ -158,10 +159,10 @@ h1{
 .iconoContacto{
     margin: 0 auto;
     position: absolute;
-    padding-left: 26.5%;
+    padding-left: 25.5%;
     width: 8%;
     height: 13%;
-    padding-top: 38.5%;
+    padding-top: 35%;
 }
 
 button{
@@ -191,7 +192,7 @@ button:hover{
     margin: 0 auto;
     width: 600px;
     height: 600px;
-    margin-left: 30px;
+    margin-left: 70px;
     margin-top: 450px;
 }
 
@@ -199,7 +200,7 @@ button:hover{
     margin: 0 auto;
     width: 600px;
     height: 600px;
-    margin-left: 27px;
+    margin-left: 70px;
     margin-top: 50px;
 }
 
