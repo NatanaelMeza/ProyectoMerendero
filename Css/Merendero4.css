@@ -173,7 +173,7 @@ h1{
         .imgmerendero1{
             margin: 0 auto;
             width: 70%;
-            height: 74%;
+            height: 74.8%;
             margin-left: 20%;
             margin-top: 1%;
             border-radius: 7%;
@@ -287,5 +287,6 @@ h1{
             color: #c2a460;
             text-shadow: 0 5px 4px rgba(5, 5, 5, 0.3);
         }
+
 }
 
