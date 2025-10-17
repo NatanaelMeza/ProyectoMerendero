@@ -150,10 +150,14 @@ h1{
     0% {transform: translateY(0px);}
     30% {transform: translateY(-30px);} /*sube la caja*/
 }
-        .A{ background-color: #dbbf83;}
-        .B{ background-color: #c6a256;}
-        .C{ background-color: #dbbf83;}
-        .D{ background-color: #c6a256;}
+.A{ background-color: #dbbf83;}
+.B{ background-color: #c6a256;}
+.C{ background-color: #dbbf83;}
+.D{ background-color: #c6a256;}
+
+button{
+ 
+}
 
 @media(min-width: 1600px){/*con media hacemos que se adapte a todas las pantallas*/
     h1{
