@@ -280,19 +280,6 @@ body {
         box-sizing: border-box;
         transition: transform 0.3s ease
     }
-        .A:hover, .B:hover ,.C:hover, .D:hover{
-        transform: translateY(-30px);
-        box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-        cursor: pointer; /*cambia el cursor al pasar el mouse*/
-        animation: bounce 0.6s ease;
-    }
-    @keyframes bounce {
-        0% {transform: translateY(0px);}
-        30% {transform: translateY(-30px);} /*sube la caja*/
-        50% {transform: translateY(-20px);} /*baja un poco la caja*/
-        70% {transform: translateY(-50px);} /*sube la caja otra vez*/
-        100% {transform: translateY(-0px);} /*vuelve la caja otra vez a su posicion org*/
-    }
     .A{
         width: 500px;
         height: 500px;
@@ -348,7 +335,7 @@ body {
         padding-top: 600px;
         gap: 30px;
     }
-    .imgText1, .imgText2{
+    .AImg, .BImg{
         width: 600px;
         height: 500px;
         margin-left: 30px;
