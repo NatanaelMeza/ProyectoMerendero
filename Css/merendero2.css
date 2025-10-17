@@ -7,12 +7,18 @@ h1{
     margin-bottom: 5px;
     font-size: 48px;
     font-weight: 900;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: aparecer 1s ease forwards;
 }
 
 .direccion{
     color: #6b7c8b;
     text-align: center;
     font-style:italic;
+    opacity: 0;
+    animation: aparecer 1s ease forwards;
+    animation-delay: 0.3s;
 }
 .imgmerendero2{
     margin: 0 auto;
