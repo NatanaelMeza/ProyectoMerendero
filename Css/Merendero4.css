@@ -156,7 +156,10 @@ h1{
 .D{ background-color: #c6a256;}
 
 button{
- 
+    background-color: #c6a256;
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
 }
 
 @media(min-width: 1600px){/*con media hacemos que se adapte a todas las pantallas*/
