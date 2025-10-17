@@ -151,7 +151,7 @@ h1{
     30% {transform: translateY(-30px);} /*sube la caja*/
 }
 
-@media(min-width: 1600px){
+@media(min-width: 1600px){/*con media hacemos que se adapte a todas las pantallas*/
     h1{
     color: #c2a460;
     font-family: 'Bebas Neue', sans-serif;
