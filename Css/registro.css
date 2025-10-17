@@ -74,7 +74,7 @@ input:not([type="checkbox"]), select {
     resize: none;
   }
 
-  input:focus, select:focus{
+input:focus, select:focus{
     border-bottom: 2px solid #ffa3eb;
   }
 

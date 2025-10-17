@@ -15,8 +15,10 @@ h1{
     font-style:italic;
 }
 .imgmerendero2{
+    margin: 0 auto;
     width: 70%;
     height: 74%;
+    margin-left: 14.5%;
     margin-top: 1%;
     border-radius: 7%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -31,6 +33,7 @@ h1{
 .A, .B ,.C, .D{
     color: white;
     border-radius: 80px 60px 100px 50px;
+    margin-top: 120px;
     position:absolute;
     display: flex;
     flex-direction: column;
@@ -113,38 +116,30 @@ button:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.Presentación{
-    border-radius: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 600px;
-}
-.imgText1{
-    width: 600px;
+.AImg,.BImg,.CImg,.DImg{
+    margin: 0 auto;
+    width: 300px;
     height: 500px;
-    margin-left: 70px;
-    margin-top: 300px;
+    margin-left: 185px;
     border-radius: 8%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
-.imgText2{
+.AImg,.BImg{
+    margin: 0 auto;
     width: 600px;
-    height: 500px;
-    margin-right: 70px;
-    margin-top: 300px;
-    border-radius: 8%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    height: 600px;
+    margin-left: 30px;
+    margin-top: 950px;
 }
-.CImg, .DImg{
+
+.CImg,.DImg{
+    margin: 0 auto;
     width: 600px;
-    height: 500px;
-    margin-right: 70px;
-    margin-left: 70px;
-    margin-top: 100px;
-    border-radius: 8%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    height: 600px;
+    margin-left: 27px;
+    margin-top: 50px;
 }
+
 .Fila{
     display: flex;
 }
@@ -262,7 +257,7 @@ body {
     .imgmerendero2{
         width: 900px;
         height: 468px;
-        margin-left: 220px;
+        margin-left: 400px;
     }
 
     .A, .B ,.C, .D{

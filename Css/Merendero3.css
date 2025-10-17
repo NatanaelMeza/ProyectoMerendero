@@ -433,3 +433,35 @@ button{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 }
+/* HOJAS CAÍDAS */
+
+.leaf {
+  position: fixed;
+  top: -10%;
+  width: 25px;
+  height: 15px;
+  background: linear-gradient(45deg, #4caf50, #81c784);
+  border-radius: 50% 0 50% 0;
+  transform: rotate(20deg);
+  opacity: 0.8;
+  animation: fall linear infinite;
+}
+
+/* Asignar posiciones y duraciones distintas a cada hoja */
+.leaf:nth-child(1) { left: 10%; animation-duration: 6s; }
+.leaf:nth-child(2) { left: 30%; animation-duration: 8s; }
+.leaf:nth-child(3) { left: 50%; animation-duration: 7s; }
+.leaf:nth-child(4) { left: 70%; animation-duration: 9s; }
+.leaf:nth-child(5) { left: 90%; animation-duration: 6.5s; }
+
+@keyframes fall {
+    0% {
+        transform: translateX(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100px) translateY(110vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+
