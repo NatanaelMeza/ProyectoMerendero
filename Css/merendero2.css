@@ -68,7 +68,8 @@ h1{
     text-align: left;
     padding: 50px;
     box-sizing: border-box;
-    transition: transform 0.3s ease
+    transition: transform 0.3s ease;
+    margin-top: 20px;
 
 }
 
@@ -153,7 +154,7 @@ button:hover{
     width: 600px;
     height: 600px;
     margin-left: 70px;
-    margin-top: 950px;
+    margin-top: 880px;
 }
 
 .CImg,.DImg{
