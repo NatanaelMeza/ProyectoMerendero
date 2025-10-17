@@ -1,6 +1,6 @@
 html{scroll-behavior: smooth;}
 body{background-color: #f3d3f6;}
-h1{
+    h1{
     margin: 0 auto;
     color: #b165b8;
     font-family: 'Bebas Neue', sans-serif;
@@ -12,7 +12,6 @@ h1{
     transform: translateY(-20px);
     animation: aparecer 1s ease forwards;
 }
-
 .direccion{
     margin: 0 auto;
     margin-top: 1%;
@@ -133,7 +132,7 @@ h1{
     padding-left: 12%;
     width: 8%;
     height: 14%;
-    padding-top: 6%;
+    padding-top: 5%;
     z-index: 3;
 }
 
@@ -143,14 +142,14 @@ h1{
     padding-left: 24%;
     width: 8%;
     height: 16%;
-    padding-top: 25.5%;
+    padding-top: 25%;
     z-index: 2;
 }
 
 .iconoNecesitan{
     margin: 0 auto;
     position: absolute;
-    padding-left: 36.5%;
+    padding-left: 38.5%;
     width: 10%;
     height: 13%;
     padding-top: 7%;
@@ -162,7 +161,7 @@ h1{
     padding-left: 25.5%;
     width: 8%;
     height: 13%;
-    padding-top: 35%;
+    padding-top: 34%;
 }
 
 button{
@@ -175,6 +174,18 @@ button{
     color: #59355c;
     transition: box-shadow 0.3s ease;
 }
+
+button{
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+    border: #6e4172 solid;
+    color: #59355c;
+    transition: box-shadow 0.3s ease;
+}
+
 
 button:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -192,22 +203,16 @@ button:hover{
     margin: 0 auto;
     width: 600px;
     height: 600px;
-    margin-left: 70px;
+    margin-left: 30px;
     margin-top: 450px;
 }
-
 .CImg,.DImg{
     margin: 0 auto;
     width: 600px;
     height: 600px;
-    margin-left: 70px;
+    margin-left: 27px;
     margin-top: 50px;
 }
-
-.Fila{
-    display: flex;
-}
-
 .Parrafo{
     margin: 0 auto;
     padding: 50px 50px 0px 50px;
@@ -218,6 +223,7 @@ button:hover{
     text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     transition: all 0.3s ease;
 }
+
 .Parrafo:hover{
     transform: scale(1.05) translateY(-3px);
     text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
@@ -260,7 +266,7 @@ button:hover{
     to{opacity: 1; transform: translateY(0);}
 }
 /*Medida para pantallas más grandes*/
-@media(min-width: 1600px){
+@media(min-width: 1500px){
     h1{
     margin: 0 auto;
     color: #b165b8;
@@ -273,6 +279,7 @@ button:hover{
     transform: translateY(-20px);
     animation: aparecer 1s ease forwards;
 }
+
 .direccion{
     margin: 0 auto;
     margin-top: 1%;
@@ -284,6 +291,7 @@ button:hover{
     animation: aparecer 1s ease forwards;
     animation-delay: 0.3s;
 }
+
 .flecha{
     margin: 0 auto;
     position: absolute;
@@ -295,6 +303,7 @@ button:hover{
     animation: aparecer 1s ease forwards 0.4s, mover 3.5s ease-in-out infinite alternate;
     animation-delay: 0.4s;
 }
+
 .imgmerendero1{
     margin: 0 auto;
     width: 70%;
@@ -305,6 +314,7 @@ button:hover{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     animation: aparecer 1s ease;
 }
+
 .A, .B, .C, .D{
     margin: 0 auto;
     border-radius: 100%;
@@ -321,11 +331,13 @@ button:hover{
     font-size: 20px;
     transition: all 0.3s ease;
 }
+
 .tituloCirc{
     font-family:'Bebas Neue', sans-serif;
     padding-top: 30px;
     font-size: 25px;
 }
+
 .A{
     margin: auto;
     width: 42%;
@@ -335,12 +347,13 @@ button:hover{
     width: 42%;
     height: 85%;
     right: 51%;
-    top: 140%;
+    top: 130%;
     z-index: 1;
     text-align: center;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
     background-color: #df73e8;
 }
+
 .B{
     margin: 0 auto;
     width: 25%;
@@ -352,6 +365,7 @@ button:hover{
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
     background-color: #b165b8;
 }
+
 .C{
     margin: 0 auto;
     width: 550px;
@@ -361,51 +375,58 @@ button:hover{
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
     background-color: #df73e8;
 }
+
 .D{
     margin: 0 auto;
-    width: 350px;
-    height: 55%;
+    width: 25%;
+    height: 54%;
     left: 50%;
-    top: 171%;
+    top: 160%;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
     text-align: center;
     font-size: 15px;
     background-color: #b165b8;
+    padding-top: 3%;
 }
+
 .iconoResponsables{
     margin: 0 auto;
     position: absolute;
     padding-left: 12%;
     width: 8%;
     height: 14%;
-    padding-top: 4%;
+    padding-top: 6%;
     z-index: 3;
 }
+
 .iconoHorarios{
     margin: 0 auto;
     position: relative;
     padding-left: 24%;
     width: 8%;
     height: 16%;
-    padding-top: 28%;
+    padding-top: 25.5%;
     z-index: 2;
 }
+
 .iconoNecesitan{
     margin: 0 auto;
     position: absolute;
-    padding-left: 39%;
+    padding-left: 36.5%;
     width: 10%;
     height: 13%;
     padding-top: 7%;
 }
+
 .iconoContacto{
     margin: 0 auto;
     position: absolute;
-    padding-left: 26.5%;
+    padding-left: 25.5%;
     width: 8%;
     height: 13%;
-    padding-top: 38.5%;
+    padding-top: 35%;
 }
+
 button{
     margin: 0 auto;
     background-color: white;
@@ -428,16 +449,18 @@ button{
     margin: 0 auto;
     width: 600px;
     height: 600px;
-    margin-left: 30px;
+    margin-left: 70px;
     margin-top: 450px;
 }
+
 .CImg,.DImg{
     margin: 0 auto;
     width: 600px;
     height: 600px;
-    margin-left: 27px;
+    margin-left: 70px;
     margin-top: 50px;
 }
+
 .Parrafo{
     margin: 0 auto;
     padding: 50px 50px 0px 50px;
@@ -448,6 +471,7 @@ button{
     text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     transition: all 0.3s ease;
 }
+
 }
 
 
