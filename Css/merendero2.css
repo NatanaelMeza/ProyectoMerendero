@@ -7,13 +7,20 @@ h1{
     margin-bottom: 5px;
     font-size: 48px;
     font-weight: 900;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: aparecer 1s ease forwards;
 }
 
 .direccion{
     color: #6b7c8b;
     text-align: center;
     font-style:italic;
+    opacity: 0;
+    animation: aparecer 1s ease forwards;
+    animation-delay: 0.3s;
 }
+
 .imgmerendero2{
     margin: 0 auto;
     width: 70%;
@@ -33,7 +40,6 @@ h1{
 .A, .B ,.C, .D{
     color: white;
     border-radius: 80px 60px 100px 50px;
-    margin-top: 120px;
     position:absolute;
     display: flex;
     flex-direction: column;
@@ -44,7 +50,8 @@ h1{
     text-align: left;
     padding: 50px;
     box-sizing: border-box;
-    transition: transform 0.3s ease
+    transition: transform 0.3s ease;
+    margin-top: 20px;
 
 }
 
@@ -129,7 +136,7 @@ button:hover{
     width: 600px;
     height: 600px;
     margin-left: 70px;
-    margin-top: 950px;
+    margin-top: 880px;
 }
 
 .CImg,.DImg{
@@ -148,8 +155,8 @@ button:hover{
     font-size: 20px;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    color: #6c8ba6;
-    text-shadow: 0 5px 4px rgba(5, 5, 5, 0.3);
+    color: #3b3b3b;
+    text-shadow: 1px 1px 2px rgba(5, 5, 5, 0.3);
     transition: all 0.3s ease;
 }
 .Párrafo:hover{
@@ -259,6 +266,23 @@ body {
         text-align: center;
         font-style:italic;
     }
+    .flecha{
+        margin: 0 auto;
+        position: absolute;
+        left: 76%;
+        bottom: 95.5%;
+        transform: translate(-50%, -50%);
+        width: 9%;
+        opacity: 0;
+        animation: aparecer 1s ease forwards 0.4s, mover 3.5s ease-in-out infinite alternate;
+        animation-delay: 0.4s;
+    }
+    
+    @keyframes mover {
+        0% {transform: translateX(0) translateY(0);}
+        50% {transform: translateX(5px) translateY(5px);}
+        100% {transform: translateX(-5px) translateY(10px);}
+    }
     .imgmerendero2{
         width: 900px;
         height: 468px;
@@ -356,7 +380,12 @@ body {
         font-size: 20px;
         font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         text-align: center;
-        color: #6c8ba6;
-        text-shadow: 0 5px 4px rgba(5, 5, 5, 0.3);
+        color: #3b3b3b;
+        text-shadow: 1px 1px 2px rgba(5, 5, 5, 0.3);
+        transition: all 0.3s ease;
+    }
+    .Párrafo:hover{
+        transform: scale(1.05) translateY(-3px);
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     }
 }
