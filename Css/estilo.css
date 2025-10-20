@@ -595,3 +595,9 @@ h3{
     height: 80px;
 }
 
+/* Animación Noticias */
+.animar-secuencia{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease-out;
+}
