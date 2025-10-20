@@ -601,3 +601,7 @@ h3{
     transform: translateY(50px);
     transition: all 0.8s ease-out;
 }
+.animar-secuencia.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
