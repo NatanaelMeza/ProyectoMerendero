@@ -581,6 +581,8 @@ h3{
     left: 90px;
     width: 100px;
     height: 100px;
+    animation: girar 4s linear infinite;
+
 }
 .decorativa5{
     margin: 0  auto;
