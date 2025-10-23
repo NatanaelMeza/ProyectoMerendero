@@ -53,8 +53,8 @@
     </div>
     
     <div class="Fila">
-        <img src="Imagenes/Img_Merendero2.01.jpg" class="AImg">
-        <img src="Imagenes/Img_Merendero2.02.jpg" class="BImg">
+        <img src="Imagenes/Img_Merendero2.01.jpg" class="AImg animar-secuencia">
+        <img src="Imagenes/Img_Merendero2.02.jpg" class="BImg animar-secuencia">
     </div>
         
     <div class="Párrafo">
@@ -64,8 +64,8 @@
     </div>
 
     <div class="Fila">
-        <img src="Imagenes/Img_Merendero2.03.jpg" class="CImg">
-        <img src="Imagenes/Img_Merendero2.04.jpg" class="DImg">
+        <img src="Imagenes/Img_Merendero2.03.jpg" class="CImg animar-secuencia">
+        <img src="Imagenes/Img_Merendero2.04.jpg" class="DImg animar-secuencia">
     </div>
     <div class="clouds">
         <div class="cloud cloud1"></div>
@@ -80,9 +80,30 @@
     </div>
     <!-- pruebo JavaScript que vimos en clase-->
     <script>
-    //  Mensaje cuando cargas la página
-    console.log("Bienvenida a la página del merendero Solcitos de Ruca Antu");
-    alert("¡Hola! Bienvenida/o al merendero Solcitos de Ruca Antu");
+        document.addEventListener("DOMContentLoaded", () =>{
+
+        //  Mensaje cuando cargas la página
+        console.log("Bienvenida a la página del merendero Solcitos de Ruca Antu");
+        alert("¡Hola! Bienvenida/o al merendero Solcitos de Ruca Antu");
+
+
+        const elementos=document.querySelectorAll('.animar-secuencia');
+
+        function mostrarSecuencia(){
+            const alturaVentana=window.innerHeight;
+
+            elementos.forEach((el, index)=>{
+                const distancia=el.getBoundingClientRect().top;
+                if(distancia<alturaVentana-150&&!el.classList.contains('visible')){
+                    setTimeout(() =>{
+                        el.classList.add('visible');
+                    }, index*220);
+                }
+            });
+        }
+        window.addEventListener('scroll', mostrarSecuencia);
+        mostrarSecuencia();
+        });
     </script>
 </body>
 </html>
