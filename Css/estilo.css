@@ -44,7 +44,6 @@ html{
 
 .fila{
     display: flex;
-    gap: 270px;
 }
 
 .columna{
@@ -161,7 +160,7 @@ html{
         top: 10%;
         left: 62%;
     }
-    .fila, .filaA, .filaB, .galeriaNovedades{
+    .filaA, .filaB, .galeriaNovedades{
         gap: 5%;
         padding-left: 8%;
         padding-right: 8%;
@@ -595,6 +594,133 @@ h3{
 
 
 @media(min-width: 1500px){
+    html{
+    scroll-behavior: smooth;
+}
+
+/*Página 1*/
+#fondo1{
+    margin: auto;
+    background-color:#FFFFB0;
+    padding-top: 120px;
+}
+
+.barranav{
+    background-color: rgb(211, 235, 161);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px 10px 25px;
+    margin-bottom: 30px;
+ 
+
+    position:fixed;
+    top: 0px;
+    right: 9px;
+    left: 9px;
+    z-index: 100;
+}
+
+.barraLinks{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
+
+.barraLinks a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.logo{
+    padding-right: 30px;
+}
+
+.fila{
+    display: flex;
+}
+
+.columna{
+    width: 500px;
+    min-width: 520px;
+    max-width: 600px;
+}
+
+.Titulo{
+    background-color: #ffd2d5;
+    width: 130%;
+    border-radius: 50px;
+    margin-left: 20px;
+    font-family: 'Barrio', cursive;
+    box-shadow: 8px 8px 8px rgba(68, 68, 68, 0.3);
+    flex-direction: column;
+    align-items: center;
+    padding: 1px;
+}
+
+#Titulo{
+    font-size: 130px;
+    text-align:  center;
+    color: white;
+    text-shadow: 0 4px 4px rgba(134, 133, 133, 0.3);
+}
+
+#ParrafoI{
+    font-size: 20px;
+    width: 130%;
+    padding-left: 4%;
+    padding-top: 10%;
+    text-align: center;
+    color: #3b3b3b;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Manos{
+    align-items: flex-start;
+    width: 35%;
+    min-width: 300px;
+    padding-bottom: 5%;
+}
+
+#InicioImg{
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    border-radius: 500% 500% 0% 0%;
+}
+
+
+.deco1inicio{
+    position: absolute;
+    bottom: 65%;
+    right: 88%;
+    width: 180px;
+    height: 160px;
+}
+
+.deco2inicio{
+    position: absolute;
+    top: 76%;
+    left: 46%;
+    width: 160px;
+    height: 140px;
+}
+
+.deco3inicio{
+    position: absolute;
+    left: 59%;
+    width: 160px;
+}
+
+.deco4inicio{
+    margin: 0 auto;
+    position: absolute;
+    top: 110%;
+    left: 87%;
+}
     .columna{
         width: 500px;
         min-width: 520px;
@@ -630,7 +756,7 @@ h3{
         top: 10%;
         left: 62%;
     }
-    .fila, .filaA, .filaB, .galeriaNovedades{
+    .filaA, .filaB, .galeriaNovedades{
         gap: 5%;
         padding-left: 8%;
         padding-right: 8%;
@@ -672,7 +798,7 @@ h3{
         top: 92%;
         left: 87%;
     }
-}
+
     .deco2inicio{
         position: absolute;
         z-index: 8;
@@ -1060,5 +1186,6 @@ h3{
     right: 78%;
     width: 80px;
     height: 80px;
+}
 }
 
