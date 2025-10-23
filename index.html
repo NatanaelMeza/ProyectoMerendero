@@ -81,7 +81,7 @@
                         </div>
 
                         <div class="imagen2">
-                            <img src="Imagenes/Img_Merendero1-inicio.jpg" class="ImgIn">
+                            <img src="Imagenes/Img_Merendero2-inicio.jpg" class="ImgIn">
                         </div>
                     </div>
                 </div>
@@ -107,15 +107,15 @@
                         <img src="Imagenes/Icono_inicio_flor-Violeta.png" id="imgFlor" height="150" width="190">
                         <div class="texto">
                             <div class="TextVL">
-                                <h2>Luz de Esperanza</h2>
-                                <h3>Direccion</h3></br>
+                                <h2>Comedor San Lorenzo Sur</h2>
+                                <h3>Calles Salto Grande y Zorzal, Barrio San Lorenzo Sur</h3></br>
                             </div>
                             <div class="Btn">
                                 <a href="Merendero4.html" class="BtnMas">Más...</a>
                             </div>
                         </div>
                         <div class="imagen4">
-                            <img src="Imagenes/Img_Merendero1-inicio.jpg" class="ImgIn">
+                            <img src="Imagenes/Img_Merendero4-inicio.jpg" class="ImgIn">
                         </div>
                     </div>
                 </div>
@@ -138,8 +138,8 @@
                 </div>
                 <div class="galeriaNovedades">
                     <div>
-                        <img src="Imagenes/Img_inicio_Noticias_01.jpg" class="novedadesImg">
-                        <p class="descripNovedades">
+                        <img src="Imagenes/Img_inicio_Noticias_01.jpg" class="novedadesImg animar-secuencia">
+                        <p class="descripNovedades animar-secuencia">
                             “Gran festejo del Día del Niño en 
                             Ruca Antú con juegos, sorteos, regalos, 
                             torta, chocolate y muchas sorpresas para 
@@ -148,8 +148,8 @@
                         </p>
                     </div>
                     <div>
-                        <img src="Imagenes/Img_inicio_Noticia_02.jpg" class="novedadesImg">
-                        <p class="descripNovedades">
+                        <img src="Imagenes/Img_inicio_Noticia_02.jpg" class="novedadesImg animar-secuencia">
+                        <p class="descripNovedades animar-secuencia">
                             “El merendero Luz de Esperanza celebró el 
                             10/08 en el SAF de San Lorenzo con torta, 
                             juegos y muchas sorpresas para los chicos, 
@@ -157,8 +157,8 @@
                         </p>
                     </div>
                     <div>
-                        <img src="Imagenes/Img_inicio_Noticia_03.jpg" class="novedadesImg">
-                        <p class="descripNovedades">
+                        <img src="Imagenes/Img_inicio_Noticia_03.jpg" class="novedadesImg animar-secuencia">
+                        <p class="descripNovedades animar-secuencia">
                             “El 7 de septiembre el Merendero celebró el 
                             Día del Niño con el evento Los Pequeños Gigantes. 
                             Fue una tarde llena de alegría con presentaciones 
@@ -167,10 +167,10 @@
                         </p>
                     </div>
                     <div>
-                        <img src="Imagenes/Img_inicio_Noticias_01.jpg" class="novedadesImg">
-                        <p class="descripNovedades">
-                            “Evento hecho por el día del niño. 
-                            ayudando y regalando juguetes y útiles a distintas familias.”
+                        <img src="Imagenes/Img_inicio_ProximaNoticia_04.jpg" class="novedadesImg animar-secuencia">
+                        <p class="descripNovedades animar-secuencia">
+                            “Muy pronto compartiremos nuevas actividades y eventos. 
+                            ¡Estate atento a las próximas novedades!”
                         </p>
                     </div>
                 </div>
@@ -198,5 +198,28 @@
                         <img src="Imagenes/Icono_inicio_corazon.png" class="decorativa9" height="90" width="90"/><!--enlace para agregar corazon en formato img-->
                 </div>
         </section>
+
+        </section>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", () =>{
+                const elementos=document.querySelectorAll('.animar-secuencia');
+
+                function mostrarSecuencia(){
+                    const alturaVentana=window.innerHeight;
+
+                    elementos.forEach((el, index)=>{
+                        const distancia=el.getBoundingClientRect().top;
+                        if(distancia<alturaVentana-150&&!el.classList.contains('visible')){
+                            setTimeout(() =>{
+                                el.classList.add('visible');
+                            }, index*220);
+                        }
+                    });
+                }
+                window.addEventListener('scroll', mostrarSecuencia);
+                mostrarSecuencia();
+            });
+            </script>
     </body>
 </html>

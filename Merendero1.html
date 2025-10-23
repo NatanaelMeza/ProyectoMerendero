@@ -59,8 +59,8 @@
     </div>
 
         <div class="Fila">
-            <img src="Imagenes/Img_Merendero1.01.jpg" class="AImg">
-            <img src="Imagenes/Img_Merendero1.02.jpg" class="BImg">
+            <img src="Imagenes/Img_Merendero1.01.jpg" class="AImg animar-secuencia">
+            <img src="Imagenes/Img_Merendero1.02.jpg" class="BImg animar-secuencia">
         </div>
     
         <p class="Parrafo">
@@ -76,12 +76,38 @@
         </p>
         
         <div class="Fila">
-            <img src="Imagenes/Img_Merendero1.03.jpg" class="CImg">
-            <img src="Imagenes/Img_Merendero1.04.jpg" class="DImg">
+            <img src="Imagenes/Img_Merendero1.03.jpg" class="CImg animar-secuencia">
+            <img src="Imagenes/Img_Merendero1.04.jpg" class="DImg animar-secuencia">
         </div>
 
         <div id="CirculoV">
             <a href="#Principio1" id="Volver">Inicio</a>
         </div>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", () =>{
+
+                //  Mensaje cuando cargas la página
+                console.log("Bienvenida a la página del merendero Luz de Esperanza");
+                alert("¡Hola! Bienvenida/o al merendero Luz de Esperanza");
+
+                const elementos=document.querySelectorAll('.animar-secuencia');
+
+                function mostrarSecuencia(){
+                    const alturaVentana=window.innerHeight;
+
+                    elementos.forEach((el, index)=>{
+                        const distancia=el.getBoundingClientRect().top;
+                        if(distancia<alturaVentana-150&&!el.classList.contains('visible')){
+                            setTimeout(() =>{
+                                el.classList.add('visible');
+                            }, index*220);
+                        }
+                    });
+                }
+                window.addEventListener('scroll', mostrarSecuencia);
+                mostrarSecuencia();
+            });
+        </script>
     </body>
 </html>
