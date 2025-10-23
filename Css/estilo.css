@@ -1,3 +1,22 @@
+@keyframes girar{
+    from{ transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+@keyframes aparecer {
+    from{opacity: 0; transform: translateY(20px);}
+    to{opacity: 1; transform: translateY(0);}
+}
+@keyframes largo{
+    0% {transform: scaleX(1);}
+    50%{transform: scaleX(1.4);}
+    100%{transform: scaleX(1);}
+}
+@keyframes zoom{
+    0% {transform: scale(1);}
+    50%{transform: scale(1.2);}
+    100%{transform: scale(1);}
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -97,10 +116,6 @@ html{
     animation: aparecer 1s ease forwards;
 }
 
-@keyframes aparecer {
-    from{opacity: 0; transform: translateY(20px);}
-    to{opacity: 1; transform: translateY(0);}
-}
 
 #InicioImg{
     height: auto;
@@ -552,10 +567,7 @@ h3{
     top: 100px;
     left: 260px;
 }
-@keyframes girar{
-    from{ transform: rotate(0deg);}
-    to{transform: rotate(360deg);}
-}
+
 @media (prefers-reduced-motion: reduce){
     img.decorativa2{
     animation-duration: 0.001ms !important;
@@ -598,11 +610,7 @@ h3{
     animation: girar 4s linear infinite;
 
 }
-@keyframes largo{
-    0% {transform: scaleX(1);}
-    50%{transform: scaleX(1.4);}
-    100%{transform: scaleX(1);}
-}
+
 
 @media(prefers-reduced-motion: reduce){
     img.decorativa5{
@@ -638,11 +646,7 @@ h3{
     width: 128px;
     height: 110px;
 }
-@keyframes zoom{
-    0% {transform: scale(1);}
-    50%{transform: scale(1.2);}
-    100%{transform: scale(1);}
-}
+
 
 @media(prefers-reduced-motion: reduce){s
     img.decorativa9{
