@@ -589,6 +589,9 @@ h3{
     50%{transform: scale(1.2);}
     100%{transform: scale(1);}
 }
+@media(prefers-reduced-motion: reduce){
+
+}
 .decorativa5{
     margin: 0  auto;
     position: relative;
