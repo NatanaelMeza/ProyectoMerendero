@@ -17,6 +17,11 @@
     100%{transform: scale(1);}
 }
 
+@media(min-width: 1500px){
+    html{
+    scroll-behavior: smooth;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -648,13 +653,12 @@ h3{
 }
 
 
-@media(prefers-reduced-motion: reduce){s
+@media(prefers-reduced-motion: reduce){
     img.decorativa9{
         animation-duration: 0.001ms !important;
         animation-iteration-count: 1 !important;
     }
 }
-
 .decorativa9{
     margin: 0 auto;
     position: relative;
@@ -666,11 +670,6 @@ h3{
 
 }
 
-
-@media(min-width: 1500px){
-    html{
-    scroll-behavior: smooth;
-}
 
 /*Página 1*/
 #fondo1{
