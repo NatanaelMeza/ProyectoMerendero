@@ -571,6 +571,8 @@ h3{
     position: relative;
     top: 20px;
     right: 350px;
+    animation: girar 4s linear infinite;
+
 }
 .decorativa4{
     margin: 0 auto;
