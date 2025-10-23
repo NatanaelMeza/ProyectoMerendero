@@ -589,8 +589,12 @@ h3{
     50%{transform: scale(1.2);}
     100%{transform: scale(1);}
 }
+
 @media(prefers-reduced-motion: reduce){
-    
+    img.decorativa5{
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+    }
 }
 .decorativa5{
     margin: 0  auto;
