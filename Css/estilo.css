@@ -133,6 +133,7 @@ html{
     position: absolute;
     left: 59%;
     width: 160px;
+    animation: zoom 2s ease-in-out infinite;
 }
 
 .deco4inicio{
@@ -140,6 +141,8 @@ html{
     position: absolute;
     top: 110%;
     left: 87%;
+    animation: girar 4s linear infinite;
+
 }
     .columna{
         width: 500px;
