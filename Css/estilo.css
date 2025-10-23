@@ -584,6 +584,11 @@ h3{
     animation: girar 4s linear infinite;
 
 }
+@keyframes zoom{
+    0% {transform: scale(1);}
+    50%{transform: scale(1.2);}
+    100%{transform: scale(1);}
+}
 .decorativa5{
     margin: 0  auto;
     position: relative;
@@ -591,6 +596,7 @@ h3{
     left: 230px;
     width: 250px;
     height: 250px;
+    animation: zoom 2s ease-in-out infinite;
 }
 .decorativa7{
     margin: 0 auto;
