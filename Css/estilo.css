@@ -612,7 +612,7 @@ h3{
     left: 230px;
     width: 250px;
     height: 250px;
-    animation: largo 2s ease-in-out infinite;
+    animation: largo 5s ease-in-out infinite;
     display: block;
 }
 
