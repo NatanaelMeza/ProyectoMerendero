@@ -85,5 +85,27 @@
         <div class="leaf" style="left: 40%; animation-duration: 8s; animation-delay: 1s;"></div>
         <div class="leaf" style="left: 60%; animation-duration: 9s; animation-delay: 3s;"></div>
         <div class="leaf" style="left: 80%; animation-duration: 6s; animation-delay: 0.5s;"></div>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", () =>{
+    
+            const elementos=document.querySelectorAll('.animar-secuencia');
+    
+            function mostrarSecuencia(){
+                const alturaVentana=window.innerHeight;
+    
+                elementos.forEach((el, index)=>{
+                    const distancia=el.getBoundingClientRect().top;
+                    if(distancia<alturaVentana-150&&!el.classList.contains('visible')){
+                        setTimeout(() =>{
+                            el.classList.add('visible');
+                        }, index*220);
+                    }
+                });
+            }
+            window.addEventListener('scroll', mostrarSecuencia);
+            mostrarSecuencia();
+            });
+        </script>
     </body>
 </html>
