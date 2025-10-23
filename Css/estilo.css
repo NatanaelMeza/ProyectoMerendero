@@ -590,9 +590,7 @@ h3{
     100%{transform: scale(1);}
 }
 @media(prefers-reduced-motion: reduce){
-
-}
-.decorativa5{
+    .decorativa5{
     margin: 0  auto;
     position: relative;
     bottom:60px;
@@ -600,7 +598,9 @@ h3{
     width: 250px;
     height: 250px;
     animation: zoom 2s ease-in-out infinite;
+    }
 }
+
 .decorativa7{
     margin: 0 auto;
     position: relative;
