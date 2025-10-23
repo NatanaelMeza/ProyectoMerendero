@@ -235,13 +235,11 @@ html{
     background-color:#fdf3dd;
 }
 
-.filaA,.filaB{
-    margin: auto;
-    display: flex;
-    gap: 50px;
-    padding:20px 50px 20px 50px;
-    justify-content: center;
-}
+.filaA, .filaB, .galeriaNovedades{
+        gap: 5%;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
 
 .caja1,.caja2,.caja3,.caja4{
     margin: auto;

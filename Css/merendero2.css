@@ -164,16 +164,16 @@ button:hover{
     text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 .flecha{
-        margin: 0 auto;
-        position: absolute;
-        left: 76%;
-        bottom: 95.5%;
-        transform: translate(-50%, -50%);
-        width: 9%;
-        opacity: 0;
-        animation: aparecer 1s ease forwards 0.4s, mover 3.5s ease-in-out infinite alternate;
-        animation-delay: 0.4s;
-    }
+    margin: 0 auto;
+    position: absolute;
+    left: 70.5%;
+    bottom: 82%;
+    transform: translate(-50%, -50%);
+    width: 9%;
+    opacity: 0;
+    animation: aparecer 1s ease forwards 0.4s, mover 3.5s ease-in-out infinite alternate;
+    animation-delay: 0.4s;
+}
 /* Fondo azul tipo cielo */
 body {
     background: linear-gradient(to bottom, #b5e4f6 0%, #a4d4f5 100%);
