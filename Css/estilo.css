@@ -252,27 +252,23 @@ html{
     align-items: center;
     padding: 20px;
     box-shadow: 0 6px 6px rgba(134, 133, 133, 0.3);
-    transition: all 0.3s ease;
+    transition: all 0.4s ease;
 }
 
 .caja1:hover,.caja2:hover,.caja3:hover,.caja4:hover{
-    transform: scale(1.1)
+    transform: scale(1.05);
 }
 
 .caja1{
-    margin: auto;
     background-color: #CAAACD;
 }
 .caja2{
-    margin: auto;
     background-color: #D6E8F7;
 }
 .caja3{
-    margin: auto;
     background-color: #BFDC80;
 }
 .caja4{
-    margin: auto;
     background-color: #F1DFB6;
 }
 
