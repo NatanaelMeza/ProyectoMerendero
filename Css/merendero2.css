@@ -302,7 +302,8 @@ body {
         text-align: left;
         padding: 50px;
         box-sizing: border-box;
-        transition: transform 0.3s ease
+        transition: transform 0.3s ease;
+        margin-top: 40px;
     }
     .A{
         width: 500px;
