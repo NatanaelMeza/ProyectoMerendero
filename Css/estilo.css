@@ -125,6 +125,8 @@ html{
     left: 46%;
     width: 160px;
     height: 140px;
+    animation: zoom 2s ease-in-out infinite;
+
 }
 
 .deco3inicio{
@@ -624,6 +626,7 @@ h3{
     width: 220px;
     height: 60px;
 }
+
 .decorativa8{
     margin: 0 auto;
     position: relative;
@@ -639,7 +642,7 @@ h3{
 }
 
 @media(prefers-reduced-motion: reduce){s
-    img.decorativa5{
+    img.decorativa9{
         animation-duration: 0.001ms !important;
         animation-iteration-count: 1 !important;
     }
@@ -652,7 +655,7 @@ h3{
     right: 78%;
     width: 80px;
     height: 80px;
-    animation: zoom 3s ease-in-out infinite;
+    animation: zoom 2s ease-in-out infinite;
 
 }
 
