@@ -81,34 +81,6 @@ h1{
     top: 1050px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
-.AImg,.BImg,.CImg,.DImg{
-    margin: 0 auto;
-    width: 300px;
-    height: 500px;
-    margin-left: 185px;
-    border-radius: 8%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-}
-.AImg,.BImg{
-
-    margin: 0 auto;
-    width: 600px;
-    height: 600px;
-    margin-left: 30px;
-    margin-top: 850px;
-}
-
-.CImg,.DImg{
-    margin: 0 auto;
-    width: 600px;
-    height: 600px;
-    margin-left: 27px;
-    margin-top: 50px;
-}
-
-.Fila{
-    display: flex;
-}
 
 .Parrafo{
     margin: 0 auto;
@@ -214,7 +186,7 @@ h1{
     padding: 50px;
     box-sizing: border-box;
     transition: transform 0.3s ease;
-    margin-top: 20px;
+    margin-top: 500px;
 
 }
 .A{
@@ -251,44 +223,29 @@ h1{
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 
-        
-        .CImg, .DImg{
-            width: 600px;
-            height: 500px;
-            margin-right: 70px;
-            margin-left: 70px;
-            margin-top: 100px;
-            border-radius: 8%;
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-        }
 
-        .Fila{
-            display: flex;
-        }
-
-        .Parrafo{
-            top: 500px;
-            margin: 0 auto;
-            padding: 50px 50px 0px 50px;
-            font-size: 20px;
-            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            text-align: center;
-            color: #3b3b3b;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-            transition: all 0.3s ease;
-        }
-        .Parrafo:hover{
-            transform: scale(1.05) translateY(-3px);
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-            background-color: #c6a256;
-        }
-        .parrafo{
-            padding: 50px 50px 0px 50px;
-            font-size: 20px;
-            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            text-align: center;
-            color: #c2a460;
-            text-shadow: 0 5px 4px rgba(5, 5, 5, 0.3);
+    .Parrafo{
+        margin-top: 62px;
+        padding: 50px 50px 0px 50px;
+        font-size: 20px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        color: #3b3b3b;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        transition: all 0.3s ease;
+    }
+    .Parrafo:hover{
+        transform: scale(1.05) translateY(-3px);
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        background-color: #c6a256;
+    }
+    .parrafo{
+        padding: 50px 50px 0px 50px;
+        font-size: 20px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        color: #c2a460;
+        text-shadow: 0 5px 4px rgba(5, 5, 5, 0.3);
         }
 
 }
