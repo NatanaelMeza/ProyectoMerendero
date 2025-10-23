@@ -593,7 +593,7 @@ h3{
     animation: girar 4s linear infinite;
 
 }
-@keyframes zoom{
+@keyframes largo{
     0% {transform: scaleX(1);}
     50%{transform: scaleX(1.4);}
     100%{transform: scaleX(1);}
@@ -612,7 +612,7 @@ h3{
     left: 230px;
     width: 250px;
     height: 250px;
-    animation: zoom 2s ease-in-out infinite;
+    animation: largo 2s ease-in-out infinite;
     display: block;
 }
 
@@ -632,6 +632,19 @@ h3{
     width: 128px;
     height: 110px;
 }
+@keyframes zoom{
+    0% {transform: scale(1);}
+    50%{transform: scale(1.2);}
+    100%{transform: scale(1);}
+}
+
+@media(prefers-reduced-motion: reduce){s
+    img.decorativa5{
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+    }
+}
+
 .decorativa9{
     margin: 0 auto;
     position: relative;
@@ -639,6 +652,8 @@ h3{
     right: 78%;
     width: 80px;
     height: 80px;
+    animation: zoom 3s ease-in-out infinite;
+
 }
 
 
