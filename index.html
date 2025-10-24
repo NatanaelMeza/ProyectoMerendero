@@ -227,6 +227,23 @@
                             }, i*220);
                         });
                     });
+
+                
+                const reboteScroll=document.querySelectorAll('.animar-rebote-scroll');
+                function mostrarReboteScroll(){
+                    const alturaVentana=window.innerHeight;
+
+                    elementos.forEach((img, i)=>{
+                        const distancia=img.getBoundingClientRect().top;
+                        if(distancia<alturaVentana-150&&!img.classList.contains('visible-rebote-scroll')){
+                            setTimeout(() =>{
+                                img.classList.add('visible-rebote');
+                            }, i*220);
+                        }
+                    });
+                }
+                window.addEventListener('scroll', mostrarReboteScroll);
+                mostrarReboteScroll();
                 
             </script>
     </body>
