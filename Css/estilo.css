@@ -1764,10 +1764,10 @@ h3{
 /* Animación rebote scroll */
 .animar-rebote-scroll{
     opacity: 0;
-    transform: translateY(30px);
-    transition: opacity o.5s ease, transform 0.5s ease;
+    transform: scale(0.5);
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
-.animar-rebote-scroll.visible-rebote-scroll{
+.animar-rebote-scroll.visible-rebote{
     opacity: 1;
-    transform: translateY(0);
+    transform: scale(1);
 }

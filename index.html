@@ -233,9 +233,9 @@
                 function mostrarReboteScroll(){
                     const alturaVentana=window.innerHeight;
 
-                    elementos.forEach((img, i)=>{
+                    reboteScroll.forEach((img, i)=>{
                         const distancia=img.getBoundingClientRect().top;
-                        if(distancia<alturaVentana-150&&!img.classList.contains('visible-rebote-scroll')){
+                        if(distancia<alturaVentana-150&&!img.classList.contains('visible-rebote')){
                             setTimeout(() =>{
                                 img.classList.add('visible-rebote');
                             }, i*220);
