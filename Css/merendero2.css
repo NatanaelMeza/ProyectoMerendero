@@ -289,8 +289,8 @@ body {
 
     .flecha{
         position: absolute;
-        left: 70%;
-        bottom: 90%;
+        left: 78%;
+        bottom: 96%;
         transform: translate(-50%, -50%);
         width: 9%;
         opacity: 0;
