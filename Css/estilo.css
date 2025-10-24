@@ -1740,7 +1740,7 @@ h3{
 }
 }
 
-/* Animación Noticias */
+/* Animación de aparición, secuencia */
 .animar-secuencia{
     opacity: 0;
     transform: translateY(50px);
@@ -1750,7 +1750,7 @@ h3{
     opacity: 1;
     transform: translateY(0);
 }
-/* Animación Inicio */
+/* Animación rebote de carga */
 .animar-rebote{
     opacity: 0;
     transform: scale(0.5);
@@ -1760,4 +1760,14 @@ h3{
 .animar-rebote.visible-rebote{
     opacity: 1;
     transform: scale(1);
+}
+/* Animación rebote scroll */
+.animar-rebote-scroll{
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity o.5s ease, transform 0.5s ease;
+}
+.animar-rebote-scroll.visible-rebote-scroll{
+    opacity: 1;
+    transform: translateY(0);
 }
