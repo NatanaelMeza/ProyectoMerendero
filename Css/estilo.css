@@ -492,24 +492,24 @@ h3{
     left: 280px;
     width: 120px;
     height: 120px;
-    animation: girar 4s linear infinite;
+    animation: girar 7s linear infinite;
 }
 .decorativa3{
     margin: 0 auto;
     position: relative;
     top: 20px;
     right: 350px;
-    animation: girar 4s linear infinite;
+    animation: girar 7s linear infinite;
 
 }
 .decorativa4{
     margin: 0 auto;
     position: relative;
-    bottom:150px;
+    bottom: 10px;
     left: 90px;
     width: 100px;
     height: 100px;
-    animation: girar 4s linear infinite;
+    animation: girar 7s linear infinite;
 
 }
 
@@ -523,11 +523,11 @@ h3{
 .decorativa5{
     margin: 0  auto;
     position: relative;
-    bottom:60px;
-    left: 230px;
-    width: 250px;
-    height: 250px;
-    animation: largo 5s ease-in-out infinite;
+    bottom:150px;
+    left: 180px;
+    width: 200px;
+    height: 200px;
+    animation: largo 8s ease-in-out infinite;
     display: block;
 }
 
