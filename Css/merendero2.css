@@ -164,16 +164,27 @@ button:hover{
     text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 .flecha{
-    margin: 0 auto;
-    position: absolute;
-    left: 70.5%;
-    bottom: 82%;
-    transform: translate(-50%, -50%);
-    width: 9%;
-    opacity: 0;
-    animation: aparecer 1s ease forwards 0.4s, mover 3.5s ease-in-out infinite alternate;
-    animation-delay: 0.4s;
+    position: absolute; 
+    left: 73.8%;     
+    bottom: 95.8%;     
+    width: 120px;     
+    opacity: 0;     
+    animation: aparecerF 1s ease forwards, mover 3.5s ease-in-out infinite alternate;
 }
+
+/* fade-in de la flecha */
+@keyframes aparecerF {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* movimiento sutil de la flecha */
+@keyframes mover {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(5px); }
+    100% { transform: translateY(0); }
+}
+
 /* Fondo azul tipo cielo */
 body {
     background: linear-gradient(to bottom, #b5e4f6 0%, #a4d4f5 100%);
@@ -275,11 +286,11 @@ body {
         text-align: center;
         font-style:italic;
     }
+
     .flecha{
-        margin: 0 auto;
         position: absolute;
-        left: 76%;
-        bottom: 95.5%;
+        left: 78%;
+        bottom: 96%;
         transform: translate(-50%, -50%);
         width: 9%;
         opacity: 0;
@@ -398,7 +409,6 @@ body {
         transform: scale(1.05) translateY(-3px);
         text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     }
-
 }
 
 /* Animación Imágenes */
@@ -411,3 +421,4 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
