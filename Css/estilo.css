@@ -161,7 +161,7 @@ html{
     animation: girar 20s linear infinite;
 }
 
-/Página 2/
+/*Página 2*/
 
 #fondo2{
     margin: auto;
@@ -359,7 +359,7 @@ html{
     transition: transform 0.4s ease;
 }
 
-/Página 3/
+/*Página 3*/
 #fondo3{
     margin: auto;
     background-color: #fbd6ff;
@@ -430,7 +430,7 @@ html{
     height: auto;
 }
 
-/Fondo 4/
+/*Fondo 4*/
 
 #fondo4{
     margin: auto;
@@ -591,7 +591,7 @@ h3{
     scroll-behavior: smooth;
 }
 
-/Página 1/
+/*Página 1*/
 #fondo1{
     margin: auto;
     background-color:#FFFFB0;
@@ -1688,7 +1688,6 @@ h3{
     left: 280px;
     width: 120px;
     height: 120px;
-    /animation/
 }
 .decorativa3{
     margin: 0 auto;
