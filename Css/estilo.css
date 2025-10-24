@@ -13,7 +13,7 @@
 }
 @keyframes zoom{
     0% {transform: scale(1);}
-    50%{transform: scale(1.2);}
+    50%{transform: scale(1.1);}
     100%{transform: scale(1);}
 }
 
@@ -93,19 +93,6 @@ html{
     text-shadow: 0 4px 4px rgba(134, 133, 133, 0.3);
 }
 
-#ParrafoI{
-    font-size: 20px;
-    width: 130%;
-    padding-left: 4%;
-    padding-top: 10%;
-    text-align: center;
-    color: #3b3b3b;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    opacity: 0;
-    transform: translateY(-20px);
-    animation: aparecer 1s ease forwards;
-}
-
 .Manos{
     align-items: flex-start;
     width: 35%;
@@ -115,150 +102,62 @@ html{
     transform: translateY(-20px);
     animation: aparecer 1s ease forwards;
 }
-
-
 #InicioImg{
+    position:absolute;
     height: auto;
-    width: 100%;
-    max-width: 500px;
+    width: 90%;
+    max-width: 480px;
     display: block;
     border-radius: 500% 500% 0% 0%;
+    bottom: 10%;
+    left: 62%;
 }
 
+#ParrafoI {
+    width: 130%;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 20px;
+    text-align: center;
+    color: #3b3b3b;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: aparecer 1s ease forwards;
+} 
 
 .deco1inicio{
     position: absolute;
     bottom: 60%;
     right: 88%;
-    width: 180px;
-    height: 160px;
+    width: 175px;
+    height: 155px;
 }
 
 .deco2inicio{
     position: absolute;
-    top: 76%;
-    left: 46%;
-    width: 160px;
-    height: 140px;
-    animation: zoom 2s ease-in-out infinite;
-
+    z-index: 8;
+    top: 84%;
+    left: 47%;
+    width: 140px;
+    height: 120px;
+    animation: zoom 3s ease-in-out infinite;
 }
-
 .deco3inicio{
     position: absolute;
+    z-index: 8;
     left: 59%;
     width: 160px;
-    animation: zoom 2s ease-in-out infinite;
+    animation: zoom 3s ease-in-out infinite;
 }
-
 .deco4inicio{
-    margin: 0 auto;
     position: absolute;
-    top: 110%;
+    z-index: 8;
+    top: 92%;
     left: 87%;
-    animation: girar 4s linear infinite;
-
+    animation: girar 20s linear infinite;
 }
-    .columna{
-        width: 500px;
-        min-width: 520px;
-        max-width: 900px;
-    }
-    .Titulo {
-        background-color: #ffd2d5;
-        width: 130%;
-        border-radius: 50px;
-        font-family: 'Barrio', cursive;
-        box-shadow: 8px 8px 8px rgba(68, 68, 68, 0.3);
-        flex-direction: column;
-        align-items: center;
-    }
-    #Titulo {
-        font-size: 140px; 
-    }
-    #ParrafoI {
-        width: 130%;
-        font-size: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 20px;
-    }
-    #InicioImg{
-        position:absolute;
-        height: auto;
-        width: 90%;
-        max-width: 480px;
-        display: block;
-        border-radius: 500% 500% 0% 0%;
-        bottom: 1%;
-        top: 10%;
-        left: 62%;
-    }
-    .filaA, .filaB, .galeriaNovedades{
-        gap: 5%;
-        padding-left: 8%;
-        padding-right: 8%;
-    }
-    .barranav{
-        padding-left: 8%;
-        padding-right: 8%;
-    }
-    .parrafoD{
-        width: 60%;
-        margin-left: 10%;
-        margin-right: 10%;
-        font-size: 120%;
-    }
-    .parrafoNosotros{
-        font-size: 400%;
-    }
-    .deco1inicio{
-        position: absolute;
-        bottom: 65%;
-        right: 88%;
-        width: 180px;
-        height: 160px;
-    }
-    .deco2inicio{
-        position: absolute;
-        top: 75%;
-        left: 46%;
-        width: 160px;
-        height: 140px;
-    }
-    .deco3inicio{
-        position: absolute;
-        left: 59%;
-        width: 160px;
-    }
-    .deco4inicio{
-        position: absolute;
-        top: 92%;
-        left: 87%;
-    }
-
-    .deco2inicio{
-        position: absolute;
-        z-index: 8;
-        top: 75%;
-        left: 48%;
-        width: 160px;
-        height: 140px;
-    }
-
-    .deco3inicio{
-        position: absolute;
-        z-index: 8;
-        left: 59%;
-        width: 160px;
-    }
-
-    .deco4inicio{
-        position: absolute;
-        z-index: 8;
-        top: 92%;
-        left: 87%;
-    }
 
 /*Página 2*/
 
@@ -664,7 +563,7 @@ h3{
     animation: zoom 2s ease-in-out infinite;
 
 }
-
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
 @media(min-width: 1500px){
     html{
     scroll-behavior: smooth;
@@ -717,54 +616,56 @@ h3{
 .columna{
     width: 500px;
     min-width: 520px;
-    max-width: 600px;
+    max-width: 900px;
 }
-
-.Titulo{
+.Titulo {
     background-color: #ffd2d5;
     width: 130%;
     border-radius: 50px;
-    margin-left: 20px;
     font-family: 'Barrio', cursive;
     box-shadow: 8px 8px 8px rgba(68, 68, 68, 0.3);
     flex-direction: column;
     align-items: center;
-    padding: 1px;
 }
-
-#Titulo{
-    font-size: 130px;
-    text-align:  center;
-    color: white;
-    text-shadow: 0 4px 4px rgba(134, 133, 133, 0.3);
+#Titulo {
+    font-size: 140px; 
 }
-
-#ParrafoI{
-    font-size: 20px;
+#ParrafoI {
     width: 130%;
-    padding-left: 4%;
-    padding-top: 10%;
-    text-align: center;
-    color: #3b3b3b;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
 }
-
-.Manos{
-    align-items: flex-start;
-    width: 35%;
-    min-width: 300px;
-    padding-bottom: 5%;
-}
-
 #InicioImg{
+    position:absolute;
     height: auto;
-    width: 100%;
-    max-width: 500px;
+    width: 90%;
+    max-width: 480px;
     display: block;
     border-radius: 500% 500% 0% 0%;
+    bottom: 1%;
+    top: 10%;
+    left: 62%;
 }
-
-
+.filaA, .filaB, .galeriaNovedades{
+    gap: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.barranav{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.parrafoD{
+    width: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 120%;
+}
+.parrafoNosotros{
+    font-size: 400%;
+}
 .deco1inicio{
     position: absolute;
     bottom: 65%;
@@ -772,127 +673,26 @@ h3{
     width: 180px;
     height: 160px;
 }
-
 .deco2inicio{
     position: absolute;
-    top: 76%;
-    left: 46%;
+    z-index: 8;
+    top: 75%;
+    left: 48%;
     width: 160px;
     height: 140px;
 }
-
 .deco3inicio{
     position: absolute;
+    z-index: 8;
     left: 59%;
     width: 160px;
 }
-
 .deco4inicio{
-    margin: 0 auto;
     position: absolute;
-    top: 110%;
+    z-index: 8;
+    top: 92%;
     left: 87%;
 }
-    .columna{
-        width: 500px;
-        min-width: 520px;
-        max-width: 900px;
-    }
-    .Titulo {
-        background-color: #ffd2d5;
-        width: 130%;
-        border-radius: 50px;
-        font-family: 'Barrio', cursive;
-        box-shadow: 8px 8px 8px rgba(68, 68, 68, 0.3);
-        flex-direction: column;
-        align-items: center;
-    }
-    #Titulo {
-        font-size: 140px; 
-    }
-    #ParrafoI {
-        width: 130%;
-        font-size: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 20px;
-    }
-    #InicioImg{
-        position:absolute;
-        height: auto;
-        width: 90%;
-        max-width: 480px;
-        display: block;
-        border-radius: 500% 500% 0% 0%;
-        bottom: 1%;
-        top: 10%;
-        left: 62%;
-    }
-    .filaA, .filaB, .galeriaNovedades{
-        gap: 5%;
-        padding-left: 8%;
-        padding-right: 8%;
-    }
-    .barranav{
-        padding-left: 8%;
-        padding-right: 8%;
-    }
-    .parrafoD{
-        width: 60%;
-        margin-left: 10%;
-        margin-right: 10%;
-        font-size: 120%;
-    }
-    .parrafoNosotros{
-        font-size: 400%;
-    }
-    .deco1inicio{
-        position: absolute;
-        bottom: 65%;
-        right: 88%;
-        width: 180px;
-        height: 160px;
-    }
-    .deco2inicio{
-        position: absolute;
-        top: 75%;
-        left: 46%;
-        width: 160px;
-        height: 140px;
-    }
-    .deco3inicio{
-        position: absolute;
-        left: 59%;
-        width: 160px;
-    }
-    .deco4inicio{
-        position: absolute;
-        top: 92%;
-        left: 87%;
-    }
-
-    .deco2inicio{
-        position: absolute;
-        z-index: 8;
-        top: 75%;
-        left: 48%;
-        width: 160px;
-        height: 140px;
-    }
-
-    .deco3inicio{
-        position: absolute;
-        z-index: 8;
-        left: 59%;
-        width: 160px;
-    }
-
-    .deco4inicio{
-        position: absolute;
-        z-index: 8;
-        top: 92%;
-        left: 87%;
-    }
 
 /*Página 2*/
 
@@ -1272,7 +1072,7 @@ h3{
     opacity: 1;
     transform: translateY(0);
 }
-
+/* Animación Inicio */
 .animar-rebote{
     opacity: 0;
     transform: scale(0.5);
