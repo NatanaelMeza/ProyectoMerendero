@@ -356,6 +356,8 @@ html{
     left: 45%;
     transform: translate(-50%, -50%);
     width: 15%;
+    transform-origin: center;
+    transition: transform 0.4s ease;
 }
 
 #imgFlor{
@@ -366,6 +368,8 @@ html{
     left: 78%;
     transform: translate(-50%, -50%);
     width: 15%;
+    transform-origin: center;
+    transition: transform 0.4s ease;
 }
 
 #imgPestaña{
@@ -376,6 +380,8 @@ html{
     bottom: 75%;
     transform: translate(-50%, -50%);
     width: 15%;
+    transform-origin: center;
+    transition: transform 0.4s ease;
 }
 
 #imgRulo{
@@ -386,6 +392,8 @@ html{
     right: 80%;
     transform: translate(-50%, -50%);
     width: 15%;
+    transform-origin: center;
+    transition: transform 0.4s ease;
 }
 
 #imgEstrellas{
@@ -396,6 +404,8 @@ html{
     left: 93%;
     transform: translate(-50%, -50%);
     width: 15%;
+    transform-origin: center;
+    transition: transform 0.4s ease;
 }
 
 #imgRayitas{
@@ -406,6 +416,8 @@ html{
     left: 9%;
     transform: translate(-50%, -50%);
     width: 15%;
+    transform-origin: center;
+    transition: transform 0.4s ease;
 }
 
 #imgCarita{
@@ -416,6 +428,8 @@ html{
     left: 45%;
     transform: translate(-50%, -50%);
     width: 15%;
+    transform-origin: center;
+    transition: transform 0.4s ease;
 }
 
 #imgEstrella{
@@ -426,6 +440,8 @@ html{
     left: 30%;
     transform: translate(-50%, -50%);
     width: 11%;
+    transform-origin: center;
+    transition: transform 0.4s ease;
 }
 
 #imgAsterisco{
@@ -436,6 +452,8 @@ html{
     right: 9%;
     transform: translate(-50%, -50%);
     width: 13%;
+    transform-origin: center;
+    transition: transform 0.4s ease;
 }
 
 /*Página 3*/
