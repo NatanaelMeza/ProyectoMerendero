@@ -250,7 +250,7 @@ button:hover{
     100% {transform: translateX(-5px) translateY(10px);}
 }
 /*media para pantallas grandes*/
-@media(min-width: 1600px){
+@media(min-width: 1500px){
     h1{
     margin: 0 auto;
     color: #788d4b;
@@ -330,7 +330,7 @@ button{
     width: 40%;
     height: 84%;
     right: 50%;
-    top: 135%;
+    top: 128%;
     z-index: 1;
     text-align: left;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
@@ -357,7 +357,7 @@ button{
     width: 25%;
     height: 54%;
     left: 50%;
-    top: 165%;
+    top: 158%;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
     padding-top: 3%;
     background-color:#677b3b;
@@ -373,7 +373,7 @@ button{
     padding-left: 10.8%;
     width: 6.5%;
     height: 13%;
-    padding-top: 41%;
+    padding-top: 43%;
     z-index: 3;
 }
 .iconoHorarios{
@@ -391,7 +391,7 @@ button{
     padding-left: 72.3%;
     width: 9%;
     height: 14%;
-    padding-top: 43%;
+    padding-top: 45%;
 }
 .iconoContacto{
     margin: 0 auto;
@@ -406,7 +406,7 @@ button{
     width: 600px;
     height: 640px;
     margin-top: 99%;
-    margin-left: 4%;
+    margin-left: 5.3%;
     margin-right: 4%;
     border-radius: 8%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -427,7 +427,7 @@ button{
     width: 600px;
     height: 640px;
     margin-top: 4%;
-    margin-left: 4%;
+    margin-left: 5.3%;
     margin-right: 4%;
     border-radius: 8%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
