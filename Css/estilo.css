@@ -668,6 +668,16 @@ h3{
     scroll-behavior: smooth;
 }
 
+.Manos{
+    align-items: flex-start;
+    width: 35%;
+    margin-left: 40px;
+    min-width: 300px;
+    padding-bottom: 5%;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: aparecer 1s ease forwards;
+}
 
 #fondo1{
     margin: auto;
