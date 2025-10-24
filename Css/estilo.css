@@ -711,7 +711,9 @@ h3{
 .fila{
     display: flex;
 }
-
+.DescripcionI{
+    margin-left: 65px;
+}
 .columna{
     width: 500px;
     min-width: 520px;
@@ -741,7 +743,7 @@ h3{
 #ParrafoI{
     font-size: 20px;
     width: 130%;
-    padding-left: 7%;
+    padding-left: 4%;
     padding-top: 10%;
     text-align: center;
     color: #3b3b3b;
