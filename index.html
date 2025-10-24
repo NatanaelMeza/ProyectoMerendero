@@ -9,10 +9,10 @@
     <body>
         <section id="Fondo1"> 
                 <div>
-                    <img src="Imagenes/Icono_inicio_onda-rosa.png" class="deco1inicio">
-                    <img src="Imagenes/Icono_inicio_estrellas-Azul.png" class="deco2inicio">
-                    <img src="Imagenes/Icono_inicio_flores-Rosa.png" class="deco3inicio">
-                    <img src="Imagenes/Icono_inicio_Sol.png" class="deco4inicio">
+                    <img src="Imagenes/Icono_inicio_onda-rosa.png" class="deco1inicio animar-rebote">
+                    <img src="Imagenes/Icono_inicio_estrellas-Azul.png" class="deco2inicio animar-rebote">
+                    <img src="Imagenes/Icono_inicio_flores-Rosa.png" class="deco3inicio animar-rebote">
+                    <img src="Imagenes/Icono_inicio_Sol.png" class="deco4inicio animar-rebote">
                 </div>
                 <div class="barranav">
                     <div class="logo">
@@ -219,7 +219,15 @@
                 }
                 window.addEventListener('scroll', mostrarSecuencia);
                 mostrarSecuencia();
-            });
+
+                const rebote=document.querySelectorAll('.animar-rebote');
+                    rebote.forEach((img, i)=>{
+                            setTimeout(() =>{
+                                img.classList.add('visible-rebote');
+                            }, i*220);
+                        });
+                    });
+                
             </script>
     </body>
 </html>

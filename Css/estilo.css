@@ -113,7 +113,7 @@ html{
 
 .deco1inicio{
     position: absolute;
-    bottom: 65%;
+    bottom: 60%;
     right: 88%;
     width: 180px;
     height: 160px;
@@ -1208,4 +1208,15 @@ h3{
 .animar-secuencia.visible{
     opacity: 1;
     transform: translateY(0);
+}
+
+.animar-rebote{
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    z-index: 3;
+}
+.animar-rebote.visible-rebote{
+    opacity: 1;
+    transform: scale(1);
 }
