@@ -220,23 +220,14 @@
                 window.addEventListener('scroll', mostrarSecuencia);
                 mostrarSecuencia();
 
-                const rebote=document.querySelectorAll(".animar-rebote");
-
-                function mostrarRebote(){
-                    const altoVentana=window.innerHeight;
-        
-                    elementos.forEach((img, i)=>{
-                        const distancia=el.getBoundingClientRect().top;
-                        if(distancia<altoVentana-100 && !img.classList.contains('visible')){
+                const rebote=document.querySelectorAll('.animar-rebote');
+                    rebote.forEach((img, i)=>{
                             setTimeout(() =>{
-                                img.classList.add('visible');
-                            }, i*300);
-                        }
+                                img.classList.add('visible-rebote');
+                            }, i*220);
+                        });
                     });
-                }
-                window.addEventListener('scroll', mostrarRebote);
-                mostrarRebote();
-                });
+                
             </script>
     </body>
 </html>
