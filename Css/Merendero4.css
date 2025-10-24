@@ -10,7 +10,7 @@ h1{
     font-weight: 900;
 }
 
-.imgmerendero4{
+.imagen4{
     width: 70%;
     height: 74%;
     margin-left: 14.5%;
@@ -156,15 +156,27 @@ h1{
             from{opacity: 0; transform: translateY(20px);}
             to{opacity: 1; transform: translateY(0);}
         }
+        
+    .flecha{
+        margin: 0 auto;
+        position: absolute;
+        left: 70.5%;
+        bottom: 82%;
+        transform: translate(-50%, -50%);
+        width: 9%;
+        opacity: 0;
+        animation: aparecer 1s ease forwards 0.4s, mover 3.5s ease-in-out infinite alternate;
+        animation-delay: 0.4s;
+    }
 
-        button{
-            background-color: white;
-            border-radius: 30px;
-            height: 40px;
-            width: 100px;
-            border: #3a89c6 ;
-            color: #6596c1;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    button{
+        background-color: white;
+        border-radius: 30px;
+        height: 40px;
+        width: 100px;
+        border: #3a89c6 ;
+        color: #6596c1;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
             transition: box-shadow 0.3s ease;
         }
 
