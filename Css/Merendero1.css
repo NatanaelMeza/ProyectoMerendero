@@ -504,34 +504,31 @@ button{
  .heart::after {
     content: '';
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     background-color: #ff69b4;
     border-radius: 50%;
   }
 .heart::before {
-    top: -10px;
+    top: -12.5px;
     left: 0;
   }
 
   .heart::after {
-    left: 10px;
+    left: 12.5px;
     top: 0;
   }
- @keyframes float {
-    0% {
-      transform: translate(0, 0) rotate(-45deg);
-      opacity: 0;
-    }
-    10% {
-      opacity: 1;
-    }
-    90% {
-      opacity: 1;
-    }
-    100% {
-      transform: translate(50px, -50px) rotate(-45deg);
-      opacity: 0;
-    }
+ @keyframes appearDisappear {
+    0%, 20% { opacity: 0; transform: scale(0.5) rotate(-45deg); }
+    50%, 70% { opacity: 1; transform: scale(1) rotate(-45deg); }
+    100% { opacity: 0; transform: scale(0.5) rotate(-45deg); }
   }
+
+  /* Posiciones y tiempos distintos para cada corazón */
+  .heart:nth-child(1) { top: 10%; left: 10%; animation-duration: 6s; animation-delay: 0s; }
+  .heart:nth-child(2) { top: 30%; left: 70%; animation-duration: 7s; animation-delay: 1s; }
+  .heart:nth-child(3) { top: 50%; left: 40%; animation-duration: 8s; animation-delay: 2s; }
+  .heart:nth-child(4) { top: 70%; left: 20%; animation-duration: 6.5s; animation-delay: 0.5s; }
+  .heart:nth-child(5) { top: 85%; left: 80%; animation-duration: 7.5s; animation-delay: 1.5s; }
+
 
