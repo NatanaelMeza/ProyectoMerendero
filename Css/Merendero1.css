@@ -490,7 +490,15 @@ button{
     opacity: 1;
     transform: translateY(0);
 }
-
-
+/*comienzo fondo animado*/
+.heart {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ff69b4;
+    transform: rotate(-45deg);
+    opacity: 0;
+    animation: float 6s linear infinite;
+  }
 
 
