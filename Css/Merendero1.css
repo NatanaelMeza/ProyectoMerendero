@@ -500,5 +500,5 @@ button{
     opacity: 0;
     animation: float 6s linear infinite;
   }
-
+ .heart::before,
 
