@@ -518,5 +518,20 @@ button{
     left: 10px;
     top: 0;
   }
-
+ @keyframes float {
+    0% {
+      transform: translate(0, 0) rotate(-45deg);
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      transform: translate(50px, -50px) rotate(-45deg);
+      opacity: 0;
+    }
+  }
 
