@@ -10,6 +10,11 @@ h1{
     font-weight: 900;
 }
 
+.ImgV{
+    position: relative;
+    bottom: 5px;
+    width: 20px;
+}
 .flecha{
     margin: 0 auto;
     position: absolute;
@@ -213,6 +218,12 @@ button{
     animation: aparecerF 1s ease forwards 0.4s, mover 3.5s ease-in-out infinite alternate;
     animation-delay: 0.4s;
 
+}
+
+.ImgV{
+    position: relative;
+    bottom: 5px;
+    width: 20px;
 }
 /*keyframes de Dirección*/
 @keyframes aparecerF {

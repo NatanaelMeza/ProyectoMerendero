@@ -248,6 +248,12 @@ button:hover{
     color: white;
 }
 
+.ImgV{
+    position: relative;
+    bottom: 5px;
+    width: 20px;
+}
+
 /*keyframes de Dirección*/
 @keyframes aparecer {
     to { opacity: 1; 

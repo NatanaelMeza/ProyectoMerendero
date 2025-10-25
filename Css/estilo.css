@@ -128,10 +128,7 @@ html{
 
 .deco1inicio{
     position: absolute;
-<<<<<<< HEAD
-=======
     z-index: 8;
->>>>>>> d63fc43302531d55a3e2b8bc31f0bcfd5a06b15e
     bottom: 60%;
     right: 88%;
     width: 170px;
@@ -1756,7 +1753,6 @@ h3{
 }
 }
 
->>>>>>> d63fc43302531d55a3e2b8bc31f0bcfd5a06b15e
 /* Animación Noticias */
 .animar-secuencia{
     opacity: 0;
