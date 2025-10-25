@@ -231,11 +231,11 @@ body {
 }
 
 /* Nubes con distintas posiciones y velocidades */
-.cloud1 { top: 50px; left: -250px; width: 180px; height: 60px; animation-duration: 60s; }
-.cloud2 { top: 120px; left: -400px; width: 220px; height: 70px; animation-duration: 80s; }
-.cloud3 { top: 200px; left: -300px; width: 200px; height: 60px; animation-duration: 70s; }
-.cloud4 { top: 300px; left: -500px; width: 250px; height: 80px; animation-duration: 90s; }
-.cloud5 { top: 400px; left: -350px; width: 180px; height: 50px; animation-duration: 65s; }
+.cloud1 { top: 50px; left: -250px; width: 180px; height: 60px; animation-duration: 20s; }
+.cloud2 { top: 120px; left: -400px; width: 220px; height: 70px; animation-duration: 40s; }
+.cloud3 { top: 200px; left: -300px; width: 200px; height: 60px; animation-duration: 30s; }
+.cloud4 { top: 300px; left: -500px; width: 250px; height: 80px; animation-duration: 50s; }
+.cloud5 { top: 400px; left: -350px; width: 180px; height: 50px; animation-duration: 25s; }
 
 @keyframes moveClouds {
     0% { transform: translateX(0); }
