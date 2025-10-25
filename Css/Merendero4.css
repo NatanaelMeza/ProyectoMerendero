@@ -59,6 +59,7 @@ h1{
     text-align: left;
     padding: 50px;
     box-sizing: border-box;
+    margin-top: 250px;
 }
 .A:hover, .B:hover ,.C:hover, .D:hover{
     transform: translateY(-30px);
