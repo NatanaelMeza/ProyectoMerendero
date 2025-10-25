@@ -1,5 +1,6 @@
 <html>
     <head>
+        <script src="JS/Merendero3.js"></script>
         <title>Los pequeños gigantes</title>
         <link rel="stylesheet" href="Css/Merendero3.css">
         <link rel="stylesheet" href="https://fonts.google.com/specimen/Bebas+Neue?utm_source=chatgpt.com">
@@ -85,31 +86,5 @@
         <div class="leaf" style="left: 40%; animation-duration: 8s; animation-delay: 1s;"></div>
         <div class="leaf" style="left: 60%; animation-duration: 9s; animation-delay: 3s;"></div>
         <div class="leaf" style="left: 80%; animation-duration: 6s; animation-delay: 0.5s;"></div>
-
-        <script>
-            document.addEventListener("DOMContentLoaded", () =>{
-
-            //  Mensaje cuando cargas la página
-            console.log("Bienvenida a la página del merendero Los Pequeños Gigantes");
-            alert("¡Hola! Bienvenida/o al merendero Los Pequeños Gigantes");
-    
-            const elementos=document.querySelectorAll('.animar-secuencia');
-    
-            function mostrarSecuencia(){
-                const alturaVentana=window.innerHeight;
-    
-                elementos.forEach((el, index)=>{
-                    const distancia=el.getBoundingClientRect().top;
-                    if(distancia<alturaVentana-150&&!el.classList.contains('visible')){
-                        setTimeout(() =>{
-                            el.classList.add('visible');
-                        }, index*220);
-                    }
-                });
-            }
-            window.addEventListener('scroll', mostrarSecuencia);
-            mostrarSecuencia();
-            });
-        </script>
     </body>
 </html>

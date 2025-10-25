@@ -1,5 +1,6 @@
 <html>
     <head>
+        <script src="JS/Merendero1.js"></script>
         <title>Luz de Esperanza</title>
         <link rel="stylesheet" href="Css/Merendero1.css">
         <link rel="stylesheet" href="https://fonts.google.com/specimen/Bebas+Neue?utm_source=chatgpt.com">
@@ -83,31 +84,5 @@
         <div id="CirculoV">
             <a href="#Principio1" id="Volver"><img src="Imagenes/Icono_Merenderos-Flecha_Arriba.png" class="ImgV"></a>
         </div>
-
-        <script>
-            document.addEventListener("DOMContentLoaded", () =>{
-
-                //  Mensaje cuando cargas la página
-                console.log("Bienvenida a la página del merendero Luz de Esperanza");
-                alert("¡Hola! Bienvenida/o al merendero Luz de Esperanza");
-
-                const elementos=document.querySelectorAll('.animar-secuencia');
-
-                function mostrarSecuencia(){
-                    const alturaVentana=window.innerHeight;
-
-                    elementos.forEach((el, index)=>{
-                        const distancia=el.getBoundingClientRect().top;
-                        if(distancia<alturaVentana-150&&!el.classList.contains('visible')){
-                            setTimeout(() =>{
-                                el.classList.add('visible');
-                            }, index*220);
-                        }
-                    });
-                }
-                window.addEventListener('scroll', mostrarSecuencia);
-                mostrarSecuencia();
-            });
-        </script>
     </body>
 </html>

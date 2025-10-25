@@ -1,4 +1,9 @@
             document.addEventListener("DOMContentLoaded", () =>{
+
+                //  Mensaje cuando cargas la página
+                console.log("Bienvenida a la página del merendero Luz de Esperanza");
+                alert("¡Hola! Bienvenida/o al merendero Luz de Esperanza");
+
                 const elementos=document.querySelectorAll('.animar-secuencia');
 
                 function mostrarSecuencia(){
@@ -15,12 +20,4 @@
                 }
                 window.addEventListener('scroll', mostrarSecuencia);
                 mostrarSecuencia();
-
-                const rebote=document.querySelectorAll('.animar-rebote');
-                    rebote.forEach((img, i)=>{
-                            setTimeout(() =>{
-                                img.classList.add('visible-rebote');
-                            }, i*220);
-                        });
-                    });
-                
+            });
