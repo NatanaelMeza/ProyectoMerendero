@@ -492,13 +492,15 @@ button{
 }
 /*comienzo fondo animado*/
 .heart {
-    position: absolute;
-    width: 20px;
-    height: 20px;
+    position: fixed;
+    width: 25px;
+    height: 25px;
     background-color: #ff69b4;
     transform: rotate(-45deg);
+    border-radius: 50%;
     opacity: 0;
-    animation: float 6s linear infinite;
+    animation: appearDisappear infinite;
+    z-index: 1px;
   }
  .heart::before,
  .heart::after {
