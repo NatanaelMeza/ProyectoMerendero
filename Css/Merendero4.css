@@ -28,6 +28,19 @@ h1{
     top: 30px;
 }
 
+/*keyframes de Dirección*/
+@keyframes aparecer {
+    to { opacity: 1; 
+        transform:  translateY(0);
+    }
+}
+/*keyframes de flecha*/
+@keyframes mover {
+    0% {transform: translateX(0) translateY(0);}
+    50% {transform: translateX(5px) translateY(5px);}
+    100% {transform: translateX(-5px) translateY(10px);}
+}
+
 .imagen4{
     width: 70%;
     height: 74%;
