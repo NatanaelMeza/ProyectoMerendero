@@ -501,4 +501,13 @@ button{
     animation: float 6s linear infinite;
   }
  .heart::before,
+ .heart::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ff69b4;
+    border-radius: 50%;
+  }
+
 
