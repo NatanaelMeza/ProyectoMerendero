@@ -56,6 +56,28 @@
             //  Mensaje cuando cargas la página
             console.log("Bienvenida a la página del merendero San Lorenzo Sur");
             alert("¡Hola! Bienvenida/o al merendero San Lorenzo Sur");
+                    function mostrarHorarios() {
+            console.log("Horarios: Lunes a viernes: de 8:00 a 15:00 hs.");
+            alert("Horarios del merendero:\nLunes a viernes: de 8:00 a 15:00 hs.");
+            }
+    function mostrarResponsables() {
+    console.log("Responsables: Sra. Graciela ");
+    alert("Los responsables del merendero son:\nSra. Graciela ");
+    }
+
+    function mostrarNecesitan() {
+    console.log("Necesitan: Alimentos y Viandas, Elementos de higiene personal");
+    alert("El merendero necesita:\n- Alimentos y Viandas\n- Elementos de higiene personal");
+    }
+    function mostrarContacto() {
+    console.log("Contacto por WhatsApp");
+    alert("¡Gracias por querer contactar al merendero!");
+    }
+    document.querySelector(".A").onclick = mostrarHorarios;
+    document.querySelector(".B").onclick = mostrarResponsables;
+    document.querySelector(".C").onclick = mostrarNecesitan;
+    document.querySelector(".D button").onclick = mostrarContacto;
+    
         </script>
         
     </body>
