@@ -202,29 +202,26 @@ button{
             to{opacity: 1; transform: translateY(0);}
         }
         
-    .flecha{
-    margin: 0 auto;
-    position: absolute;
-    left: 70.5%;
-    bottom: 82%;
-    transform: translate(-50%, -50%);
-    width: 9%;
-    opacity: 0;
-    animation: aparecerF 1s ease forwards 0.4s, mover 3.5s ease-in-out infinite alternate;
-    animation-delay: 0.4s;
+ .flecha{
+    position: absolute; 
+    left: 73.8%;     
+    bottom: 95.8%;     
+    width: 130px;     
+    opacity: 0;     
+    animation: aparecerF 1s ease forwards, mover 3.5s ease-in-out infinite alternate;
+}
 
-}
-/*keyframes de Dirección*/
+/* fade-in de la flecha */
 @keyframes aparecerF {
-    to { opacity: 1; 
-        transform:  translateY(0);
-    }
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
 }
-/*keyframes de flecha*/
+
+/* movimiento sutil de la flecha */
 @keyframes mover {
-    0% {transform: translateX(0) translateY(0);}
-    50% {transform: translateX(5px) translateY(5px);}
-    100% {transform: translateX(-5px) translateY(10px);}
+    0% { transform: translateY(0); }
+    50% { transform: translateY(5px); }
+    100% { transform: translateY(0); }
 }
 
     button{
