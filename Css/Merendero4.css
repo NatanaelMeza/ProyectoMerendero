@@ -36,10 +36,6 @@ h1{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     animation: aparecer 1s ease;
 }
-@keyframes aparecer {
-    from{opacity: 0; transform: translateY(20px);}
-    to{opacity: 1; transform: translateY(0);}
-}
 
 .direccion{
     color: #c2a460;
@@ -215,6 +211,11 @@ button{
     0% {transform: translateX(0) translateY(0);}
     50% {transform: translateX(5px) translateY(5px);}
     100% {transform: translateX(-5px) translateY(10px);}
+}
+
+@keyframes aparecer {
+    from{opacity: 0; transform: translateY(20px);}
+    to{opacity: 1; transform: translateY(0);}
 }
 
 @media(min-width: 1500px){/*con media hacemos que se adapte a todas las pantallas*/
