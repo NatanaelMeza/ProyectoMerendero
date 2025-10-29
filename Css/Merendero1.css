@@ -1,6 +1,10 @@
 html{scroll-behavior: smooth;}
-body{background-color: #f3d3f6;}
-    h1{
+body{
+   
+    background: #ffc0cb; /* fondo rosa */
+    
+    }
+h1{
     margin: 0 auto;
     color: #b165b8;
     font-family: 'Bebas Neue', sans-serif;
@@ -491,7 +495,7 @@ button{
     transform: translateY(0);
 }
 /*comienzo fondo animado*/
-.heart {
+  .heart {
     position: fixed;
     width: 25px;
     height: 25px;
@@ -499,11 +503,11 @@ button{
     transform: rotate(-45deg);
     border-radius: 50%;
     opacity: 0;
-    animation: appearDisappear infinite;
-    z-index: 1px;
+    animation: appearDisappear linear infinite;
   }
- .heart::before,
- .heart::after {
+
+  .heart::before,
+  .heart::after {
     content: '';
     position: absolute;
     width: 25px;
@@ -511,7 +515,8 @@ button{
     background-color: #ff69b4;
     border-radius: 50%;
   }
-.heart::before {
+
+  .heart::before {
     top: -12.5px;
     left: 0;
   }
@@ -520,7 +525,8 @@ button{
     left: 12.5px;
     top: 0;
   }
- @keyframes appearDisappear {
+
+  @keyframes appearDisappear {
     0%, 20% { opacity: 0; transform: scale(0.5) rotate(-45deg); }
     50%, 70% { opacity: 1; transform: scale(1) rotate(-45deg); }
     100% { opacity: 0; transform: scale(0.5) rotate(-45deg); }
@@ -532,5 +538,3 @@ button{
   .heart:nth-child(3) { top: 50%; left: 40%; animation-duration: 8s; animation-delay: 2s; }
   .heart:nth-child(4) { top: 70%; left: 20%; animation-duration: 6.5s; animation-delay: 0.5s; }
   .heart:nth-child(5) { top: 85%; left: 80%; animation-duration: 7.5s; animation-delay: 1.5s; }
-
-
