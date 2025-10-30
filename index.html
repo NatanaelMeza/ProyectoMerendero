@@ -1,5 +1,6 @@
 <html>
     <head>
+        <script src="JS/script.js"></script>
         <title>Puente De Sonrisas</title>
         <meta charset="UTF-8"/> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -200,58 +201,15 @@
         </section>
 
         </section>
-
-        <script>
-            document.addEventListener("DOMContentLoaded", () =>{
-                const elementos=document.querySelectorAll('.animar-secuencia');
-
-                function mostrarSecuencia(){
-                    const alturaVentana=window.innerHeight;
-
-                    elementos.forEach((el, index)=>{
-                        const distancia=el.getBoundingClientRect().top;
-                        if(distancia<alturaVentana-150&&!el.classList.contains('visible')){
-                            setTimeout(() =>{
-                                el.classList.add('visible');
-                            }, index*50);
-                        }
-                    });
-                }
-                window.addEventListener('scroll', mostrarSecuencia);
-                mostrarSecuencia();
-
-                const rebote=document.querySelectorAll('.animar-rebote');
-                    rebote.forEach((img, i)=>{
-                            setTimeout(() =>{
-                                img.classList.add('visible-rebote');
-                            }, i*220);
-                        });
-                    });
-
-                
-                const reboteScroll=document.querySelectorAll('.animar-rebote-scroll');
-                function mostrarReboteScroll(){
-                    const alturaVentana=window.innerHeight;
-
-                    reboteScroll.forEach((img, i)=>{
-                        const distancia=img.getBoundingClientRect().top;
-                        if(distancia<alturaVentana-150&&!img.classList.contains('visible-rebote')){
-                            setTimeout(() =>{
-                                img.classList.add('visible-rebote');
-                            }, i*220);
-                        }
-                    });
-                }
-                window.addEventListener('scroll', mostrarReboteScroll);
-                mostrarReboteScroll();
-                
-            </script>
-
-            <footer id="Footer">
-                <form>
-                    <label for="Dudas" class="Pregunta">¿Tiene alguna duda?</label>
-                    <input type="text" name="Dudas" id="Dudas" class="CajaDuda" />
-                </form>
+            <footer id="Footer"">
+                <img src="Imagenes/icono_inicio_01.png" class="ImgF" />
+                <p class="TituloF"> Puente de Sonrisas </p> 
+                <p >Un proyecto realizado por estudiantes de la <b>EPET N°20</b></p>
+                <p >Materia: Programación Estática y Laboratorio Web</p>
+                <p >Profesor: Exequiel Wiedermann</p>
+                <p >© 2025 Puente de Sonrisas - Todos los derechos reservados</p>
+                <p>Organizado por:</p>
+                <p>Márquez Lucia - Martinez Brisa - Meza Natanael - Turkalj Matilde</p>
             </footer>
     </body>
 </html>

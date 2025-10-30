@@ -1,5 +1,6 @@
 <html>
     <head>
+        <script src="JS/Merendero3.js"></script>
         <title>Los pequeños gigantes</title>
         <link rel="stylesheet" href="Css/Merendero3.css">
         <link rel="stylesheet" href="https://fonts.google.com/specimen/Bebas+Neue?utm_source=chatgpt.com">
@@ -78,7 +79,7 @@
         </div>
 
         <div id="CirculoV">
-            <a href="#Principio3" id="Volver">Inicio</a>
+            <a href="#Principio1" id="Volver"><img src="Imagenes/Icono_Merenderos-Flecha_Arriba.png" class="ImgV"></a>
         </div>
         <div class="leaf" style="left: 10%; animation-duration: 7s; animation-delay: 0s;"></div>
         <div class="leaf" style="left: 25%; animation-duration: 10s; animation-delay: 2s;"></div>
@@ -86,30 +87,15 @@
         <div class="leaf" style="left: 60%; animation-duration: 9s; animation-delay: 3s;"></div>
         <div class="leaf" style="left: 80%; animation-duration: 6s; animation-delay: 0.5s;"></div>
 
-        <script>
-            document.addEventListener("DOMContentLoaded", () =>{
-
-            //  Mensaje cuando cargas la página
-            console.log("Bienvenida a la página del merendero Los Pequeños Gigantes");
-            alert("¡Hola! Bienvenida/o al merendero Los Pequeños Gigantes");
-    
-            const elementos=document.querySelectorAll('.animar-secuencia');
-    
-            function mostrarSecuencia(){
-                const alturaVentana=window.innerHeight;
-    
-                elementos.forEach((el, index)=>{
-                    const distancia=el.getBoundingClientRect().top;
-                    if(distancia<alturaVentana-150&&!el.classList.contains('visible')){
-                        setTimeout(() =>{
-                            el.classList.add('visible');
-                        }, index*50);
-                    }
-                });
-            }
-            window.addEventListener('scroll', mostrarSecuencia);
-            mostrarSecuencia();
-            });
-        </script>
+        <footer id="Footer">
+                <img src="Imagenes/icono_inicio_01.png" class="ImgF" />
+                <p class="TituloF"> Puente de Sonrisas </p> 
+                <p >Un proyecto realizado por estudiantes de la <b>EPET N°20</b></p>
+                <p >Materia: Programación Estática y Laboratorio Web</p>
+                <p >Profesor: Exequiel Wiedermann</p>
+                <p >© 2025 Puente de Sonrisas - Todos los derechos reservados</p>
+                <p>Organizado por:</p>
+                <p>Márquez Lucia - Martinez Brisa - Meza Natanael - Turkalj Matilde</p>
+            </footer>
     </body>
 </html>
