@@ -1,25 +1,22 @@
-            document.addEventListener("DOMContentLoaded", () =>{
+document.addEventListener("DOMContentLoaded", () =>{
+//  Mensaje cuando cargas la página
+    console.log("Bienvenida a la página del merendero Luz de Esperanza");
+    alert("¡Hola! Bienvenida/o al merendero Luz de Esperanza");
 
-                //  Mensaje cuando cargas la página
-                console.log("Bienvenida a la página del merendero Luz de Esperanza");
-                alert("¡Hola! Bienvenida/o al merendero Luz de Esperanza");
-
-                const elementos=document.querySelectorAll('.animar-secuencia');
-
-                function mostrarSecuencia(){
-                    const alturaVentana=window.innerHeight;
-
-                    elementos.forEach((el, index)=>{
-                        const distancia=el.getBoundingClientRect().top;
-                        if(distancia<alturaVentana-150&&!el.classList.contains('visible')){
-                            setTimeout(() =>{
-                                el.classList.add('visible');
-                            }, index*220);
-                        }
-                    });
+    const elementos=document.querySelectorAll('.animar-secuencia');
+        function mostrarSecuencia(){
+             const alturaVentana=window.innerHeight;
+                elementos.forEach((el, index)=>{
+                const distancia=el.getBoundingClientRect().top;
+                if(distancia<alturaVentana-150&&!el.classList.contains('visible')){
+                    setTimeout(() =>{
+                        el.classList.add('visible');
+                    }, index*220);
                 }
-                window.addEventListener('scroll', mostrarSecuencia);
-                mostrarSecuencia();
+                });
+                }
+        window.addEventListener('scroll', mostrarSecuencia);
+        mostrarSecuencia();
             });
         function mostrarHorarios() {
         console.log("Horarios: Lunes, Miércoles y Viernes de 9:30hs a 15:30hs aprox");
