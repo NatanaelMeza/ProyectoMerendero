@@ -370,9 +370,9 @@ html{
 
 .galeriaNovedades{
     display: flex;
-    padding-left: 80px;
+    padding-left: 22px;
     padding-right: 80px;
-    gap: 40px;
+    gap: 20px;
 }
 
 .novedadesImg{
