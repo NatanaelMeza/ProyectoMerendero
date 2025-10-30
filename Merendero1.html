@@ -1,5 +1,6 @@
 <html>
     <head>
+        <script src="JS/Merendero1.js"></script>
         <title>Luz de Esperanza</title>
         <link rel="stylesheet" href="Css/Merendero1.css">
         <link rel="stylesheet" href="https://fonts.google.com/specimen/Bebas+Neue?utm_source=chatgpt.com">
@@ -83,61 +84,21 @@
         <div id="CirculoV">
             <a href="#Principio1" id="Volver"><img src="Imagenes/Icono_Merenderos-Flecha_Arriba.png" class="ImgV"></a>
         </div>
-
-       <script>
-        function mostrarHorarios() {
-        console.log("Horarios: Lunes, Miércoles y Viernes de 9:30hs a 15:30hs aprox");
-        alert("Horarios del merendero:\n Lunes, Miércoles y Viernes de 9:30hs a 15:30hs aprox");
-        }
-        function mostrarResponsables() {
-        console.log("Responsables: Sra. Erika y Sra. Silvia Barrientos");
-        alert("Los responsables del merendero son:\nSra. Erika y Sra. Silvia Barrientos");
-        }
-        function mostrarNecesitan() {
-        console.log("Necesitan: ropa, calzado, muebles, útiles escolares, cocina, limpieza");
-        alert("El merendero necesita:\n- Ropa\n- Calzado\n- Muebles\n- Útiles escolares\n- Elementos de cocina\n- Artículos de limpieza");
-        }
-        function mostrarContacto() {
-        console.log("Contacto por WhatsApp");
-        alert("¡Gracias por querer contactar al merendero!");
-        }
-
-        document.querySelector(".A").onclick = mostrarHorarios;
-        document.querySelector(".B").onclick = mostrarResponsables;
-        document.querySelector(".C").onclick = mostrarNecesitan;
-        document.querySelector(".D button").onclick = mostrarContacto;
-       </script> 
-
-        <script>
-            document.addEventListener("DOMContentLoaded", () =>{
-
-                //  Mensaje cuando cargas la página
-                console.log("Bienvenida a la página del merendero Luz de Esperanza");
-                alert("¡Hola! Bienvenida/o al merendero Luz de Esperanza");
-
-                const elementos=document.querySelectorAll('.animar-secuencia');
-
-                function mostrarSecuencia(){
-                    const alturaVentana=window.innerHeight;
-
-                    elementos.forEach((el, index)=>{
-                        const distancia=el.getBoundingClientRect().top;
-                        if(distancia<alturaVentana-150&&!el.classList.contains('visible')){
-                            setTimeout(() =>{
-                                el.classList.add('visible');
-                            }, index*220);
-                        }
-                    });
-                }
-                window.addEventListener('scroll', mostrarSecuencia);
-                mostrarSecuencia();
-            });
-        </script>
+     
         <div class="heart"></div>
         <div class="heart"></div>
         <div class="heart"></div>
         <div class="heart"></div>
         <div class="heart"></div>
-
+        <footer id="Footer"">
+                <img src="Imagenes/icono_inicio_01.png" class="ImgF" />
+                <p class="TituloF"> Puente de Sonrisas </p> 
+                <p >Un proyecto realizado por estudiantes de la <b>EPET N°20</b></p>
+                <p >Materia: Programación Estática y Laboratorio Web</p>
+                <p >Profesor: Exequiel Wiedermann</p>
+                <p >© 2025 Puente de Sonrisas - Todos los derechos reservados</p>
+                <p>Organizado por:</p>
+                <p>Márquez Lucia - Martinez Brisa - Meza Natanael - Turkalj Matilde</p>
+            </footer>
     </body>
 </html>

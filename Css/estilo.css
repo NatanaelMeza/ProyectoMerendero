@@ -1,26 +1,8 @@
-@keyframes girar{
-    from{ transform: rotate(0deg);}
-    to{transform: rotate(360deg);}
-}
-@keyframes aparecer {
-    from{opacity: 0; transform: translateY(20px);}
-    to{opacity: 1; transform: translateY(0);}
-}
-@keyframes largo{
-    0% {transform: scaleX(1);}
-    50%{transform: scaleX(1.4);}
-    100%{transform: scaleX(1);}
-}
-@keyframes zoom{
-    0% {transform: scale(1);}
-    50%{transform: scale(1.1);}
-    100%{transform: scale(1);}
-}
-
 html{
     scroll-behavior: smooth;
 }
 
+/*------------------ Fondo 1 ------------------*/
 #fondo1{
     margin: auto;
     background-color:#FFFFB0;
@@ -33,8 +15,6 @@ html{
     justify-content: space-between;
     padding: 10px 50px 10px 25px;
     margin-bottom: 30px;
- 
-
     position:fixed;
     top: 0px;
     right: 9px;
@@ -101,6 +81,7 @@ html{
     transform: translateY(-20px);
     animation: aparecer 1s ease forwards;
 }
+
 #InicioImg{
     position:absolute;
     height: auto;
@@ -133,7 +114,7 @@ html{
     right: 88%;
     width: 170px;
     height: 150px;
-    animation: zoom 3s ease-in-out infinite;
+    animation: zoom 3s ease-in-out infinite;  /*En animaciones*/
 }
 
 .deco2inicio{
@@ -143,7 +124,7 @@ html{
     left: 47%;
     width: 140px;
     height: 120px;
-    animation: zoom 3s ease-in-out infinite;
+    animation: zoom 3s ease-in-out infinite; /*En animaciones*/
 }
 .deco3inicio{
     position: absolute;
@@ -151,7 +132,7 @@ html{
     top: 190px;
     left: 59%;
     width: 120px;
-    animation: zoom 3s ease-in-out infinite;
+    animation: zoom 3s ease-in-out infinite; /*En animaciones*/
 }
 .deco4inicio{
     position: absolute;
@@ -159,10 +140,10 @@ html{
     top: 92%;
     left: 86%;
     width: 140px;
-    animation: girar 20s linear infinite;
+    animation: girar 20s linear infinite; /*En animaciones*/
 }
 
-/*Página 2*/
+/* ------------------ Página 2 ------------------*/
 
 #fondo2{
     margin: auto;
@@ -360,7 +341,7 @@ html{
     transition: transform 0.4s ease;
 }
 
-/*Página 3*/
+/*------------------ Página 3 ------------------*/
 #fondo3{
     margin: auto;
     background-color: #fbd6ff;
@@ -431,7 +412,7 @@ html{
     height: auto;
 }
 
-/*Fondo 4*/
+/* ------------------ Fondo 4 ------------------*/
 
 #fondo4{
     margin: auto;
@@ -440,7 +421,6 @@ html{
     padding-top: 10px;
     display: flex;
     align-items: center;
-
 }
 
 h2{
@@ -463,7 +443,6 @@ h3{
     border-radius: 50px;
     margin: 40px 40px 40px 80px;
     padding: 10px  40px 70px 40px;
-    
 }
 
 .parrafo{
@@ -474,6 +453,7 @@ h3{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-shadow: 0 5px 4px rgba(5, 5, 5, 0.3);
 }
+
 .parrafoNosotros{
     margin: auto;
     color:white;
@@ -481,6 +461,7 @@ h3{
     font-size: 100px;
     text-shadow: 0 5px 5px rgba(134, 133, 133, 0.3);
 }
+
 .decorativa1{
     margin: 0 auto;
     position: relative;
@@ -488,6 +469,49 @@ h3{
     height: 180px;
     top: 100px;
     left: 260px;
+}
+
+/*---------Animaciones---------*/
+
+/* Animación Noticias */
+.animar-secuencia{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.4s ease-out;
+}
+.animar-secuencia.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+/* Animación Inicio */
+.animar-rebote{
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    z-index: 3;
+}
+.animar-rebote.visible-rebote{
+    opacity: 1;
+    transform: scale(1);
+}
+
+@keyframes girar{
+    from{ transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+@keyframes aparecer {
+    from{opacity: 0; transform: translateY(20px);}
+    to{opacity: 1; transform: translateY(0);}
+}
+@keyframes largo{
+    0% {transform: scaleX(1);}
+    50%{transform: scaleX(1.4);}
+    100%{transform: scaleX(1);}
+}
+@keyframes zoom{
+    0% {transform: scale(1);}
+    50%{transform: scale(1.1);}
+    100%{transform: scale(1);}
 }
 
 @media (prefers-reduced-motion: reduce){
@@ -593,6 +617,7 @@ h3{
     text-align:center; 
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
+    padding: 10px;
 }
 
 .TituloF{
@@ -606,13 +631,15 @@ h3{
     width: 90px;
     height: 30px;
 }
-/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+/*------------------ ------------------  Primer Media ------------------ ------------------ */
+/*--------- Pantalla Grande --------- */
 @media(min-width: 1500px){
-    html{
+html{
     scroll-behavior: smooth;
 }
 
-/*Página 1*/
+/*------------------ Página 1 ------------------*/
 #fondo1{
     margin: auto;
     background-color:#FFFFB0;
@@ -625,8 +652,6 @@ h3{
     justify-content: space-between;
     padding: 10px 50px 10px 25px;
     margin-bottom: 30px;
- 
-
     position:fixed;
     top: 0px;
     right: 9px;
@@ -660,6 +685,7 @@ h3{
     min-width: 520px;
     max-width: 900px;
 }
+
 .Titulo {
     background-color: #ffd2d5;
     width: 130%;
@@ -704,7 +730,6 @@ h3{
     animation: aparecer 1s ease forwards;
 }
 
-
 #InicioImg{
     height: auto;
     width: 100%;
@@ -712,7 +737,6 @@ h3{
     display: block;
     border-radius: 500% 500% 0% 0%;
 }
-
 
 .deco1inicio{
     position: absolute;
@@ -748,107 +772,121 @@ h3{
     animation: girar 4s linear infinite;
 
 }
-    .columna{
-        width: 500px;
-        min-width: 520px;
-        max-width: 900px;
-    }
-    .Titulo {
-        background-color: #ffd2d5;
-        width: 130%;
-        border-radius: 50px;
-        font-family: 'Barrio', cursive;
-        box-shadow: 8px 8px 8px rgba(68, 68, 68, 0.3);
-        flex-direction: column;
-        align-items: center;
-    }
-    #Titulo {
-        font-size: 140px; 
-    }
-    #ParrafoI {
-        width: 130%;
-        font-size: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 20px;
-    }
-    #InicioImg{
-        position:absolute;
-        height: auto;
-        width: 90%;
-        max-width: 480px;
-        display: block;
-        border-radius: 500% 500% 0% 0%;
-        bottom: 1%;
-        top: 10%;
-        left: 62%;
-    }
-    .filaA, .filaB, .galeriaNovedades{
-        gap: 5%;
-        padding-left: 8%;
-        padding-right: 8%;
-    }
-    .barranav{
-        padding-left: 8%;
-        padding-right: 8%;
-    }
-    .parrafoD{
-        width: 60%;
-        margin-left: 10%;
-        margin-right: 10%;
-        font-size: 120%;
-    }
-    .parrafoNosotros{
-        font-size: 400%;
-    }
-    .deco1inicio{
-        position: absolute;
-        bottom: 65%;
-        right: 88%;
-        width: 180px;
-        height: 160px;
-    }
-    .deco2inicio{
-        position: absolute;
-        top: 75%;
-        left: 46%;
-        width: 160px;
-        height: 140px;
-    }
-    .deco3inicio{
-        position: absolute;
-        left: 59%;
-        width: 160px;
-    }
-    .deco4inicio{
-        position: absolute;
-        top: 92%;
-        left: 87%;
-    }
+/*------------------ ------------------ */
+.columna{
+    width: 500px;
+    min-width: 520px;
+    max-width: 900px;
+}
 
-    .deco2inicio{
-        position: absolute;
-        z-index: 8;
-        top: 75%;
-        left: 48%;
-        width: 160px;
-        height: 140px;
-    }
+.Titulo {
+    background-color: #ffd2d5;
+    width: 130%;
+    border-radius: 50px;
+    font-family: 'Barrio', cursive;
+    box-shadow: 8px 8px 8px rgba(68, 68, 68, 0.3);
+    flex-direction: column;
+    align-items: center;
+}
 
-    .deco3inicio{
-        position: absolute;
-        z-index: 8;
-        left: 59%;
-        width: 160px;
-    }
+#Titulo {
+    font-size: 140px; 
+}
 
-    .deco4inicio{
-        position: absolute;
-        z-index: 8;
-        top: 92%;
-        left: 87%;
-    }
+#ParrafoI {
+    width: 130%;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
 
+#InicioImg{
+    position:absolute;
+    height: auto;
+    width: 90%;
+    max-width: 480px;
+    display: block;
+    border-radius: 500% 500% 0% 0%;
+    bottom: 1%;
+    top: 10%;
+    left: 62%;
+}
+
+.filaA, .filaB, .galeriaNovedades{
+    gap: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.barranav{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.parrafoD{
+    width: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 120%;
+}
+
+.parrafoNosotros{
+    font-size: 400%;
+}
+
+.deco1inicio{
+    position: absolute;
+    bottom: 65%;
+    right: 88%;
+    width: 180px;
+    height: 160px;
+}
+
+.deco2inicio{
+    position: absolute;
+    top: 75%;
+    left: 46%;
+    width: 160px;
+    height: 140px;
+}
+
+.deco3inicio{
+    position: absolute;
+    left: 59%;
+    width: 160px;
+}
+
+.deco4inicio{
+    position: absolute;
+    top: 92%;
+    left: 87%;
+}
+
+.deco2inicio{
+    position: absolute;
+    z-index: 8;
+    top: 75%;
+    left: 48%;
+    width: 160px;
+    height: 140px;
+}
+
+.deco3inicio{
+    position: absolute;
+    z-index: 8;
+    left: 59%;
+    width: 160px;
+}
+
+.deco4inicio{
+    position: absolute;
+    z-index: 8;
+    top: 92%;
+    left: 87%;
+}
+/*------------------ ------------------ */
+/*------------------ Fondo 2 ------------------*/
 #fondo2{
     margin: auto;
     position: relative;
@@ -1025,7 +1063,7 @@ h3{
     width: 13%;
 }
 
-
+/*------------------  Fondo 3 ------------------ */
 #fondo3{
     margin: auto;
     background-color: #fbd6ff;
@@ -1096,8 +1134,7 @@ h3{
     height: auto;
 }
 
-
-
+/*------------------  Fondo 4 ------------------ */
 #fondo4{
     margin: auto;
     background-color: #e7ffb1;
@@ -1139,6 +1176,7 @@ h3{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-shadow: 0 5px 4px rgba(5, 5, 5, 0.3);
 }
+
 .parrafoNosotros{
     margin: auto;
     color:white;
@@ -1146,6 +1184,7 @@ h3{
     font-size: 100px;
     text-shadow: 0 5px 5px rgba(134, 133, 133, 0.3);
 }
+
 .decorativa1{
     margin: 0 auto;
     position: relative;
@@ -1155,103 +1194,7 @@ h3{
     left: 260px;
 }
 
-@media (prefers-reduced-motion: reduce){
-    img.decorativa2{
-    animation-duration: 0.001ms !important;
-    animation-iteration-count:1 !important;;
-    }
-    img.decorativa3{
-    animation-duration: 0.001ms !important;
-    animation-iteration-count:1 !important;;
-    }
-    img.decorativa4{
-    animation-duration: 0.001ms !important;
-    animation-iteration-count:1 !important;;
-    }
-
-}
-.decorativa2{
-    margin: 0 auto;
-    position: relative;
-    top:150px;
-    left: 280px;
-    width: 120px;
-    height: 120px;
-    animation: girar 4s linear infinite;
-}
-.decorativa3{
-    margin: 0 auto;
-    position: relative;
-    top: 20px;
-    right: 350px;
-    animation: girar 4s linear infinite;
-
-}
-.decorativa4{
-    margin: 0 auto;
-    position: relative;
-    bottom:150px;
-    left: 90px;
-    width: 100px;
-    height: 100px;
-    animation: girar 4s linear infinite;
-
-}
-
-
-@media(prefers-reduced-motion: reduce){
-    img.decorativa5{
-        animation-duration: 0.001ms !important;
-        animation-iteration-count: 1 !important;
-    }
-}
-.decorativa5{
-    margin: 0  auto;
-    position: relative;
-    bottom:60px;
-    left: 230px;
-    width: 250px;
-    height: 250px;
-    animation: largo 5s ease-in-out infinite;
-    display: block;
-}
-
-.decorativa7{
-    margin: 0 auto;
-    position: relative;
-    bottom: 5%;
-    left: 65%;
-    width: 220px;
-    height: 60px;
-}
-
-.decorativa8{
-    margin: 0 auto;
-    position: relative;
-    bottom: 105%;
-    left: 38%;
-    width: 128px;
-    height: 110px;
-}
-
-
-@media(prefers-reduced-motion: reduce){
-    img.decorativa9{
-        animation-duration: 0.001ms !important;
-        animation-iteration-count: 1 !important;
-    }
-}
-.decorativa9{
-    margin: 0 auto;
-    position: relative;
-    bottom: 1%;
-    right: 78%;
-    width: 80px;
-    height: 80px;
-    animation: zoom 2s ease-in-out infinite;
-
-}
-
+/*------------------ ------------------  Segundo Media ------------------ ------------------ */
 @media(min-width: 1500px){
     html{
     scroll-behavior: smooth;
@@ -1758,26 +1701,4 @@ h3{
 }
 }
 }
-}
-
-/* Animación Noticias */
-.animar-secuencia{
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 0.4s ease-out;
-}
-.animar-secuencia.visible{
-    opacity: 1;
-    transform: translateY(0);
-}
-/* Animación Inicio */
-.animar-rebote{
-    opacity: 0;
-    transform: scale(0.5);
-    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-    z-index: 3;
-}
-.animar-rebote.visible-rebote{
-    opacity: 1;
-    transform: scale(1);
 }
