@@ -4,7 +4,7 @@ body{
     padding: 0;
     height: 100vh;
     width: 100vw;
-    background: #d3b4d6; /* fondo rosa */
+    background: rgb(223, 187, 226); 
     position:relative;    
     }
 h1{
@@ -149,7 +149,7 @@ h1{
     padding-left: 24%;
     width: 8%;
     height: 16%;
-    padding-top: 25%;
+    padding-top: 23%;
     z-index: 2;
 }
 
@@ -168,18 +168,7 @@ h1{
     padding-left: 25.5%;
     width: 8%;
     height: 13%;
-    padding-top: 34%;
-}
-
-button{
-    margin: 0 auto;
-    background-color: white;
-    border-radius: 30px;
-    height: 40px;
-    width: 100px;
-    border: #6e4172 solid;
-    color: #59355c;
-    transition: box-shadow 0.3s ease;
+    padding-top: 33%;
 }
 
 button{
