@@ -396,7 +396,7 @@ html{
     margin: 0 auto;
     position:absolute;
     z-index: 1;
-    top: 255%;
+    top: 222.5%;
     left: 36%;
     transform: translate(-50%, -50%);
     width: 11%;
@@ -406,7 +406,7 @@ html{
     margin: 0 auto;
     position:absolute;
     left: 63%;
-    top: 256%;
+    top: 250%;
     transform: translate(-50%, -50%);
     width: 9%;
     height: auto;
@@ -1118,7 +1118,7 @@ html{
     margin: 0 auto;
     position:absolute;
     z-index: 1;
-    top: 255%;
+    top: 250%;
     left: 36%;
     transform: translate(-50%, -50%);
     width: 11%;
@@ -1128,7 +1128,7 @@ html{
     margin: 0 auto;
     position:absolute;
     left: 63%;
-    top: 256%;
+    top: 250%;
     transform: translate(-50%, -50%);
     width: 9%;
     height: auto;
@@ -1571,23 +1571,20 @@ h3{
 }
 
 .deco1NV{
-    margin: 0 auto;
-    position:absolute;
+       margin-bottom: 20%;
     z-index: 1;
-    top: 255%;
-    left: 36%;
     transform: translate(-50%, -50%);
     width: 11%;
     height: auto;
 }
+}
 .deco2NV{
-    margin: 0 auto;
-    position:absolute;
-    left: 63%;
-    top: 256%;
+       margin-bottom: 20%;
+    z-index: 1;
     transform: translate(-50%, -50%);
-    width: 9%;
+    width: 11%;
     height: auto;
+}
 }
 #fondo4{
     margin: auto;
