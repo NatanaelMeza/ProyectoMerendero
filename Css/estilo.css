@@ -114,7 +114,7 @@ html{
     right: 88%;
     width: 170px;
     height: 150px;
-    animation: zoom 3s ease-in-out infinite;  /*En animaciones*/
+    animation: zoom 3s ease-in-out infinite;  
 }
 
 .deco2inicio{
@@ -124,7 +124,7 @@ html{
     left: 47%;
     width: 140px;
     height: 120px;
-    animation: zoom 3s ease-in-out infinite; /*En animaciones*/
+    animation: zoom 3s ease-in-out infinite; 
 }
 .deco3inicio{
     position: absolute;
@@ -132,7 +132,7 @@ html{
     top: 190px;
     left: 59%;
     width: 120px;
-    animation: zoom 3s ease-in-out infinite; /*En animaciones*/
+    animation: zoom 3s ease-in-out infinite; 
 }
 .deco4inicio{
     position: absolute;
@@ -140,7 +140,7 @@ html{
     top: 92%;
     left: 86%;
     width: 140px;
-    animation: girar 20s linear infinite; /*En animaciones*/
+    animation: girar 20s linear infinite; 
 }
 
 /* ------------------ Página 2 ------------------*/
@@ -396,7 +396,7 @@ html{
     margin: 0 auto;
     position:absolute;
     z-index: 1;
-    top: 250%;
+    top: 258%;
     left: 36%;
     transform: translate(-50%, -50%);
     width: 11%;
@@ -406,7 +406,7 @@ html{
     margin: 0 auto;
     position:absolute;
     left: 63%;
-    top: 250%;
+    top: 258%;
     transform: translate(-50%, -50%);
     width: 9%;
     height: auto;
@@ -1697,36 +1697,3 @@ h3{
     height: 80px;
 }
 }
-
-/* Animación Inicio */
-.animar-secuencia{
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 0.4s ease-out;
-}
-.animar-secuencia.visible{
-    opacity: 1;
-    transform: translateY(0);
-}
-/* Animación rebote de carga */
-.animar-rebote{
-    opacity: 0;
-    transform: scale(0.5);
-    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-    z-index: 3;
-}
-.animar-rebote.visible-rebote{
-    opacity: 1;
-    transform: scale(1);
-}
-/* Animación rebote scroll */
-.animar-rebote-scroll{
-    opacity: 0;
-    transform: scale(0.5);
-    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
-.animar-rebote-scroll.visible-rebote{
-    opacity: 1;
-    transform: scale(1);
-}
-
