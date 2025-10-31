@@ -8,9 +8,6 @@ h1{
     margin-bottom: 5px;
     font-size: 48px;
     font-weight: 900;
-    opacity: 0;
-    transform: translateY(-20px);
-    animation: aparecer 1s ease forwards;
 }
 
 .ImgV{
@@ -21,27 +18,13 @@ h1{
 .flecha{
     margin: 0 auto;
     position: absolute;
-    left: 80%;
+    left: 70.5%;
     bottom: 82%;
     transform: translate(-50%, -50%);
     width: 9%;
     opacity: 0;
     animation: aparecer 1s ease forwards 0.4s, mover 3.5s ease-in-out infinite alternate;
     animation-delay: 0.4s;
-    top: 30px;
-}
-
-/*keyframes de Dirección*/
-@keyframes aparecer {
-    to { opacity: 1; 
-        transform:  translateY(0);
-    }
-}
-/*keyframes de flecha*/
-@keyframes mover {
-    0% {transform: translateX(0) translateY(0);}
-    50% {transform: translateX(5px) translateY(5px);}
-    100% {transform: translateX(-5px) translateY(10px);}
 }
 
 .imagen4{
@@ -58,9 +41,6 @@ h1{
     color: #c2a460;
     font-style:italic;
     text-align: center;
-    opacity: 0;
-    animation: aparecer 1s ease forwards;
-    animation-delay: 0.3s;
 }
 .A, .B,.C, .D{
     color: white;
@@ -75,12 +55,11 @@ h1{
     text-align: left;
     padding: 50px;
     box-sizing: border-box;
-    margin-top: 250px;
 }
 .A:hover, .B:hover ,.C:hover, .D:hover{
     transform: translateY(-30px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-    cursor: pointer; /*cambia el cursor al pasar el mouse */
+    cursor: pointer; /*cambia el cursor al pasar el mouse*/
     animation: bounce 0.8s ease;
 }
 
@@ -91,7 +70,8 @@ h1{
     top: 900px;
     z-index: 1;
     text-align: center;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);}
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
 .B{
     width: 300px;
     height: 300px;
@@ -120,7 +100,7 @@ h1{
     font-size: 20px;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    color: #756235;
+    color: #3b3b3b;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     transition: all 0.3s ease;
 }
@@ -187,7 +167,7 @@ button{
     height: 40px;
     width: 100px;
     border: #c6a256 ;
-    color: #976e16;
+    color: #dbbf83;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: box-shadow 0.3s ease;
 }
@@ -223,17 +203,13 @@ button{
             to{opacity: 1; transform: translateY(0);}
         }
         
-    .flecha{
-    margin: 0 auto;
-    position: absolute;
-    left: 70.5%;
-    bottom: 82%;
-    transform: translate(-50%, -50%);
-    width: 9%;
-    opacity: 0;
-    animation: aparecerF 1s ease forwards 0.4s, mover 3.5s ease-in-out infinite alternate;
-    animation-delay: 0.4s;
-
+ .flecha{
+    position: absolute; 
+    left: 73.8%;     
+    bottom: 95.8%;     
+    width: 130px;     
+    opacity: 0;     
+    animation: aparecerF 1s ease forwards, mover 3.5s ease-in-out infinite alternate;
 }
 
 .ImgV{
@@ -247,15 +223,15 @@ button{
 }
 /*keyframes de Dirección*/
 @keyframes aparecerF {
-    to { opacity: 1; 
-        transform:  translateY(0);
-    }
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
 }
-/*keyframes de flecha*/
+
+/* movimiento sutil de la flecha */
 @keyframes mover {
-    0% {transform: translateX(0) translateY(0);}
-    50% {transform: translateX(5px) translateY(5px);}
-    100% {transform: translateX(-5px) translateY(10px);}
+    0% { transform: translateY(0); }
+    50% { transform: translateY(5px); }
+    100% { transform: translateY(0); }
 }
 
 @keyframes aparecer {
@@ -387,7 +363,5 @@ button:hover{
         transform: scale(1.05) translateY(-3px);
         text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     }
-
 }
 }
-
