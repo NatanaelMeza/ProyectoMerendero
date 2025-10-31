@@ -1113,25 +1113,6 @@ html{
     margin-bottom: 40px;
 }
 
-.deco1NV{
-    margin: 0 auto;
-    position:absolute;
-    z-index: 1;
-    top: 222.5%;
-    left: 36%;
-    transform: translate(-50%, -50%);
-    width: 11%;
-    height: auto;
-}
-.deco2NV{
-    margin: 0 auto;
-    position:absolute;
-    left: 63%;
-    top: 222.5%;
-    transform: translate(-50%, -50%);
-    width: 9%;
-    height: auto;
-}
 
 /*------------------  Fondo 4 ------------------ */
 #fondo4{
