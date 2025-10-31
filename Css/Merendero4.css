@@ -1,5 +1,11 @@
 html{scroll-behavior: smooth;}
-body{background-color: #f7e9cb;}
+body{
+    background-color: #f7e9cb;
+    margin: 0;
+    padding: 0;
+    position: relative; 
+    min-height: 100vh;
+}
 h1{
     color: #c2a460;
     font-family: 'Bebas Neue', sans-serif;
@@ -364,4 +370,71 @@ button:hover{
         text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     }
 }
+}
+.bellota-animada {
+    position: absolute; 
+    width: 35px;
+    height: 40px;     
+    background-image: url('../Imagenes/hoja.png'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0; 
+    pointer-events: none;
+    animation: aparecerPop linear infinite; 
+    z-index: -1;
+}
+
+.bellota-animada:nth-child(1) { left: 5%; top: 10%; animation-duration: 10s; animation-delay: 0s; }
+.bellota-animada:nth-child(2) { left: 15%; top: 50%; animation-duration: 8s; animation-delay: 1.5s; }
+.bellota-animada:nth-child(3) { left: 25%; top: 30%; animation-duration: 9s; animation-delay: 3s; }
+.bellota-animada:nth-child(4) { left: 35%; top: 70%; animation-duration: 7s; animation-delay: 4.5s; }
+.bellota-animada:nth-child(5) { left: 45%; top: 20%; animation-duration: 11s; animation-delay: 6s; }
+.bellota-animada:nth-child(6) { left: 55%; top: 60%; animation-duration: 7.5s; animation-delay: 7.5s; }
+.bellota-animada:nth-child(7) { left: 65%; top: 40%; animation-duration: 9.5s; animation-delay: 9s; }
+.bellota-animada:nth-child(8) { left: 75%; top: 80%; animation-duration: 12s; animation-delay: 10.5s; }
+.bellota-animada:nth-child(9) { left: 85%; top: 10%; animation-duration: 8.5s; animation-delay: 12s; }
+.bellota-animada:nth-child(10) { left: 95%; top: 50%; animation-duration: 10s; animation-delay: 13.5s; }
+.bellota-animada:nth-child(11) { left: 10%; top: 90%; animation-duration: 9s; animation-delay: 15s; }
+.bellota-animada:nth-child(12) { left: 70%; top: 30%; animation-duration: 11.5s; animation-delay: 16.5s; }
+
+
+@keyframes aparecerPop {
+    0%, 100% {
+        opacity: 0;
+        transform: translate(0, 0) scale(0.2) rotate(var(--initial-rotation, 0deg)); 
+    }
+    
+    1% { opacity: 0; }
+    5% { 
+        opacity: 1; 
+        transform: translate(5vw, 5vh) scale(1.1) rotate(calc(var(--initial-rotation, 0deg) + 15deg)); 
+    }
+    
+    10% { 
+        opacity: 1; 
+        transform: translate(10vw, 15vh) scale(1) rotate(var(--initial-rotation, 0deg)); 
+    }
+    
+    30% {
+        opacity: 1;
+        transform: translate(-5vw, 30vh) scale(1) rotate(calc(var(--initial-rotation, 0deg) - 10deg)); 
+    }
+    
+    50% {
+        opacity: 1;
+        transform: translate(20vw, 45vh) scale(1) rotate(calc(var(--initial-rotation, 0deg) + 20deg)); 
+    }
+    
+    70% {
+        opacity: 1;
+        transform: translate(-10vw, 60vh) scale(1) rotate(calc(var(--initial-rotation, 0deg) - 15deg)); 
+    }
+
+    90% { 
+        opacity: 1; 
+        transform: translate(15vw, 75vh) scale(1) rotate(var(--initial-rotation, 0deg));
+    }
+    
+    95% { opacity: 0.5; }
 }
