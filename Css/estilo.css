@@ -1117,7 +1117,7 @@ html{
     margin: 0 auto;
     position:absolute;
     z-index: 1;
-    top: 250%;
+    top: 222.5%;
     left: 36%;
     transform: translate(-50%, -50%);
     width: 11%;
@@ -1127,7 +1127,7 @@ html{
     margin: 0 auto;
     position:absolute;
     left: 63%;
-    top: 250%;
+    top: 222.5%;
     transform: translate(-50%, -50%);
     width: 9%;
     height: auto;
@@ -1574,14 +1574,16 @@ h3{
     z-index: 1;
     transform: translate(-50%, -50%);
     width: 11%;
+    top: 222.5%;
     height: auto;
 }
 }
 .deco2NV{
-       margin-bottom: 20%;
+    margin-bottom: 20%;
     z-index: 1;
     transform: translate(-50%, -50%);
     width: 11%;
+    top: 222.5%;
     height: auto;
 }
 }
