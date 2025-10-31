@@ -22,9 +22,6 @@
         window.addEventListener('scroll', mostrarSecuencia);
         mostrarSecuencia();
         });
-    //  Mensaje cuando cargas la página
-    console.log("Bienvenida a la página del merendero Solcitos de Ruca Antu");
-    alert("¡Hola! Bienvenida/o al merendero Solcitos de Ruca Antu");
     function mostrarHorarios() {
     console.log("Horarios: Lunes a viernes 8:00 a 22:00, fines de semana ocasional");
     alert("Horarios del merendero:\nLunes a viernes de 8:00 a 22:00\nFines de semana de vez en cuando");
