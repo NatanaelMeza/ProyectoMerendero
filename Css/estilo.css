@@ -372,7 +372,7 @@ html{
     display: flex;
     padding-left: 22px;
     padding-right: 80px;
-    gap: 78px;
+    gap: 2%;
 }
 
 .novedadesImg{
